@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>78</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
+				<lb/>May 5
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Very many thanks
+				<lb/>for the proof. You have done
+				<lb/>a tremendous lot and it is very
+				<lb/>kind of Barz to interest himself
+				<lb/>in them. Plase give him our best
+				<lb/>thanks. As to the ὦ φανεἱς χάρμα
+				<lb/>piece, our first thought was that it was
+				<lb/>cretis, but we abandoned it in deference
+				<lb/>to <persName ref='Q77619' n='Blass, Friedrich' key='Blass'>Blass</persName> ; and it is too late to alter now
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>But your Phacthan idea in the
+				<lb/>epigram seems a great improvement,
+				<lb/>and we shall put that in all right. I
+				<lb/>am most pleased however with your
+				<lb/>remarks on 61 and 72 , in which you
+				<lb/>have gone a long way to clear up
+				<lb/>things . It is all the more welcome
+				<lb/>for because after 4 months abr???
+				<lb/>it is frightfully difficult to pick
+				<lb/>up all the details again which are
+				<lb/>necessary for a general thing, and I
+				<lb/>still contemplate Appendix I with
+				<lb/>horror. Appendix II (on <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Eureg. II</persName>)
+				<lb/>is likely to be relegated into a
+			</ab>
+			<ab>
+				<lb/>footnote and App. iii will
+				<lb/>have to be short . It is no good [got?]
+				<lb/>trying to get to the bottom yet
+				<lb/>with the very scanty evidence and we
+				<lb/>are under an obligation to get the
+				<lb/>book out as soon as possible. At present
+				<lb/>we are wrestling with the accounts,
+				<lb/>which are simply infernal.
+				<lb/>We are going to have an exhibition
+				<lb/>of our miscellaneous anticas (<hi rend='underline'>not</hi>
+				<lb/>papyri) with <persName ref='Q220130' n='Petrie, Flinders' key='Petrie'>Petrie</persName>&apos;s , so shall
+				<lb/>have to go up to town about the end of
+				<lb/>June for a few days. Otherwise
+				<lb/>we shall sit very tight here till
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>December. The <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> is clammoring
+				<lb/>for another Oxyrhynchus vol. and we
+				<lb/>have got to produce it before we go
+				<lb/>out again. I hope you will be
+				<lb/>able to pays us a visit
+				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>,
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

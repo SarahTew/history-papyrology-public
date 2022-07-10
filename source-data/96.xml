@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>96</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>June 4
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Many thanks for your kind
+				<lb/>invitation. There is nothing I should
+				<lb/>like better than prolonging my stay
+				<lb/>in your hospitable city, but my visit
+				<lb/>must be very brief this year and <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName>
+				<lb/>does not propose to come^.<add place='above'>(he wants to go to his people)</add> We both
+				<lb/>look forward to coming next year
+				<lb/>and staying some [litlte?] time, bringing
+				<lb/>some papyri with us. But amid
+				<lb/>the appelling distractions of the summer
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>term we are not too well on with
+				<lb/>our <placeName ref='Q1399125' n='Faiyum' key='Faiyum'>Fayûm</placeName> volume for the <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName>, and
+				<lb/>in your interest as well as our it is
+				<lb/>very important we should finish it as soon
+				<lb/>as possible, so as to get on to the
+				<lb/><rs ref='Q21118630' n='The Amherst Papyri' key='Amherst Papyri'>Amherst papyri</rs>, the publication of
+				<lb/>which blocks the way to the
+				<lb/>examination of our new finds So
+				<lb/>I only think of coming on June 25 or
+				<lb/>26th (arriving <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> on the morning of^ <add place='above'>the</add> 26th or
+				<lb/>the 27th) and leaving on Sat. the 30th
+				<lb/>or at the latest on the following Monday.
+				<lb/>As to where I shall stay, you and
+				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> settle it as is most
+			</ab>
+			<ab>
+				<lb/>convenient.
+				<lb/><persName n='Schubart, Wilhelm' key='Schubart'>Schubart</persName> seems a great imporvement
+				<lb/>on P. Meyer: though we look
+				<lb/>forward to blowing them both up!
+				<lb/>You remember the χαλκωρυχια in
+				<lb/><rs n='The Flinder Petrie Papyri' key='Petrie Papyri'>P.P.</rs>? Well, I have discovered
+				<lb/>whe<del rend='overwritten'>n</del><add place='overwrite'>r</add>e they are. <hi rend='underline'>But don&apos;t say any</hi>thing
+				<lb/><hi rend='underline'>about it.</hi> We hope to dig there next
+				<lb/>winter. The discovered may be of interest
+				<lb/>in more ways than one.
+				<lb/>My love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName> But I
+				<lb/>cant bring any papyri. It will be more
+				<lb/>use if I try and help you, though I shant
+				<lb/>be much use, after wallowing for 4 years
+				<lb/>in Roman.
+				<lb/>Yours very sincerely
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>.
+			</ab>
+		</body>
+	</text>
+</TEI>

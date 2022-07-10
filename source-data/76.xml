@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>76</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><placeName ref='Q3402621' n='Penrhyn Castle' key='Penrhyn'>Penrhyn Castle</placeName>.
+				<lb/><placeName ref='Q234178' n='Bangor' key='Bangor'>Bangor</placeName>,
+				<lb/><placeName ref='Q1892770' n='North Wales' key='N.Wales'>N.Wales</placeName>.
+				<lb/>Sept. 23
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Come any day
+				<lb/>you like after the 1st Oct.
+				<lb/>Probably <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> has told you
+				<lb/>we opened a few boxes for him
+				<lb/>and some nice? things emerged
+				<lb/>when you come we will go through
+				<lb/>some more. I am here for a brief
+				<lb/>holiday but return to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> on
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>Tuesday or Wednesday. I expect
+				<lb/>to take the concluding part of
+				<lb/>the index to the Press on Monday <add place='above'>Oct 1st</add>;
+				<lb/>we are well on with correcting
+				<lb/>the proofs. I hope the P.P.
+				<lb/>are progressing.
+				<lb/>The Amherst papyri are I am
+				<lb/>aware not much in your line.
+				<lb/>Still the set up &amp; the plates are
+				<lb/>pretty and you may as well
+				<lb/>have both parts. Whether
+				<lb/><persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A.</persName> will stand having the
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>second part printed as luxuriously 
+				<lb/>remains to be seen. There are
+				<lb/>about 170 papyri to be done
+				<lb/>which will make a volume
+				<lb/>about 5 lines the size of Part I.
+				<lb/>We are going to try and do
+				<lb/>most of it before we leave &amp;
+				<lb/>are postponing our departure
+				<lb/>till about Nov. 20th
+				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

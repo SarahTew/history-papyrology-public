@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>87</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queens College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>Oct 6
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyl</persName>y,
+				<lb/>Ever so many thanks for
+				<lb/>the Eudoxus notes which are just
+				<lb/>what we wanted. I am so sorry
+				<lb/>that you have been laid up with
+				<lb/>rheumatism. October <foreign xml:lang='fr'>chez vous</foreign>
+				<lb/>is I know rather trying. It is
+				<lb/>a shame to to the you any more
+				<lb/>when I expect you are particularly
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>busy, but [unsure] since Hemethene
+				<lb/>still lingers, could you send me
+				<lb/>on a card just the double dates
+				<lb/>of Epipheus and <persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor</persName> which you
+				<lb/>are discussing? I want to include
+				<lb/>them in my table, but not to
+				<lb/>talk about
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>106</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>6 Chadlington Road
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'><hi rend='smallcaps'><del rend='strikethrough'>Queen&apos;s College</del></hi></orgName>,
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'><hi>Oxford</hi></placeName>.
+				<lb/>20 May 1926
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>
+				<lb/>You will ahve seen the news
+				<lb/>of Grenfell&apos;s departure. It came as
+				<lb/>a bit of a shock, as the latest
+				<lb/>report had been better, and he
+				<lb/>had lately written some postcards
+				<lb/>(perhaps you had one), and said
+				<lb/>he might/should? be expected in <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
+				<lb/>Well, he is coming, though not
+				<lb/>as he intended, poor chap. I
+				<lb/>dont think there was any longer
+				<lb/>a real hope of recovery, and so
+				<lb/>one can hardly regret t??e the?
+				<lb/>end has not been long delayed.
+				<lb/>The funeral is to take place
+				<lb/>here on Saturday.
+				<lb/>By his will, made in 1907, he
+				<lb/>bequethed to you the papyri ob-
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>tained by him from <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName> in 1894-5.
+				<lb/>I see that in your preference to
+				<lb/>&quot;???le papyri from <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName>&quot; you say 
+				<lb/>that this customary had been
+				<lb/>&quot;given&quot; to you: did you use &quot;give&quot;
+				<lb/>in the full sense of the word, I
+				<lb/>wonder, and if so, was this gift
+				<lb/>subsequent to the will? You see,
+				<lb/>there is the question of proobate; if
+				<lb/>a valuation and duty can be
+				<lb/>escaped, so much the better of
+				<lb/>course.
+				<lb/>While there was still a possi-
+				<lb/>bility that <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Grenfell</persName> might one
+				<lb/>day return work, I deliberately
+				<lb/>????? aside the publication of
+				<lb/><rs n='The Tebtunis Papyri, Part 3' key='Tebtunis III'>Tebtunis III</rs>, but now I shall
+				<lb/>have to face it though being
+				<lb/>in the mind ??? of other things I
+				<lb/>can do nothing for as present at
+				<lb/>any rate. I think that he
+			</ab>
+			<pb n='1'/>
+			<ab>
+				<lb/><del rend='strikethrough'>I the</del> received from you the
+				<lb/>bulk of the collection, didn&apos;t he ?
+				<lb/>Have you still at <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> any
+				<lb/>part of it, or <del rend='strikethrough'>of</del> other carton-
+				<lb/>nage from our diggings ? (I don&apos;t
+				<lb/>want them : merely for information )
+				<lb/>I hope that you flourish.
+				<lb/>The summer term here has
+				<lb/>been much upset by the strike,
+				<lb/>of course, but the men are
+				<lb/>all back at work again now.
+				<lb/>Yoursever
+				<lb/><persName ref='Q573778' key='Hunt' n='Hunt, Arthur Surridge'>A.S. Hunt</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

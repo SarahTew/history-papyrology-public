@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>91</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/>April 13
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Many thanks for so
+				<lb/>promptly sending your remarks, which
+				<lb/>we will consider carefully. The
+				<lb/>most serious are those about the &apos;regnal&apos;
+				<lb/>years. The <placeName ref='Q4880851' n='Magdala' key='Magdala'>Magdala</placeName> papyrus, which
+				<lb/>belongs to <persName ref='Q39595' n='Ptolemy IV Philopator' key='Ptolemy IV'>Phillopater</persName>, not <persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Eurgetes</persName>,
+				<lb/>might be square with the your theory
+				<lb/>about the accension, but the P.P. on
+				<lb/>Part III Intro 8 seems to be, as you say,
+				<lb/>fetel. I had overlooked the month
+				<lb/>being Phemontis owing to the text
+				<lb/>being hidden away in the intro., but it
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>surprises me rather that in the sp?te
+				<lb/>of it you should have [????] to the
+				<lb/>accension [view?] in P.P. III p. 331.
+				<lb/>At present I am disposed to abandon the
+				<lb/>&apos;accension&apos; theory altogether at the
+				<lb/>price of [???ing] about the appendix
+				<lb/>fearfully and to give up the
+				<lb/>question of [rubl??] [is/as?] hopeless. The γέον ἔτος
+				<lb/>on Pauni I of the Cenop Inscr. seems to
+				<lb/>me no use, for the regnal &amp; revenue
+				<lb/>years differ in months on both
+				<lb/>sides of the Sirius rising, cf. P.P. &amp;
+				<lb/>P. Mag which have Phemenoth with
+				<lb/><del rend='strikethrough'>A.</del> P. Hibeh 80 which has Epiph
+			</ab>
+			<ab>
+				<lb/>The Hibeh text suggest that the
+				<lb/>difference between the two years was
+				<lb/>maintained until nearly or quite the
+				<lb/>end of the financial year, and I would
+				<lb/>prefer [m??ing] Tholh, the beginning
+				<lb/>of Coth year, as <persName ref='Q202790' n='Reinach, Théodore' key='Reinach'>T. Reinach</persName> proposes,
+				<lb/>if that were possible. But I cant
+				<lb/>see on his system what became of ?α
+				<lb/>regnal, for to suppose that people
+				<lb/>went on dating by a king after his
+				<lb/>death (as <persName ref='Q202790' n='Reinach, Théodore' key='Reinach'>T.R.</persName> seems to imply) is
+				<lb/>absurd. I have written to him to ask
+				<lb/>for an explanation.
+				<lb/>There seem to be some interesting things
+				<lb/>from mummy 8. I hope the new
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>cartonnage has been satisfactory.
+				<lb/>Do try and come out to <placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName> next
+				<lb/>year if you can.
+				<lb/>With renewed thanks for
+				<lb/>all your help,
+				<lb/>yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

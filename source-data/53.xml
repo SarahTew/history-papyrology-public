@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>53</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet folded in half, written in four sections, then folded in half again. '53' written in pencil below date. Erased pencil markings '61'rubbed out and overwitten by '53'.</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College, Oxford</placeName>
+					<date when="--10-28">Oct 28</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type='dateline'>
+				<lb/>Oct <del rend="overwritten">25</del><add place="overwrite">28</add><ptr/>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart ' key='Smyly'>Smyly</persName>,
+				<lb/>Many thanks for your proof of
+				<lb/>the calendar article<ptr/> and your remarks
+				<lb/>on the astrological fragment, which were
+				<lb/>an unexpected pleasure. I enclose a
+				<lb/>proof of the astronomical fr.<ptr/> We leave
+				<lb/>on Nov 21 going by the N.D. Lloyd
+				<lb/>S. service<ptr/> from <placeName ref='Q23482' n='Marseille' key='Marseille'>Marseilles</placeName> to <placeName ref='Q87' n='Alexandria' key='Alexandria'>Alexandria</placeName>.
+				<lb/>I should strongly recommend you to go by
+				<lb/>this, for the boats are large, &amp; cooking
+				<lb/>excellent. You can get 1st class berths for
+				<lb/>₣ <hi rend='underline'>13</hi> and dont let <orgName key="Cook" n="Thomas Cook and Son" ref="Q786891">Cook</orgName><ptr/> persuade you
+				<lb/>into paying more. Also it is unnecessary
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>to take a return ticket. They give you 20%
+				<lb/>off if you come back the same way. The boats
+				<lb/>leave <placeName ref='Q23482' n='Marseille' key='Marseille'>Marseilles</placeName> on Dec 6, 13 and 27. I enclose
+				<lb/>a circular on the subject.
+				<lb/>I have at length completed the appendix on
+				<lb/>the Macedonian calendar. The dates from <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebt</placeName>
+				<lb/>107 ^ <add place='above'>recto</add> were difficult to deal with : <del rend='strikethrough'>the</del> I eventually
+				<lb/>placed them between the 21st and 25th year of
+				<lb/><persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Euergetes I</persName> and hope there is nothing in them
+				<lb/>to disprove that With regard to the supposed
+				<lb/><persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor</persName> dates, through P. Par 63 XIII
+				<lb/>might refer to <persName ref='Q39595' n='Ptolemy IV Philopator' key='Ptolemy IV'>Philopator</persName>, I dont see how
+				<lb/>P Par 60<ptr/> can refer to anyone but
+				<lb/><persName ref='Q39952' key='Ptolemy VI'>Philometor</persName> or <persName ref='Q3350' key='Ptolemy VIII'>Euergetes II</persName>. Hence I shall
+				<lb/>be disposed to accept the Hierogl. insc
+				<lb/>at <placeName ref='Q245062' n='Philae' key='Philae'>Philae</placeName> without altering it, as you do
+			</ab>
+			<ab>
+				<lb/>With regard to the &apos;regnal&apos; year of <persName ref='Q39576' n='Ptolemy II Philadelphus' key='Ptolemy II'>Philadelphus</persName>,
+				<lb/>a demotic docket on one of <del rend="overwritten">d</del><add place="overwrite">o</add>ur <placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName> papyri
+				<lb/>dated in Epeiph 4 of the 35th year <del rend='strikethrough'>shows that</del>
+				<lb/>s<del rend="strikethrough">i</del> is dated in the &apos;34 th which is also the
+				<lb/>35th year&apos;, showing (what I had rather
+				<lb/>suspected from <rs ref='Q3362973' n='Revenue Laws of Ptolemy Philadelphus' key='Revenue'>Rev. Laws</rs> /iii<ptr/> <foreign xml:lang='gr'>πωυλουμεν</foreign> απο
+				<lb/><foreign xml:lang='gr'>Γορπ</foreign> = <foreign xml:lang='gr'>Μεσορη</foreign>) that <persName ref='Q39576' key='Ptolemy II'>Philadelphus</persName> regnal
+				<lb/>year began later in the year than Epeiph 4.
+				<lb/>I notice that you take for granted that the
+				<lb/>&apos;regnal&apos; years were Egyptian, i.e. had 365
+				<lb/>days: but I think the other hypothesis
+				<lb/>that they were Macedonian has at least a
+				<lb/>claim to be considered, especially as <persName ref='Q39602' key='Ptolemy III'>Euergetes I</persName>&apos;s
+				<lb/><del rend='strikethrough'>b...</del> accension day was kept on Dius 25
+				<lb/>not the corresponding Egyptian day.
+				<lb/>Enclosed is a proof of the astronomical
+				<lb/>fragment. We have been so pressed with the
+				<lb/><rs ref='Q59738566' n='The Hibeh Papyri, Part I' key='Hibeh I'>Hibeh vol</rs>, that we have decided not to
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>return the <del rend='strikethrough'>Hibeh</del> <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName> proof next month,
+				<lb/>especially as the appendices arent written and <persName ref='Q103594' n='Otto, Walter' key='Otto'>Otto</persName><ptr/>
+				<lb/>proceeds but slowly with his vol ii of the priests.<ptr/>
+				<lb/>But you might let me have any criticisms
+				<lb/>before Nov 20th.
+				<lb/>Have you seen <persName ref='Q345265' n='Maspero, Henri' key='Maspero'>H. Maspero</persName><ptr/> on the finances
+				<lb/>of the Ptolemies?<ptr/> Nothing new in it
+			</ab>
+			<ab type="signed">
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'><hi>B. P. Grenfell</hi></persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

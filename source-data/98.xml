@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>98</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>POST CARD
+				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
+			</ab>
+			<ab>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J.G. Smyly</persName>
+				<lb/><del rend='overwritten'>E</del><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity'><add place='overwrite'>T</add>rinity College</orgName>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>Delighted to hear you will come in July. We
+				<lb/>shall be both here after the 4th indefinitely. I havent
+				<lb/>nearly finished App. i. The result of going over the
+				<lb/><foreign xml:lang='gr'>καταφύλλον</foreign> reports with the other things in my head is
+				<lb/>to bring out several new points and the commentary on <hi rend='underline'>62</hi>b
+				<lb/>will be frightfully hashed up again. We have also
+				<lb/>fished up on a verso some more decrees of <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Euerg II</persName>
+				<lb/>rather like 5, but that d-l to read. These too have
+				<lb/>to be printed. As to lend <foreign xml:lang='gr'>ἐν επιστάσει</foreign> I think I have
+				<lb/>got a theory which will work. It is a misidentification of yours.
+				<lb/>App. ii on the coins wont get started for another 2 or 3
+			</ab>
+			<ab>
+				<lb/>weeks.
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

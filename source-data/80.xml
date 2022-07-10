@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>80</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>Sept 24
+			</ab>
+			<ab>
+				<lb/>My dear Smyly,
+				<lb/>I ought to have written before
+				<lb/>to thank you for your corrections on
+				<lb/>the horoscopes, which were duly made.
+				<lb/><persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> discusses the matter in his
+				<lb/>Gr. Ostraca (which I suppose you
+				<lb/>have seen) but he doesnt seem to me
+				<lb/>to understand it quite.
+				<lb/>Cr??ius?? paid me a visit here a
+				<lb/>fortnight ago and showed me copies of
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>some Ptolemaic papyri from Gebelen which
+				<lb/>they have at <placeName ref='Q2966' n='Heidelberg' key='Heidelberg'>Heidelberg</placeName>. One had
+				<lb/>a double date (this between mbres??)
+				<lb/>the second year of Cleopatra (II) Soterina
+				<lb/>(B.C. 129/8 according to <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName>s
+				<lb/>Gr. Ost I. 785), ξ[ανδικοσ] πεμπτη
+				<lb/>= φαυρι πεμπη ; later on in the
+				<lb/>same papyrus Peritius is Egypt [ADDITION]
+				<lb/>to ?????. I am sorry you have
+				<lb/>given up your th???? on the dates.
+				<lb/>Perhaps this now we will be some
+				<lb/>use. The change must have taken
+				<lb/>place very shortly afterwards.
+			</ab>
+			<ab>
+				<lb/>We have practically finished <rs>O.P.</rs>
+				<lb/><rs>II</rs> and it will appear early in Nov.
+				<lb/>It is unlucky for <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> that on
+				<lb/>some points we shall put him out of
+				<lb/>date. I suppose you have been
+				<lb/>through his new readings on P.P.
+				<lb/>If there is any thing you want me
+				<lb/>to look at in the <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> ones
+				<lb/>let me know. We leave about
+				<lb/>Nov. 5 to dig again in the <placeName ref='Q1399125' n='Faiyum' key='Faiyum'>Fayum</placeName>
+				<lb/>and have another shy at those d-d
+				<lb/>mummies.
+				<lb/>We are publishing some nice Ptolemaic
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>papyri at <placeName ref='Q81788' n='Giza' key='Giza'>Gizeh</placeName> in <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName>&apos;s new
+				<lb/>Archiv, which he says will be out
+				<lb/>in November (??). I will send you
+				<lb/>an &quot;<foreign xml:lang='de'>Auszug</foreign>.&quot;
+				<lb/>Remember me to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> &amp; tell
+				<lb/>him there have been many inquiries
+				<lb/>for him here. I regret very much he
+				<lb/>didnt turn up as usual this Sept.
+				<lb/>I hope your book will be out soon. We
+				<lb/>have been having a go at <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillout</persName>
+				<lb/>on the ^ <add place='above'>subject of</add> marriage. He has completely misled
+				<lb/>poor <persName ref='Q830421' n='Mitteis, Ludwig' key='Mitteis'>Mittias</persName>.
+			</ab>
+			<ab>
+				<lb/>Yours very sincerely
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

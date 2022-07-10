@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>94</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+				<lb/>June 20
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I propose to arrive on
+				<lb/>Tuesday^<add place='above'>aft</add>. next by the rail (<placeName ref='Q7989013' n='Westland Row' key='Westland'>Westland</placeName>
+				<lb/><placeName ref='Q7989013' n='Westland Row' key='Westland'>row</placeName>) It gets in about 5.30 p.m. I
+				<lb/>think. On Wedn. I am dining with
+				<lb/>the Provost.
+				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> &amp; I went through the Papyrus
+				<lb/>with the results following.
+				<lb/>Recto II 8 υπηρετου certain, but I do
+				<lb/>not believe in κατ<hi rend='underline2'>ε</hi>πλεθσεν &amp; κατ<hi rend='underline'>α</hi>πλεθσε
+				<lb/>is clear, the termination is so blurred that it
+				<lb/>might be almost any thing.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>III 2 Δημητριον is not possible
+				<lb/>III 7 It is more like εισ than εκ, but
+				<lb/>εκ could be read.
+				<lb/>9. Πετενουριος is quite certain
+				<lb/>12. There is a lacuna after επιγ[ and
+				<lb/>it is <hi rend='underline'>not</hi> &apos;verhlebt&apos; now.
+				<lb/>IV 8 <hi rend='underline'>σαν</hi> can be read, but so could <hi rend='underline'>σιν</hi>
+				<lb/>(dots under the letters are reccuring anyhow)
+				<lb/>The question depends on whether a vertical
+				<lb/>stroke is ink o<del rend='overwritten'>f</del><add place='overwrite'>f</add> the original or with that
+				<lb/>hes come off from the document gumred on
+				<lb/>to it. W&apos;s reading makes better
+				<lb/>greek than yours and we should prefer it.
+				<lb/>Verso oII 2. W saw traces of ink where
+				<lb/>his supposed ται would come, but they
+				<lb/>are too slight to suggest any particular
+			</ab>
+			<ab>
+				<lb/>letters and would do for σ̣ι̣ν̣ just as
+				<lb/>well.
+				<lb/>5. Τας επιπμ- is quote clear -α̣ς̣
+				<lb/>doubtful but inevitable. Τασσεσθω
+				<lb/>δε is very wide of the mark.
+				<lb/>6 our reading is all right
+				<lb/>I read, as you say, τ<hi rend='underline'>ο</hi> αργυριον
+				<lb/>II των τ is clear, and in spite of
+				<lb/>the speeing τ[οθς] σ[ταθμοθς is
+				<lb/>necessary though your σ is very doubtful
+				<lb/>πρυστιοεναι is right. <hi rend='underline'>υποτιθ</hi> cannot be read
+				<lb/>15 your reading is certain
+				<lb/>16. Here we much prefer W&apos;s
+				<lb/>reading. it is as I said before,
+				<lb/>Γ not Π and ΚΟΙ not ΚΟΝ
+				<lb/>III 7. the drachme sign before ξ is
+				<lb/>rubbed out, as you say.
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>By the way isnt your first setnece,
+				<lb/>as you have corrected the proof, rather an
+				<lb/>&apos;Irishism&apos;? Of course I understand your
+				<lb/>meaning, but the oxymoron is a litte
+				<lb/>violent for the unistructed.
+				<lb/>In Recto II 10 we should prefer αυτον
+				<lb/>to αυτων, the word in 12 is pretty
+				<lb/>certainly an infinitive, μ̣η κατ̣α̣[βην]α̣ι̣
+			</ab>
+			<ab>
+				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/>Yours
+				<lb/><hi rend='underline'><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName></hi>
+			</ab>
+		</body>
+	</text>
+</TEI>

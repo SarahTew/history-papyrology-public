@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>92</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>May 5
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>By all means use
+				<lb/>the double dates in the <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName>
+				<lb/>cartonnage. Call them Tebt. unpublished.
+				<lb/>I have written to Bernard to ask
+				<lb/>him to change the date <del rend='strikethrough'>to the</del> of my
+				<lb/>lectures to the week following
+				<lb/>the Fellowship exam, if possible. I
+				<lb/>am in his hands. I should be
+				<lb/>delighted to stay for 6 days at
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> if I could spare the time,
+				<lb/>but doubt if I can remain more than 3.
+				<lb/>The Hibeh vol. has to
+				<lb/>be out by December and it will
+				<lb/>be a harried rush to get it
+				<lb/>finished — especially as the
+				<lb/>papyri are very hard to read and
+				<lb/>for various reasons we have not
+				<lb/>yet made much progress. B??ds
+				<lb/>3 Homers all differeing largely
+				<lb/>from the received text there is a long
+			</ab>
+			<ab>
+				<lb/>piece of <persName ref='Q868' n='Aristotle' key='Aristotle'>Aristotle</persName>&apos;s treatise on
+				<lb/><rs ref='Q1896045' n='Rhetoric' key='Rhetoric'>Rhetoric</rs> addressed to <persName ref='Q8409' n='Alexander the Great' key='Alexander'>Alexander</persName>
+				<lb/>which seems to have a good many
+				<lb/>variants but requires a lot of
+				<lb/>cleaning before it can be deciphered
+				<lb/>There will be after all some
+				<lb/>double dates in the documents,
+				<lb/>which we have hardly tackled yet
+				<lb/>The calendar fits together tolerably
+				<lb/>well and outght to be interesteing.
+				<lb/>I can say the <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName> cartonnage
+				<lb/>is turning out so badly. It is
+				<lb/>curious what bad luck we have had
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>in that line.
+				<lb/>I have been entering some of the corrections
+				<lb/>in my copy of <rs n='The Flinders Petrie Papyri, Part I' key='Petrie I'>PP.I</rs> &amp; <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>II</rs> and note
+				<lb/>the following misprints in <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>Part III</rs>
+				<lb/>p. 53 no xxv = m.II.<hi rend='underline'> xxx</hi><hi rend='underline2'>v</hi><hi rend='underline'>ii</hi>(c)
+				<lb/>p. 52. no. xxiv. Isn&apos;t συγγλαφή
+				<lb/>in (c) l. <hi rend='underline'>11</hi> not 10?
+				<lb/>In xiv.21 supply τῆς Ήρακλείδω
+				<lb/>μερίδος with Ἀλαρανσίδος
+				<lb/>With renewed thanks for the proofs,
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+			<ab>
+				<lb/>P.S. You might send the rest of the index
+				<lb/>when printed.
+			</ab>
+		</body>
+	</text>
+</TEI>

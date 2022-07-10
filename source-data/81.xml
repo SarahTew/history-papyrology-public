@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>81</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>62,Holywell Street,
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
+			</ab>
+			<ab>
+				<lb/>April 5
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I shall be delighted to see
+				<lb/>you. Come when you like. The state
+				<lb/>of affairs is this. <orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>College</orgName> is (practically)
+				<lb/>closed [?] till the 12th , so if you come this
+				<lb/>week you will have to put up with
+				<lb/>such hospitality as our little house
+				<lb/>affords. <persName ref='Q77619' n='Blass, Friedrich' key='Blass'>Blass</persName> &amp; two daughters are
+				<lb/>coming on the 12th for 4 or 5 days to
+				<lb/>stay with us. <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is at <placeName ref='Q1339305' n='Romford' key='Romford'>Romford</placeName>
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>but comes up on Sat ^ <add place='above'>or Monday.</add> He has got
+				<lb/>the French papyri which we bought, i.e.
+				<lb/>sundry Romen documents, 2 or 3 Ptolemaic
+				<lb/>&amp; a variety of literary &amp; theological fragments.
+				<lb/>The papyri we found in our excavation
+				<lb/>(about 3 or 4 hundred documents
+				<lb/>1-3 cent A.D., with a few late
+				<lb/>Ptolemaic &amp; some literary scrips) are
+				<lb/>on their way home &amp; will arrive
+				<lb/>about May. So just at present there
+				<lb/>isnt anything new to show you.
+			</ab>
+			<ab>
+				<lb/>We had a very successful season on
+				<lb/>the whole though we had very hard
+				<lb/>luck in one respect. We found a
+				<lb/>large cemetery of papyrus mummies like
+				<lb/>the Gurob ones, but damp &amp;
+				<lb/>imperfect mummification had reduced
+				<lb/>the papyri to powder !
+				<lb/>I was very glad to see <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>&apos;s
+				<lb/>preliminary blast in the <rs ref='Q755237' n='Athenaeum' key='Athenaeum'>Athenaeum</rs>
+				<lb/>about the new ed. of the <rs n='The Flinders Petrie Papyri' key='Petrie Papyri'>P.P.</rs>
+				<lb/><persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> dug at Akhnas but
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>didnt find much.
+				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/>yours very sincerely
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>.
+				<lb/>P.S. I am dining out on Sat. evening
+				<lb/>but otherwise have no engagements till
+				<lb/>the Blasses come.
+			</ab>
+		</body>
+	</text>
+</TEI>

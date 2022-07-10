@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>95</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>April 29
+			</ab>
+			<ab>
+				<lb/>Dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>We are just back. <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is
+				<lb/>still se?din?g unfortunately but I hope will get
+				<lb/>all right now he is at home at <placeName ref='Q1339305' n='Romford' key='Romford'>Romford</placeName>.
+				<lb/>You have no doubt heard about our great
+				<lb/>hault of Ptolemaic papyri. They will
+				<lb/>have to be published separately from our
+				<lb/>annual <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> vols, so it will be the deuce
+				<lb/>of a job to get through them. We hope
+				<lb/>you will join us in the publication.
+				<lb/>We are coming to <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> in about 2 months
+				<lb/>time on a short visit to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>, who
+				<lb/>unless you are passing through <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> before, we
+				<lb/>can awaye matters. There is no hurry
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>for we cant do anything at the new papyri
+				<lb/>this year owing to press of other work
+				<lb/>&amp; we dont propose to issue a volume
+				<lb/>of them till 1902. <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> will
+				<lb/>probably chafe — but in vain. The
+				<lb/>crocodile papyri have been largely
+				<lb/>flattened out, but the mummy
+				<lb/>cartonnage has all to be opened
+				<lb/>&amp; we are going to do that ???lres
+				<lb/>but not for a year or two.
+				<lb/>I hope your book is nearly ready.
+				<lb/>I enclose a copy of our article in the
+				<lb/>&apos;Archiv&apos;.
+				<lb/>Remember me to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>
+				<lb/>Yours <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

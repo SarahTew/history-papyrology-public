@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>99</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>POST CARD
+				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
+			</ab>
+			<ab>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J.G. Smyly</persName> Esq
+				<lb/><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity'>Trinity College</orgName>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>May 18
+			</ab>
+			<ab>
+				<lb/>Very many thanks for your long letter. The information will be
+				<lb/>of much relue to us. No doubt you are right in supposing that
+				<lb/>in <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.II</rs> xxviii the addition of the <foreign xml:lang='gr'>μερις</foreign> indicates the existence
+				<lb/>the existence of another village of the same name in a different
+				<lb/><foreign xml:lang='gr'>μερις</foreign>. But in formal documents the <foreign xml:lang='gr'>μερις</foreign> is generally added
+				<lb/>even wehn we have no reason to ?<add place='overwrite'>s</add>uspect the existence of a
+				<lb/>synonymous village. I dont think however that your
+				<lb/>supposition that villages with a special addition necessarily
+				<lb/>had a synonymous village in the <hi rend='underline'>same</hi> μερις is right. <foreign xml:lang='gr'>Πτολ.</foreign>
+				<lb/><foreign xml:lang='gr'>δρυμος</foreign> is in the <foreign xml:lang='gr'>μερις <hi rend='underline'>Θεμιστου</hi></foreign> (B.G.U. 78.1). <foreign xml:lang='gr'>Πτολ</foreign>
+				<lb/><foreign xml:lang='gr'>νεα</foreign> and <foreign xml:lang='gr'>Πτολ. Ευεργετις</foreign> were certainly in Heraclides
+				<lb/>yours
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

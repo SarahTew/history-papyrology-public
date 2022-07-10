@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">59</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California,
+					Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one sheet folded in half.</p>
+							<p>Catalog number '59' written in pencil in top right corner. '57' appears to have been written first, erased, and then overwritten with '59'.</p>
+							<p>Printed letter head in red ink at top right reads:</p>
+							<ab type="letterhead">
+								<lb/><hi rend="smallcaps red"><orgName ref="Q73094" n="The Queen&apos;s College" key="Queen&apos;s College">Queen&apos;s College</orgName>,</hi>
+								<lb/><hi rend="smallcaps red"><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName></hi>. </ab>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on
+					edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital
+					Humanities and Digital Knowledge at the University of Bologna under the
+					supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and
+					in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri
+					at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or
+					standardization.</p>
+				<punctuation marks="all">
+					<p>All punction marks have been retained nd represented using the appropriate
+						Unicode code character except for apostrophes and ampersands which have been
+						escaped using &apos; and &amp;, respectively.</p>
+				</punctuation>
+				<segmentation>
+					<p>The text has been segmented into lines according to line breaks in the
+						original text automatically by Transkribus and line groupings based on
+						groups identified automatically or manually declared by Sarah Tew in
+						Transkribus. Page breaks have been manually edited by Sarah Tew after export
+						from Transkribus.</p>
+				</segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+				<language ident="grc">ancient Greek</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College</placeName>
+					<placeName>Oxford</placeName>
+					<date when="1903-09-28">Sept 28</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml
+				exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1"/>
+
+			<ab type="dateline">
+				<lb/>Sept 28<ptr/>
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref="Q76338502" n="Smyly, J. Gilbart" key="Smyly"
+					>Smyly</persName>, <lb/>I hope you had a good <lb/>holiday up in <placeName
+					ref="Q163" n="Yorkshire" key="Yorkshire">Yorkshire</placeName> - &amp; that
+					<persName ref="Q5372295" n="Paterson, Emily Murray" key="Paterson">Miss
+					P.</persName><ptr/>
+				<lb/>has condescended to send you <rs n="The Oxyrhyncus Papyri, Part III"
+					key="Oxyrhyncus III">Oxyrh.</rs>
+				<lb/><rs n="The Oxyrhyncus Papyri, Part III" key="Oxyrhyncus III">III</rs>. 
+				<lb/>I think <del rend="strikethrough"><hi rend="underline">ha</hi></del> I have
+				reconstructed that 
+				<lb/>passage about the ναυβια.<ptr/> Col i now <lb/>reads:
+				<lb/><foreign xml:lang="grc">[ἔχει τὸ σχοίνιον] τὁ γεωμετρικὸν ὄγδοα η
+				<lb/>[τὸ δὲ ὄγδοον ἔχει] πήχις ιβ, ὤστε ἔχειν τὸ
+				<lb/>[σχοινίου το γεω]μετρ[ικ]ον πηχῶν (sic) 95
+					<lb/>[τὸ δὲ.........]κ̣ον ἐστιν πηχῶν ρ.</foreign>
+			</ab>
+			<pb n="2"/>
+			<ab>
+				<lb/>after 4 lines about the different dimensions 
+				<lb/>l.9. <foreign xml:lang="grc">[ὁ............<del rend="strikethrough">.</del>].ς 〈ο〉ἰκοπεδικὸς πηχις ἔ- 
+				<lb/>10 [χει ἐμβαδικοὺς πή]χις<seg type='spacing'/> ρ. 
+				<lb/>[τῴ δὲ ξύλῳ καταμ]ετρῖ[τα]ι τα ναύβια, τὸ μεν βα-
+					<lb/>[σιλικόν ἐστι π]ηχῶν <seg type="spacing2"/>γ 
+					<lb/>[παλαιστῶν<seg type="spacing"/>] <seg type="spacing3"/>ιη 
+					<lb/>[δικτύλων<seg type="spacing"/>] <seg type="spacing3"/>οβ 
+				<lb/>15 [τὸ δὲ .........<add place="above">δημοσιον??</add>] ἐστιν πηχῶν ββ´ 
+					<lb/>[παλαιστων] <del rend="strikethrough">ϙ</del><seg type="spacing4"/>1ϛ. 
+					<lb/>[δακτύλων] <del rend="strikethrough"	>γ</del><seg type="spacing4"/> ξδ 
+				<lb/>[<del rend="strikethrough">τὸ δε</del> ὤστε ἔχειν τὸ σχοινίον]
+				τὸ γεωμετρικὸν 
+					<lb/>[ξύλα βασιλικὰ<seg type="spacing"/>]<seg type="spacing2"/> λβ 
+					<lb/>20[ξυλα.........<seg type="spacing"/>] <seg type="spacing2"/>λϛ 
+				<lb/>[...........τετ]ραγωνου ἕχει ξύλον α 
+				<lb/>[14 letters,<seg type="spacing"/>]<seg type="spacing"/> α 
+					<lb/>[13 &apos;&apos; π]ήχεις <seg type="spacing2"/>γ
+				<lb/>[13&apos;&apos; δη]μόσιον ναυ- 
+				<lb/>25 [β(.... </foreign> 
+			</ab>
+			<pb n="3"/>
+			<ab>
+				<lb/>The restorations account for the figures <lb/>so well that I am sure they are
+				right <lb/>ll. 18-20 fit in beautifully with ll.1-3. <lb/>The only difficulty is
+				that in Col. <lb/>2 a <foreign xml:lang="grc">[<hi rend="underline">δη]μόσι[ο]ν</hi> [ξυλον]</foreign> has <hi
+					rend="underline">3</hi>
+				<lb/><foreign xml:lang="grc">πήχεις</foreign>, whereas in ll. 11-2 it is <lb/><foreign xml:lang="grc">the βασιλικόν</foreign> which has 3 and <lb/>one
+				would like to put in <foreign xml:lang="grc">δημόσιον</foreign> <lb/>in ll. 15 &amp; 20 , but for that. It is
+				<lb/>however s<add place="overwrite">a</add>fer to suppose that <lb/><foreign xml:lang="grc">βασιλικὸν =
+					δημόσιον</foreign> (as often) <lb/>&amp; that the other kind of <foreign xml:lang="grc">ξύλον</foreign> was <lb/>quite <add
+						place="overwrite">d</add>ifferent. <lb/>From the fact that a <foreign xml:lang="grc">ξύλον</foreign> was used
+				<lb/>for measuring ναύβια it looks very </ab>
+			<pb n="4"/>
+			<ab>
+				<lb/>much as if a <foreign xml:lang="grc">ναύβιον</foreign> was a <lb/>cubic ξύλον, dont you think ? <lb/>If you like
+				to refer to this in <lb/><rs ref="Q60205087"
+					n="The Flinders Petrie Papyri, Part III" key="Petrie III">P.P. III</rs>, please
+				do. <lb/>Is your <foreign xml:lang="grc">βασιλικὸς πῆχυς</foreign> in <lb/>P.P. one of 6 <foreign xml:lang="grc">παλαίσται</foreign> ? In <lb/>the pap.
+				that <foreign xml:lang="grc">πῆχυς</foreign> is called <lb/><foreign xml:lang="grc">......]||σιος , ? δημόσιος</foreign> <lb/>I leave on Wedn. for
+					<placeName ref="Q64" n="Berlin" key="Berlin">Berlin</placeName>. <lb/>&amp;
+				return on the 11th Oct. my <lb/>Halle<ptr/> address (Oct. 6-9th) is <lb/>Hotel Stadt
+					<placeName ref="Q1055" n="Hamburg" key="Hamburg">Hamburg</placeName>.<ptr/>
+			</ab>
+			<ab type="signed">
+				<lb/>Yours ever, <lb/><persName ref="Q822668" n="Grenfell, Bernard Pyne"
+					key="Grenfell">B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

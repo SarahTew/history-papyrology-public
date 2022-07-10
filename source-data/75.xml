@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>75</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one sheet folded in half.</p>
+							<p>Catalog number '75' written in pencil below date at top right. Another two-digit number, likely starting with '8' appears to have been written first and erased then corrected and overwritten by '75'.</p>
+							<p>Contains a printed letter that was cancelled by Grenfell who then wrote "Queen's College, Oxford" in black ink above original printed letterhead. Printed letterhead reads:</p>
+							<ab type='letterhead' rend='right black exclude'>
+								<lb/><del rend='strikethrough'>Bramham Gardens,</del>
+								<lb/>S.W.
+							</ab>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College</placeName>			
+					<placeName>Oxford</placeName>
+					<date when="1901-12-07">Dec 7</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type='dateline'>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+			</ab>
+			<ab type='letterhead'>
+				<lb/><del rend='strikethrough'>39, Bramham Gardens,</del>
+				<lb/>S.W.<ptr/>
+			</ab>
+			<ab type='dateline'>
+				<lb/>Dec 7
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Many thanks for
+				<lb/>the proofs and suggestions. Further
+				<lb/>contributions will be gratefully
+				<lb/>received.
+				<lb/>We hope to leave <placeName ref='Q21' n='England' key='England'>England</placeName> on the 31st
+				<lb/>though I am getting rather nervous
+				<lb/>as to whether the proofs will really
+				<lb/>be finished. There is an appalling
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>lot to alter and the introd to <hi rend='underline'>60</hi><ptr/>
+				<lb/>is not yet written. <persName n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> goes home
+				<lb/>about the 22nd. How about your
+				<lb/>visit? Will you come on the 22nd or
+				<lb/>24th?
+				<lb/>I am up in town for a confounded
+				<lb/>wedding of a cousin<ptr/> but return
+				<lb/>tonight.
+			</ab>
+			<ab type='signed'>
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

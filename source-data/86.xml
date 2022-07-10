@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>86</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>
+			</ab>
+			<ab>
+				<lb/>
+				<lb/>
+			</ab>
+			<ab>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+				<lb/>
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>Hotel Piora, <placeName ref='Q69265' n='Airolo' key='Airolo'>Airolo</placeName>, <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName>. June 24.
+				<lb/>I have not been progressing so fast as I hoped and my docter
+				<lb/>recommends me to stay in <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName> thorugh most of
+				<lb/>July. So I shall not be at St. Andrews at their function. Is
+				<lb/>there any chance of persuading you to come out and make a t???,
+				<lb/>like that delightful one of last year? I am at present at <placeName ref='Q56033774' n='Val Piora' key='Piora'>Piora</placeName>
+				<lb/>with two colleagues, who will be staying on for 10 days or a
+				<lb/>fortnight: but I am not very much enamoured of this place and would
+				<lb/>infinitely rather join you. I would suggest that, if you could
+				<lb/>come out, the <placeName ref='Q204247' n='Zinal' key='Zinal'>Zinal valley</placeName> which is next to^ <add place='above'>the</add> <placeName ref='Q69551' n='Evolène' key='Evolène'>Evolene</placeName> ??, would
+				<lb/>be an excellent one to explore. The station is <placeName ref='Q68297' n='Sierre' key='Sierre'>Sierre</placeName>,
+				<lb/>next to <placeName ref='Q68136' n='Sion' key='Sion'>Sion</placeName>. I shall certainly leave this^place by July 34rd.
+				<lb/>Yours ever <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

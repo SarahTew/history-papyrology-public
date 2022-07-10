@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>52</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on recto, message written on verso. Printed text and stamp in green ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below that is printed 'The address to be written on this side." in small caps. Printed half-penny stamp in upper right. Circular postmark in black ink reads: OXFORD/6.30.PM/No 19/05/3. '52' written in pencil above left of printed stamp. '52' overwritten on top of erased pencil mark, possibly '60'.</p>
+							<p>Printed postcard heading at top reads:</p>
+							<ab type="pchead">
+								<lb/>POST CARD
+								<lb/><hi rend='smallcaps'>THE ADDRESS TO BE WRITTEN ON THIS SIDE.</hi>
+							</ab>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Oxford</placeName>
+					<date when="1905-11-19">Nov 19</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type='pchead'>
+				<lb/>POST CARD
+				<lb/><hi rend='smallcaps'>THE ADDRESS TO BE WRITTEN ON THIS SIDE.</hi> 
+			</ab>
+			<ab type='addres'>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Prof. J. G. Smyly</persName>
+				<lb/><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity'>Trinity College</orgName>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>
+			</ab>
+			<pb n='2'/>
+			<ab type="pcdateline">
+				<lb/>Nov 19.
+			</ab>
+				<ab>
+					<lb/><rs ref='Q59738566' n='The Hibeh Papyri, Part I' key='Hibeh I'>Hibeh I</rs> goes to Press tomorrow &amp; I leave
+				<lb/>in the afternoon. I am sending <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName> a
+				<lb/>proof of the whole vol, and you will receive
+				<lb/>proof of <del rend='strikethrough'>the</del> it all except the introd. and
+				<lb/>literary pieces. Have you got your ticket?
+				<lb/>We shall leave <placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName> for <placeName ref='Q22933049' n='Beni Mazar' key='Beni Mazar'>Benimazar</placeName> on
+				<lb/>about Dec. 4th. Keep an eye open for <persName ref='Q52155884' n='Milne, Joseph Grafton' key='Milne'>J.G.</persName>
+				<lb/><persName ref='Q52155884' n='Milne, Joseph Grafton' key='Milne'>Milne</persName> in <placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName>. He is starting on the 29th &amp; will
+				<lb/>probably be at the <placeName n='Hotel du Nil' key='Hotel du Nil'>Hotel du Nil</placeName>.<ptr/>
+				</ab>
+			<ab type="signed"><lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/>Yours ever <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

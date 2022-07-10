@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>88</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queens College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+			</ab>
+			<ab>
+				<lb/>April 19
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>We are now back
+				<lb/>again at work and starting in
+				<lb/>the <placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName> things (which are
+				<lb/>infernally difficult). The
+				<lb/>best month at <placeName ref='Q622640' n='Oxyrhynchus' key='Oxyrhynchus'>Oxyrhynchus</placeName>
+				<lb/>wasn&apos;t very exciting, but the
+				<lb/>season on the whole was quite
+				<lb/>good. The documents in particular
+				<lb/>include some very superior finds
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>I had hoped to find <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>P.P.III</rs>
+				<lb/>out by now, but alas it
+				<lb/>seems to be still lingering. Can
+				<lb/>you promise it soon, or have
+				<lb/>you a spare set of proofes?
+				<lb/>I will be very difficult for us
+				<lb/>to get on without it.
+				<lb/>I am to lecture at <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>,
+				<lb/>auspice Bernard, on June 14th
+				<lb/>V ? 15th. For the first lecture (&apos;<placeName ref='Q622640' n='Oxyrhynchus' key='Oxyrhynchus'>Oxyrhynchus</placeName>&apos;
+			</ab>
+			<ab>
+				<lb/>&amp; its Papyri&apos;) I have demanded
+				<lb/>slides. Tell <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>, when
+				<lb/>he returns from <placeName ref='Q41' n='Greece' key='Greece'>Greece</placeName>, that I
+				<lb/>shall stay with him, and hope
+				<lb/>by then to have some new PLR
+				<lb/>texts to show you both.
+				<lb/>Have you undone any more
+				<lb/>Tebtunis cartonnage? We are
+				<lb/>going to send a batch of
+				<lb/>demotic papyri to <persName ref='Q100547' n='Spiegelberg, Wilhelm' key='Spiegelberg'>Spiegelberg</persName>
+				<lb/>before long, to be returned to
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/><placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName>, and we shall want the
+				<lb/>best preserved demotic ones which
+				<lb/>you have unrolled. I will
+				<lb/>them, when I come over.
+				<lb/><foreign xml:lang='fr'>Au revoir</foreign> before long
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

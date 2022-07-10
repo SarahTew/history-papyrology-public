@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>82</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>Aug 29
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>How have you been
+				<lb/>getting on all this time? Is there
+				<lb/>any chance of seeing you or
+				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> here? We have
+				<lb/>now finished the <foreign xml:lang='fr'>piece de resistance</foreign>
+				<lb/>of our new book &amp; have only
+				<lb/>the trimmings in the hope of
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>description indices etc. As usual
+				<lb/>it has been an awful rush, we
+				<lb/>shall reach nearly 400 pages this
+				<lb/>time. I send for the proof of the
+				<lb/>Horoscope . Would you mind seeing
+				<lb/>if my representation of your view
+				<lb/>is correct. I will also send
+				<lb/>for proof of what I have written
+				<lb/>on [GREEK] which comes in our
+				<lb/>vol. I have endeavoured to keep
+				<lb/>out of your way as much as
+				<lb/>possible.
+			</ab>
+			<ab>
+				<lb/>Are you nearly finished ? <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName>&apos;s
+				<lb/>ostraca as usually are expected
+				<lb/>daily . It is really a judgement
+				<lb/>on him that all the best papyri
+				<lb/>from Ahhnês were burnt on
+				<lb/>arrival at Hamburg ! Still
+				<lb/>it was d-d rough on the poor
+				<lb/>chap.
+				<lb/>We are going to dig again
+				<lb/>in the <placeName ref='Q1399125' n='Faiyum' key='Faiyum'>Fayum</placeName>. Before we start
+				<lb/>in Nov. we have to get ready the 
+				<lb/>theol. part of <persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord Amherst</persName>&apos;s
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>collection, these two early xteen
+				<lb/>things we got this time have
+				<lb/>turned  up trumps.
+				<lb/>We shall be paying a visit at
+				<lb/>the end of Sept. to <persName ref='Q4262008' n='Lindsay, Alexander, 25th Earl of Crawford' key='Crawford'>Lord Crawford</persName>
+				<lb/>at <placeName ref='Q208143' n='Wigan' key='Wigan'>Wigan</placeName> to look over hisi collection
+				<lb/>If we had time, we should very,
+				<lb/>much have liked to run over to
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>. But I doubt if we
+				<lb/>shall be able.
+				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName>
+				<lb/>Yours
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

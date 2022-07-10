@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>84</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>May 2
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>The enclosed was sent
+				<lb/>me by a German who did not know
+				<lb/>who you were. I sincerely trust
+				<lb/>his suggestions came too late!
+				<lb/>We are struggling with the
+				<lb/><placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName> literary pieces which are
+				<lb/>in many cases very difficult to
+				<lb/>decipher especially in this lad
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>light. The Homeric pieces differ
+				<lb/>from the ordinary text enormously;
+				<lb/>they seem to be of the πολύστυχες
+				<lb/>order.
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+				<lb/>P.S. The proofs have just
+				<lb/>come. <hi rend='double underline'>Ever so many thanks</hi>
+			</ab>
+		</body>
+	</text>
+</TEI>

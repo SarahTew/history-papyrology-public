@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>67</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one sheet folded in half.</p>
+							<p>Catalog number '43' written in pencil bellow date at top right. Appears to have originally been '41' and the '1' overwritten by the '3'.</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College</placeName>			
+					<placeName>Oxford</placeName>
+					<date when="1899-11-02">Nov 2</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type='dateline'>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll</orgName>
+				<lb/>Nov 2
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>	I went to the <orgName ref='Q82133' n='Bodleian Library' key='Bodleian'>Bodleian</orgName>
+				<lb/>with <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> today . Here are the
+				<lb/>results
+				<lb/>(1) II. XV<ptr/> (2) 13 πλινθολκιαν is right
+				<lb/>&apos;&apos; XXVI (3) 8 I should read θρu[ο̣υ̣ ει̣ς̣[<ptr/>
+				<lb/><seg type='spacing'/>(4)<ptr/> 5 θρυ[ω]ν is certainly
+				<lb/>right ; τιμην less so, there is scarcely
+				<lb/>room properly; but τιμην can be
+				<lb/>had if you want it.
+				<lb/><seg type='spacing'/>(5)<ptr/> 6 τιμην καλαμ[.....
+				<lb/><seg type='spacing'/>(6)<ptr/> 5 τιμην καλα[μο]υ.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>xxix<ptr/> a 18 it is ρκ<add place='overwrite'>ϛ</add> = ϲν, the
+				<lb/>ϲ is clear.
+				<lb/>xxix d 9<ptr/> either κδ or κε can be read
+				<lb/><seg type='spacing'/>I slightly prefer ε.
+				<lb/><seg type='spacing'/>Similarly (b)<ptr/> 8 it is impossible to
+				<lb/>say whether it is α or λ
+				<lb/>I xv 20<ptr/> ου<hi rend='underline'>σαν</hi> wont do. It
+				<lb/>could be read as ουθπω, the
+				<lb/>interesting letter is as you say
+				<lb/>more like a θ than any thingn else
+				<lb/>Possibly he began to write ουθεν
+				<lb/>and altered it to ουπω. ρε is
+				<lb/>the end of the line.
+				<lb/><placeName ref='Q622640' n='Oxyrhynchus' key='Oxyrhynchus'>Oxyrhynchus</placeName> is never called any thing
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>but ἡ Ὀζυρύγχων πόλις till
+				<lb/>the 2nd cent when ἡ Ὀζυρυγχιτῶν
+				<lb/>πόλις came in.
+				<lb/>I know nothing of ανουχι.
+				<lb/>I leave on Saturday &amp; shall
+				<lb/>hope to see your book on my
+				<lb/>return in March. Our book
+				<lb/>appeared yesterday . There are
+				<lb/>some remarks on <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillout</persName> apropos<ptr/>
+				<lb/>of marriage, which may amuse
+				<lb/>you.<ptr/>
+				<lb/>I have had a very pleasant visit
+				<lb/>from <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName> We hope to come to come
+				<lb/>to <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> next summer, if we
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/>ever have any time. This
+				<lb/>winter we are excavating again
+				<lb/>in the <placeName ref='Q203299' n='Faiyum' key='Faiyum'>Fayum</placeName><ptr/> &amp; shall have another
+				<lb/>shy at those d-d mummy
+				<lb/>cases.
+			</ab>
+			<ab type='signed'>	
+				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/>yours very sincerely
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>.
+			</ab>
+		</body>
+	</text>
+</TEI>

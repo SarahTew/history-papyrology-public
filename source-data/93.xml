@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>93</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+				<lb/>Oct 12
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I have looked at the
+				<lb/>Damanthûs stele which is a
+				<lb/>shortened copy of the hieroglyphics
+				<lb/>of the <rs ref='Q48584' n='Rosetta Stone' key='Rosetta'>Rosetta</rs>, with many
+				<lb/>blunders acc. to <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriant</persName> (whose
+				<lb/>edition contains several misprints)
+				<lb/>It is dated in the 23rd year of
+				<lb/><persName ref='wiki/Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V'>Epiphanes</persName>, Sorpiaeu 24 = Phar-
+				<lb/>monthi 24 of Itet there is no
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>doubt. My mother who knows
+				<lb/>a fair amount of hieroglyphics has
+				<lb/>looked at <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriant</persName>s text &amp; the
+				<lb/>photograph. If there is a mistake
+				<lb/>in the name of the months it [???] is
+				<lb/>more likely to be in the Egyptian than
+				<lb/>in the Macedonian, which is written
+				<lb/>out in letters Qrpiais, while the Egyptian
+				<lb/>is written in the ordinary way
+				<lb/>&quot;going out month 4&quot; i.e.
+				<lb/>Pharmuthi.
+				<lb/>I am sorry that we dont think
+				<lb/>either Αχισιου or ενατ̣η possible
+			</ab>
+			<ab>
+				<lb/>readings in the papyrus you saw,
+				<lb/><del rend='strikethrough'>while</del> and I do not understand your
+				<lb/>reference of the other papyrus to
+				<lb/><persName ref='Q39976' n='Ptolemy VII Neos Philopator' key='Ptolemy VII'>Philopater Neos</persName>. It is clearly
+				<lb/><persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor</persName>, and the name of
+				<lb/>the ιερεια Αρσινοης Φιλοπατρος 
+				<lb/>in both agress with the <rs ref='Q48584' n='Rosetta Stone' key='Rosetta'>Rosetta</rs>
+				<lb/>&amp; Damenthûs inscriptions, showing
+				<lb/>she was priestess fr. the 9th of <persName ref='Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V'>Ptol V</persName>
+				<lb/>to the 8th of <persName ref='Q39976' n='Ptolemy VII Neos Philopator' key='Ptolemy VII'>Ptol VII</persName> (or <persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>VI</persName> if
+				<lb/>we are to believe Stack).
+				<lb/>By the way I am reviewing his
+				<lb/>book on the Ptolemis for the Clan.
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>Review. May I refer to the fact
+				<lb/>that youa re re-editing the P.P.? I
+				<lb/>I am going to take him for treating
+				<lb/><persName ref='Q39976' n='Revillout, Eugène' key='Revillout'>Revillout</persName> so seriously. For the latter
+				<lb/>gentlmen we are preparing a
+				<lb/>further excursus in our next volume
+				<lb/>on the subject of dowry. I think
+				<lb/>we can leave him, <persName ref='Q28147430' n='Wessely, Karl' key='Wessely'>Wessely</persName> &amp; <persName ref='Q830421' n='Mitteis, Ludwig' key='Mitteis'>Mitteis</persName>
+				<lb/>on toast.
+				<lb/>I enclose copies of the protocols
+				<lb/>of the two Amherst papyri. If you
+				<lb/>refer to them in print, please call them
+				<lb/><persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A</persName>&apos;s. We hope to publish his ppayri
+				<lb/>in 1900.
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/><foreign xml:lang='gr'>ε̣̣̣π̣ι̣ . . . . . [ ] . . . . καηρθρω Αρσινοης Φιλα</foreign>
+				<lb/><foreign xml:lang='gr'>δελφοθ [???]. . . . . . . . . . ἷερειας Αρσινοης</foreign>
+				<lb/><foreign xml:lang='gr'>φιλοπατορος Ειρηης τησ πτολεμαιον μηνος Διον ενατη[ι?</foreign>
+				<lb/><foreign xml:lang='gr'>και εικαδι παχων [9-11] ε̣ι̣κ̣α̣δ̣ι <sup>(4)</sup> εν κροκοδιλων πυλει</foreign>
+				<lb/><foreign xml:lang='gr'>10 Του Αρσινοιτο[υ νομου</foreign>
+				<lb/>(1) I feel no doubt about <foreign xml:lang='gr'>ογδοσυ</foreign>. It isnt a bit like <foreign xml:lang='gr'>ενατυν</foreign> or any
+				<lb/>of the other numbers to to 10.
+				<lb/>(2) The plural <del rend='overwritten'>s</del><add place='overwrite'>h</add>ere &amp; in the other papyrus must be a mistake due to the other
+				<lb/>plurals, as he wasnt^ <add place='above'>(according to the and. theory)</add> named, to Cleop. then, or could Cleop. have been
+				<lb/>deified with him at an early age? Possibly she was married to him very early
+				<lb/>&amp; only put on the protocols as <foreign xml:lang='gr'>βασιλισσα</foreign> afterwards?
+				<lb/>(3) I cant make anything fit except <foreign xml:lang='gr'>δωτιρον</foreign> (4) more like εικαδι than κατηι
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+			<pb n='5'/>
+			<ab>
+				<lb/><rs ref='Q21118630' n='The Amherst Papyri' key='Amherst'>Amherst Papyri</rs>
+				<lb/>1. Βασιλευοντος Πτολεμαιου του Πτολεμαιου και κλεοπατρας θεω̣ν̣ επιφανω̣ν̣ ετοθσ ογδο̣α̣θ̣ (1)
+				<lb/>εφ ιερεωσ Ηρακλείου του . . . . φ̣ου Αλεχανδρον και θεωνσωτηρων και θ[εω]ν αδελ. και θ. εθρ.
+				<lb/>και Θ. φιλοπατ. και θεοων επιρανων και θεων πηιλομη τθρων αθλ. Βερεν. Εθεργ. . . . . . .
+				<lb/>κανηρορ. Αρσιν. Πηιλαδελπφοθ Α̣ρι̣στ̣ο̣κ			ου ιερειασ Αρσινοησ Πηιλοπ.
+				<lb/><hi rend='underline'>5</hi> Ειρηνησ τησ πτθλεμαιοθ μενοσ Λωιοθ τρεισκαιδεκατηι Μεχειρ τρεισκαιδεκατηιεντηι
+				<lb/>?οκνοπαιου Νησωι τοθ Αρισινοιτου νομου.
+				<lb/>2. a very cursive &amp; illegible dol. of 19 lines.
+				<lb/>then
+				<lb/>Βασιλεθοντ[ο]ς Πτολεμαιον [τ]ου Πτολεμαιου και
+				<lb/>Κλεοπατρ[α] Θεω[ν] ετοθσ δ̣ε̣[θ]τερο̣[θ <sup>(3)</sup>
+				<lb/>εφ[ιε]ρεω[σ π<sup>?</sup>ο]σε[ι<sup>?</sup>δ]ω̣νιου του Ποσειδωνιοθ Αλεζανδρο[υ
+				<lb/>και θεων ωτ[ηρων και θε]ων αδελφων και θεον επιρανων και θεων
+				<lb/><hi rend='underline'>5</hi> φιλομητορων αθ[λοφυρου] Β[ερ]ενικης Ευεργετιδος
+				<lb/>P.T.O.
+			</ab>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>62</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on recto, message written on verso. Printed border, text, and stamp in red ink ink across top. Printed text in French and Arabic. Address written on printed lines. Circular postmark in black ink on stamp reads [reading unsure]: FACHN/8 IV02 II. '62' written in pencil directly below postmark.</p>
+							<p>Printed postcard heading at top reads:</p>
+							<ab type="pchead">
+								<lb/><foreign xml:lang='fr'>L&apos;address seule doit être écrite de ce côté [Arabic]</foreign>
+								<lb/>[Arabic] 	<hi rend='smallcaps'><foreign xml:lang='fr'>Union postale universelle</foreign></hi>
+								<lb/>[Arabic]		<foreign xml:lang='fr'>EGYPTE</foreign>
+								<lb/>[Arabic]		<hi rend='smallcaps'><foreign xml:lang='fr'>CARTE POSTALE</foreign></hi>
+							</ab>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College, Oxford</placeName>
+					<date when="1902-04-26">April 26</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J. Gilbart Smyly</persName> Esq
+				<lb/>4 Merrion Square
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/><placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibèh</placeName>, <placeName ref='Q953625' n='Al Fashn' key='Fashn'>Feshn</placeName>.	April 7th.
+				<lb/>We left the <placeName ref='Q1399125' n='Faiyum Oasis' key='Faiyum'>Fayum</placeName> about a fortnight ago and came here
+				<lb/>where there is a fine Ptolematic cemetery. Papyrus mummies are
+				<lb/>fairly numerous , but the best tombs are nearly all plundered in
+				<lb/>Roman times , and damp has made a good deal of havoc However
+				<lb/>we have had some good finds. We are returning to <placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName> in a
+				<lb/>week&apos;s time and shall reach <placeName ref='Q21' n='England' key='England'>England</placeName> on April 25th, so
+				<lb/>you might send your remarks on the proofs<ptr/> about then. We shall
+				<lb/>return to this site next year. Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M.</persName> Tell him we shall produce
+				<lb/>a volume from here in 1903. 	<foreign xml:lang='fr'>Au revoir</foreign>
+			</ab>
+			<ab>
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+				<lb/>ἐγράφη ἐν κώμηι Φιλονείκου(?)τοῦ Κυνοπολίτου.
+			</ab>
+		</body>
+	</text>
+</TEI>

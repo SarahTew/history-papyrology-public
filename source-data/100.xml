@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>100</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>POST CARD
+				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
+			</ab>
+			<ab>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J. G. Smyly</persName> Esq
+				<lb/><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity'>Trinity College</orgName>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>(1) Do you know in which <foreign xml:lang='gr'>μερίς</foreign>^<add place='above'><foreign xml:lang='gr'>ταλέι</foreign> (or <foreign xml:lang='gr'>ταλιθις</foreign>)</add> <foreign xml:lang='gr'>Πτολεμαίς</foreign>
+				<lb/>ὁρμου and Πτολεμαις καινη were?
+				<lb/>(2) In P.P.II xx col IV it appears Ptolemais
+				<lb/>was on the camel which parr the labyrinth. Do you
+				<lb/>infer it was E or W of the labyrinth and near or
+				<lb/>far? I cant understand <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s text of this papyrus.
+			</ab>
+			<ab>
+				<lb/>yours
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

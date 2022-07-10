@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>70</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one large rectangular sheet folding in half.</p>
+							<p>Catalog number '70' written in pencil at top center.</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName ref='Q85' n='Cairo' key='Cairo'><hi rend='underline'>Cairo.</hi></placeName>			
+					<placeName ref='Q56924' n='El-Lahun' key='El-Lahun'>Illahûn</placeName>
+					<placeName ref='Q1399125' n='Faiyum Oasis' key='Faiyum Oasis'>Fayoum</placeName>
+					<date when="1901-10-13">Oct 13</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type='dateline'>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+				<lb/>Oct 13
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I hope you found a big
+				<lb/>bundle of proofs awaiting you. We
+				<lb/>have rather stuck recently, as I
+				<lb/>have been spending some time wrestling
+				<lb/>with 17.5.<ptr/> We have made <del rend='overwritten'>c</del><add place='overwrite'>s</add>ome
+				<lb/>certain imprvements , and you will
+				<lb/>I am afraid hardly recognise your
+				<lb/>commentary now. The general
+				<lb/>question of συγκρισις υπολογος etc
+				<lb/>(about which I am sure we havent yet
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>got to the bottom <del rend='strikethrough'>of</del><ptr/>) are going to
+				<lb/>be postponed, but the text and notes
+				<lb/>will be printed in a few days. We
+				<lb/>have decided that it is impossible
+				<lb/>to get the proofs of the whole vol.
+				<lb/>printed before Jan 1 when we <hi rend='underline'>must</hi>
+				<lb/>leave for <placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName>. So we are only going
+				<lb/>to get it printed &amp; corrected up to
+				<lb/>the end of the texts . The description,
+				<lb/>appendices, indices and introduction
+				<lb/>to <hi rend='underline'>60</hi> dealing with the general
+				<lb/>questions of the land survery will
+				<lb/>all be written , but not sent to the
+				<lb/>press until we depart. Then we
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>shall be able to ^<add place='above'>finally</add> revise all the
+				<lb/>proof when we return and yet
+				<lb/>bring out the volume by the end of
+				<lb/>April or May . So you neednt
+				<lb/>trouble to send us any corrected
+				<lb/>proofs till the end of November, as
+				<lb/>we shant finish the texts till then.
+				<lb/>Has <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> received <rs n='The Amherst Papyri, Part II' key='Amherst II'>Amherst II</rs> 
+				<lb/>from <persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A</persName> ? If not, let him
+				<lb/>write to me &amp; I will communicate
+				<lb/>with <persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A</persName>, who said he was going
+				<lb/>to send <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M.</persName> one.
+			</ab>
+			<ab type='signed'>
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

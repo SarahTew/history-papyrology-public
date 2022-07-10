@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>90</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+				<lb/>June 1
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I was away in town yesterday, but
+				<lb/>went to the <orgName ref='Q82133' n='Bodleian Library' key='Bodleian'>Bodleian</orgName> today, the light being some
+				<lb/>of the best. Here are the answers to your questions
+				<lb/>(1) <rs n='The Flinders Petri Papyri, Part II' key='Petrie II'>P.P.II</rs> vii line 7. I read εις τουτο for
+				<lb/>εκ τουγ <hi rend='underline'>εις is quite certain</hi>. Παυνι in
+				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s copy isnt right.
+				<lb/>line 11. the first symbol ῐ seems to represent
+				<lb/>αρουρα, the second 5 artabae
+				<lb/>13. I dont understand the symbol [symbol]. [cancellation?] 
+				<lb/>[symbol] is of course ιπ(παεχια) or some other
+				<lb/>derivative of ἵππος. But here the symbol seems
+				<lb/>to be Μ not Π with an l through the middle.
+				<lb/>(2) <del rend='overwritten'>R</del><rs n='The Flinders Petri Papyri, Part II' key='Petrie II'><add place='overwrite'>P</add> II.</rs>viii col II verso the word before
+				<lb/>τιραχθηουσνται might be read as επει. In the
+				<lb/>next line <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> is, I think, right: it is γαρ.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>not Παρα and ιλικ<hi rend='underline'>οι</hi> What you took
+				<lb/>for the second half of Ν is probably only
+				<lb/>paint.
+				<lb/>As for επιδανε]ζεσθαι I agree with you
+				<lb/>ζ is unsatisfactory. ν]ιι̣σ̣α̣σθαι could be read
+				<lb/>but it is more like λεσθαι
+				<lb/>(3) II xiv (1a) 9.10 ως δ αν is right
+				<lb/>he made a muddle of it first. ανενενεγ
+				<lb/>καμενον will do. In this scrawl ον, ων
+				<lb/>and αν are indistinguishable, but συνταγον
+				<lb/>wont do. I am prepared to accept <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s
+				<lb/>συντασσηι
+				<lb/>(1b) He seems to have written ουση
+				<lb/>first (perhaps he was going to unite ουσαν)
+				<lb/>and then scratched out ου &amp; put in ο at
+				<lb/>the top ἡ υγιης  is right. In the
+				<lb/>next line τιπο̣ς̣ τ̣α̣ θ̣εμελε της can be
+			</ab>
+			<ab>
+				<lb/>read. He certainly didnt write θεμελι<hi rend='underline'>α</hi>
+				<lb/>but it is possible he inserted [greek] over the
+				<lb/>line aftewrads, for the papyrus is rubbed
+				<lb/>just at that point
+				<lb/>(4) II xx col I 15 ο]θε̣ν is right.
+				<lb/>(5) xxii 14. about 10 lettesr are lost
+				<lb/>between χυραση̣ι̣ and απο. I cant see
+				<lb/>any ει.
+				<lb/>(6) XXVI (4) 2. the traces before ος will
+				<lb/>do for ημ. Διμναιου of course is
+				<lb/>right as in (3) 2,3 λι/μναιου του παρα
+				<lb/>in (7) I should read τα χαλκου
+				<lb/>[δε]αχμα[ς εξ[VERTICAL BAR] ηκοντα. But I dont
+				<lb/>understand lines 5 and 6 where <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s readings
+				<lb/>must be wrong. I suspect a mention
+				<lb/>of αργυριον in line 6. n.6. in (8)
+				<lb/>too there was probably a [pegmet] in both
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>silver &amp; copper. [???] are because of
+				<lb/>a line below αεγ + εκα[τον.
+				<lb/>Ptolemais ὅρμου is by the way
+				<lb/>almost certainly at Illahun. Probably
+				<lb/>the gurob papyri came from its very
+				<lb/>cemetery.
+				<lb/>Our boxes have come. <persName ref='Q220130' n='Petrie, Flinders' key='Petrie'>Petrie</persName> tells me
+				<lb/>he only found about 25 papyrus mummies.
+				<lb/>We have parts of 120 (about 60 well
+				<lb/>preserved), so our collection ought to be
+				<lb/>very large, though the pectarels etc are in
+				<lb/>most cases somewhat smaller than the <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName>
+				<lb/>ones.
+				<lb/>Tell <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> I am very sorry he wouldnt
+				<lb/>come here.
+				<lb/>Yours
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>.
+			</ab>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>44</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet folded into fourths. Catalog number '44' written in pencil directly below date. Appears to have been overwritten, may be corrected from  '45' or '55'</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College, Oxford</placeName>
+					<date when="--07-17">July 17th</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type="dateline">
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>July 17th
+			</ab>
+			<ab>
+				<lb/>My Dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>I ought to have written before
+				<lb/>to thank you for <del rend='strikethrough'>th</del> sending the copies
+				<lb/>of the crocodile papyri, but, the light
+				<lb/>being good we have been working all
+				<lb/>day at the crocodiles and in the evenings
+				<lb/>at the <rs ref='Q21118630' key='Amherst'>Amherst</rs> index, which is near
+				<lb/>thank heaven finished.
+				<lb/>I congratulate you on your copies, and am
+				<lb/>sorry you found them rather uninteresting. I
+				<lb/>am afraid we kept most of the best here.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>The <foreign xml:lang='grc'>προστάγματα</foreign> will be the <foreign xml:lang='fr'>piece de resistance</foreign>,
+				<lb/>there are 6 large columns, complete or
+				<lb/>nearly so, and parts of several others.
+				<lb/>There must have been quite a Reform Bill<ptr/>
+				<lb/>in B.C. 120. But there are lots of other
+				<lb/>nice things, eg. two or three long
+				<lb/>surveys of land <foreign xml:lang='grc'>ἐν ἀφέσει</foreign> (i.e. <foreign>ἱερά</foreign> and
+				<lb/><foreign xml:lang='grc'>κληρουχική</foreign>), giving a mass of details
+				<lb/>about the κάτoiκοι. Also another^ <add rend='above'>enormous</add> document
+				<lb/>resembling 17.5 (of which by the way
+				<lb/>there are several more mutilated columns)
+				<lb/>We have decided not to include any
+				<lb/><persName ref='Q1405 ' n='Augustus' key='Augustus'>Augustus</persName> papyri in this volume, so
+				<lb/>crocodiles 1 and 19 will have to wait;
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>and dont bother any more about these
+				<lb/>two.
+				<lb/>Are there any more papyri <foreign xml:lang='fr'>chez vous</foreign>
+				<lb/>likely to be worth publishing ? I seem
+				<lb/>to remember your having some tax-receipts
+				<lb/>of a very illegible character. We
+				<lb/>have copied <del rend='strikethrough'>abo</del> over 100 tombs.
+				<lb/>Will you come on Aug. 3 or 5th?
+				<lb/>We shall be delighted to see you.
+				<lb/>I am in <orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>College</orgName> till the 9th, when
+				<lb/>my mother returns. Till the 9th?
+				<lb/>Will put you in rooms on the next
+				<lb/>staircase.
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/>How is <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> ? I have not had a
+				<lb/>word from him. Tell him to come at
+				<lb/>the end of August without fail.
+				<lb/><persName ref='Q7308901' n='Macan, Reginald Walter' key='Macan'>Macan</persName> was dining with me the other
+				<lb/>night. He is quite &apos;human&apos;, as <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M.</persName>
+				<lb/>would say.
+				<lb/>Dont forget to bring the proofs of <rs n='The Flinders Petrie Papyri' key='Petri Papyri'>P.P.</rs>
+				<lb/>with you.
+				</ab>
+				<ab type="signed">
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B. P. Grenfell</persName></ab>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>41</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+				<resp>XML encoding</resp>
+				<name>Transkribus</name>
+				<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet folded in half.</p>
+							<p>Printed letterhead in red ink at top right reads:</p>
+							<ab type="letterhead" rend="smallcaps red">
+								<lb/><orgName ref="Q73094" n="The Queen&apos;s College"
+									key="Queen&apos;s College">Queen&apos;s College</orgName>
+								<lb/><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+					<tagUsage gi="seg"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College, Oxford</placeName>
+					<date when="--05-30">May 30</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n="1"/>
+			<ab type="dateline">
+				<lb/>May 30
+			</ab>
+			<ab>
+				<lb/>My Dear <persName ref="Q76338502" n="Smyly, J. Gilbart" key="Smyly">Smyly</persName>, 
+				<lb/>I should have written <lb/>before, but I did not want to
+				bother <lb/>you during the terribly sad time <lb/>that you must have experienced. I
+				can <lb/>the better sympathise with you in your <lb/>loss, as the memory of my
+				father&apos;s <lb/>death in 1897<ptr/> is still fresh. I hope <lb/>that <persName
+					key="Lady Smyly">Lady Smyly</persName><ptr/> is now pretty well : <lb/>and that
+				you have been able to find <lb/>solace in work. </ab>
+			<pb n="2"/>
+			<ab>
+				<lb/>I sent off today ^<add place="above">to you</add> two boxes <lb/>filled with
+					<placeName ref="Q1500580" n="Tebtunis" key="Tebtunis">Tebtunis</placeName>
+				cartonnage <lb/>and hope they will turn out better <lb/>than the previous lot.
+					<persName ref="Q18206796" n="Jouguet, Pierre" key="Jouguet">Jouguet</persName>
+				has <lb/>just produced some more petitions <lb/>from <placeName ref="Q4880851"
+					n="Magdala" key="Magdala">Magdala</placeName> which arent very <lb/>exciting,
+				though there are some more <lb/>double dates for you. He tells me <lb/>that he has a
+				fine piece of the <rs key="Apistos">Ἄπιστος</rs>
+				<lb/>of <persName ref="Q118992" n="Menander" key="Menander">Menander</persName>
+				however. <lb/><rs n="Oxyrhyncus Papyri, Part IV" key="Oxyrhyncus IV">Oxyrhynchus
+					IV</rs> will be out next <lb/>week. We are well on with <lb/>the Roman documents
+				from <placeName ref="Q1500580" n="Tebtunis" key="Tebtunis">Tebtunis</placeName>,
+				<lb/>which arent wildly exciting for <lb/>the most part, but have some useful </ab>
+			<pb n="3"/>
+			<ab>
+				<lb/>new information about priests and <lb/>taxes. I had spent some time in
+				<lb/>collecting all the topographical data <lb/>from the papyri with a view to a
+				<lb/>geographical appendix, but yesterday <lb/>I received from <persName
+					ref="Q28147430" n="Wessely, Karl" key="Wessely">Wessely</persName> an elaborate
+				<lb/>treatise on the subject with a good deal <lb/>of fresh information from the <rs
+					ref="Q28028277" n="Papyrus Erzherzog Rainer" key="Rainer Collection">Rainer</rs>
+				<lb/><rs ref="Q28028277" n="Papyrus Erzherzog Rainer" key="Rainer Collection"
+					>collection</rs>, rendering the collection of <lb/>^<add rend="above"
+					>another</add>
+				<del rend="strikethrough">a</del> complete list unnecessary. I propose <lb/>however
+				to give a detailed examination <lb/>of his list (which has a good many <lb/>errors
+					<del rend="strikethrough">of [illegible]</del>) and add the new <lb/>data from
+					<rs n="The Tebtunis Papyri, Part 2" key="Tebtunis II">Tebtunis II</rs> and <rs
+					ref="Q60205087" n="The Flinders Petrie Papyri, Part III" key="Petrie Papyri"
+					>Petrie III</rs>? <lb/>Can you promise the latter will be <lb/>out this summer ?
+				The appendix <lb/>must be written by November, but the volume <lb/>wont be out till
+				July 1905 at earliest </ab>
+			<pb n="4"/>
+			<ab>
+				<lb/>July and August we shall devote <lb/>to undoing <placeName ref="Q548805"
+					n="El Hiba" key="Hibeh">Hibeh</placeName> cartonnage <lb/>and <placeName
+					ref="Q1399125" n="Faiyum Oasis" key="Faiyum Oasis">Fayum</placeName> crocodiles.
+				Possibly <persName ref="Q114058" n="Schubart, Wilhelm" key="Schubart"
+					>Schubart</persName>
+				<lb/>will come over to see how it is done. <lb/>As I told him, it would be more to
+				the <lb/>point if he consulted you, and if <lb/>you could come over and pay us a
+				<lb/>visit anytime in the Vacation, we <lb/>should be <hi rend="underline"
+					>delighted</hi>. <lb/>Have you seen <rs
+					n="Didymos&apos;s Commentary on Demosthenes" key="Didymus">Didymus</rs> ?<ptr/>
+				The new <lb/>type of the <orgName ref="Q329464"
+					n="Royal Prussian Academy of Sciences" key="Berlin Academy">Berlin
+					Academy</orgName> seems <lb/>to me detestable.
+				<lb/>With best remembrances from <lb/><persName ref="Q573778"
+					n="Hunt, Arthur Surridge" key="Hunt">Hunt</persName>, 
+			</ab>
+			<ab type="signed">
+					<lb/>Yours ever <lb/><persName ref="Q822668" n="Grenfell, Bernard Pyne"
+						key="Grenfell">Bernard P. <hi rend="underline">Grenfell</hi></persName>
+				</ab>
+		</body>
+	</text>
+</TEI>

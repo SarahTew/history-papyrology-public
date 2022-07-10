@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>77</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/><hi rend='smallcaps'><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,</hi>
+				<lb/><hi rend='smallcaps'><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.</hi>
+				<lb/>June 1st
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>Many thanks for your
+				<lb/>letter. I agree with a great deal of
+				<lb/>what you say . χα + β no doubt means
+				<lb/>the equivalent of 2 silver dr. paid in
+				<lb/>copper, though I think this implies
+				<lb/>a more or less definite ratio between
+				<lb/>silver and copper, like the rates of 5 : 3
+				<lb/>in πυρός &amp; κριθή The obol need not
+				<lb/>be[en?] a coin, but I think it must
+				<lb/>have connected at any one moment a certain
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>definite amount of copper (fixed
+				<lb/>perphas in each year I by the government)
+				<lb/>and not <hi rend='underline'>merely</hi> a 1/6 of a silver dr,
+				<lb/>for otherwise I don&apos;t see how any
+				<lb/>sense is to be got out of saying that
+				<lb/>eg. 26 1/4 obols would be ac required
+				<lb/>for a [s later?]
+				<lb/>As the demotic 24 = 2/10 I have
+				<lb/>had considereable correspondence with
+				<lb/><persName ref='Q952574' n='Griffith, Francis Llewellyn' key='Griffith'>Griffith</persName> &amp; <persName ref='Q100547' n='Spiegelberg, Wilhelm' key='Spiegelberg'>Spiegelleng</persName> &amp; they quite
+				<lb/>agree that it is a more translation of
+				<lb/>the Fr[ech] and hasnt anything to do with
+				<lb/>a ratio. According to <persName ref='Q952574' n='Griffith, Francis Llewellyn' key='Griffith'>Griffith</persName> it
+				<lb/>should be translated &apos;copper 24 =2/10
+			</ab>
+			<ab>
+				<lb/>(of a silver dehen) i.e. a slater, of
+				<lb/>which there were 5 to a dehen.
+				<lb/>Promially it is papyri lest, as
+				<lb/>you say last, to simply substitute
+				<lb/>2 chelci for an obol in ^ <add place='above'><rs n='Revenue Laws of Ptolemy Philadelphus' key='Revenue'>Rev Laws</rs></add> App. iii &amp;
+				<lb/>keep the clarification of Puole. But
+				<lb/>the numismatists now say that his
+				<lb/>weights arent to be trusted anymore
+				<lb/>than <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillouts</persName> . So that as far as
+				<lb/>the 3rd cent B.C. goes, there isnt
+				<lb/>really any direct evidence b??ing on
+				<lb/>the ratio at all , and we are still
+				<lb/>quite in the air. And then what becomes
+				<lb/><del rend='strikethrough'>I do not quite understand</del> of the 480:1
+				<lb/>ratio ?  The <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebt.</placeName> papyri give you
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>every sort of ratio between 400 and 500
+				<lb/>(<foreign xml:lang='la'>vide</foreign> especially the appendix Description)
+				<lb/>I do not quite understand what you say
+				<lb/>abou the dr. of 7 obols being &apos;due to
+				<lb/>the depreciation of gelen&apos;. Do you mean
+				<lb/>there were 2 kinds of silver tetradrachme
+				<lb/>one worth 24 obols, the other 28? I have
+				<lb/>never met the dr. of 7 obols before
+				<lb/>the Roman period. Have you?
+				<lb/>As for the ἐπαλλαρή I cant help thinking
+				<lb/>that it must have something to do with
+				<lb/>the relative value of the metals ,because
+				<lb/>the charge for transport, baskets etc
+				<lb/>are in P.Par 62. , all reckoned
+				<lb/><hi rend='underline'>separately</hi> from the αλλαρή . But it is
+				<lb/>curious that it is always about 10%. 
+				<lb/>I am at present wrestling with app. i.
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/>Can you find any difference between our
+				<lb/>me κάτοικοι and the κλυεῶχοι of
+				<lb/>P.P. except (1) the name (2)
+				<lb/>the fact that the κάτοικοι were largely
+				<lb/>recruited from the ἔφοδοι etc and therefore
+				<lb/>might be originally Egyptian, though as
+				<lb/><hi rend='underline'>32</hi> shows they became Greeks on becoming
+				<lb/>ce κάτοικοι, and that there is no
+				<lb/>evidence yet that the 3rd cent B.C.
+				<lb/>κλυεῶχοι were recruited in this sort
+				<lb/>of way ?
+				<lb/>Shall you be coming here this
+				<lb/>summer ? <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> talks of doing
+				<lb/>so, though I have warned him there
+				<lb/>will be no 3rd cent B.C. papyri on
+				<lb/>view till next year.
+			</ab>
+			<pb n='5'/>
+			<ab>
+				<lb/>It would be nice if you could come
+				<lb/>in July, for we shall be putting the
+				<lb/>finishing touches then. Can you
+				<lb/>send back the <del rend='overwritten'>a</del><add place='overwrite'>A</add>ccounts by June 10th.
+				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is going away on the 13th
+				<lb/>for 10 days, and with the
+				<lb/>exhibition etc coming on things will
+				<lb/>be rather distrubed until July 4th.
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+				<lb/>P.S. I hope by the way you wont mind my
+				<lb/>having written the preface, and that you will
+				<lb/>find the references to yourself satisfactory.
+			</ab>
+		</body>
+	</text>
+</TEI>

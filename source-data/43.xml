@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>43</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one sheet folded in half.</p>
+							<p>Catalog number '43' written in pencil below date at top right. Appears to have originally been '41' and the '1' overwritten by the '3'.</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College</placeName>			
+					<placeName>Oxford</placeName>
+					<date when="--06-22">June 22</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab type="dateline">
+				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+				<lb/>June 22
+			</ab>
+			<ab>
+				<lb/>My Dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>We havent yet brought the
+				<lb/><orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> and American to terms about the
+				<lb/>publication of the <rs ref='Q60204796' n='The Tebtunis Papyri, Part I' key='Tebtunis I'>Tebtunis vol.</rs>, the
+				<lb/><orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> having been very tiresome. It is
+				<lb/>on the cards that it wont take the
+				<lb/><add place='overwrite'>book</add> as the annual vol. of the <orgName n='Graeco-Roman Branch' key='GBR'>G. R. B.</orgName>
+				<lb/>However, whether it does so or not,
+				<lb/>we <del rend='strikethrough'>have</del> are going to do the volume
+				<lb/>and in fact started on it about a
+				<lb/>fortnight ago, the <rs ref='Q21118630' n='The Amherst Papyri' key='Amherst'>Amherst papyri</rs> being
+				<lb/>finished except the indices. A lot of nice
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>things have emerged, including several
+				<lb/><del rend='strikethrough'>decr</del><ptr/> proclamations and <foreign xml:lang='grc'>προστάγματα</foreign>.
+				<lb/>There is a whole series of the latter on
+				<lb/>the verso of one of these big survey lists,
+				<lb/>dealing with all sorts of subjets and
+				<lb/>the very d-<ptr/> to read.
+				<lb/>I am going to <placeName ref='Q84' n='London' key='London'>London</placeName> (39 Branham
+				<lb/>Gardens, S.W.) on the 27th till July 3rd
+				<lb/>and <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> will be away the first week
+				<lb/>in July. By the end of July we shall
+				<lb/>have done with the <rs ref='Q21118630' n='The Amherst Papyri' key='Amherst'>Amherst papyri</rs> altogether
+				<lb/>and shall have tolerable copies of the
+				<lb/>crocodile papyri we intend to publish.
+				<lb/>If you could come to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> in August,
+				<lb/>it would suit us best. If you would like
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>to come into <orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>College</orgName>, it can easily be
+				<lb/>managed. <persName ref='Q716584' n='Sayce, Archibald' key='Sayce'>Sayce</persName> will be here.
+				<lb/>I hope you are nearly at the end of the
+				<lb/><rs n='The Flinders Petrie Papyri' key='Petri Papyri'>P.P.</rs> now. Bring the proof of it when
+				<lb/>you come. Could you let us have
+				<lb/>the copies you have made, early in
+				<lb/>July so that we may compare them with
+				<lb/>our texts when revising our rough copies.
+				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>, who I hope will
+				<lb/>as usual come at the end of August.
+				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is still living here, and will
+				<lb/>do so for a year at any rate.
+				<lb/>You mustnt let us prevent your having
+				<lb/>a proper holiday. <foreign xml:lang='fr'>au revoir</foreign> soon
+			</ab>
+			<ab type="signed">
+				<lb/>Yours ever
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type='main'>63</title>
+			<author>B.P. Grenfell</author>
+			<respStmt>
+				<resp>Transcribed from images of original letters</resp>
+				<name>Sarah Tew</name>
+			</respStmt>
+			<respStmt>
+				<resp>Entity tagging</resp>
+				<name>Sarah Tew</name>
+			</respStmt>
+			<respStmt>
+				<resp>XML encoding</resp>
+				<name>Transkribus</name>
+				<name>Sarah Tew</name></respStmt>
+		</titleStmt>
+		<publicationStmt>
+			<publisher>tranScriptorium</publisher>
+			<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+			<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+			<date when="2022-05-16">May 16, 2022</date>
+			<availability status="restricted">
+				<p>Available for academic research purposes only.</p>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<settlement>Dublin</settlement>
+					<repository>Trinity College</repository>
+					<idno type="TC">IE TCD MS 4323</idno>
+				</msIdentifier>
+				<physDesc>
+					<objectDesc>
+						<p>Handwritten letter in black ink on one rectangular sheet folded in half and written in 4 pages then folded in half again.</p>
+						<p>'63' written in pencil at top right. '71' or '77' written in pencil appears to have been rubbed out and corrected to '63'.</p>
+						<p>Printed letterhead in red ink at top right reads:</p>
+						<ab type="letterhead" rend="smallcaps right red">
+							<lb/><orgName ref="Q73094" n="The Queen&apos;s College"
+								key="Queen&apos;s College">Queen&apos;s College</orgName>
+							<lb/><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName>.
+						</ab>
+					</objectDesc>
+				</physDesc>
+			</msDesc>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+		</projectDesc>
+		<editorialDecl>
+			<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+			<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+			<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+		</editorialDecl>
+		<tagsDecl partial="true">
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="persName"/>
+				<tagUsage gi="placeName"/>
+				<tagUsage gi="orgName"/>
+				<tagUsage gi="rs"/>
+				<tagUsage gi="hi"/>
+				<tagUsage gi="add"/>
+				<tagUsage gi="del"/>
+				<tagUsage gi="seg"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en-GB">English</language>
+		</langUsage>
+		<handNotes>
+			<handNote>Written in black ink by B.P. Grenfell.</handNote>
+		</handNotes>
+		<correspDesc>
+			<correspAction type="sent">
+				<persName>B.P. Grenfell</persName>
+				<placeName>Queen's College</placeName>			
+				<placeName>Oxford</placeName>
+				<date when="--07-12">July 12</date>
+			</correspAction>
+			<correspAction type="received">
+				<persName>J.G. Smyly</persName>
+			</correspAction>
+		</correspDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2022-06-18" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+	</revisionDesc>
+</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+				<ab type="signed" rend="perpendicular">
+					<lb/>Yours ever
+					<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+				</ab>
+				<ab type="dateline">
+				<lb/>July 12
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>
+				<lb/>I am now grappling
+				<lb/>with App. ii<ptr/> on the coins, which
+				<lb/>will occupy me for another 10
+				<lb/>days, I expect. I have now
+				<lb/>come to the conclusion that the
+				<lb/>copper drachmae dont weigh
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>any thing like a drachma at all
+				<lb/>A German<ptr/> has recently produced
+				<lb/>some evidence for regarding the
+				<lb/>coins of 250-280 grains as
+				<lb/>80 drachmae pieces, and on
+				<lb/>this view we should get no copper
+				<lb/>coin smaller than the 5 drachmae
+				<lb/>piece, which is what the papyri
+				<lb/>lead you to think, and be rid
+				<lb/>of the hopeless variance between
+				<lb/>the papyri and coins which
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>results in making the big coins
+				<lb/>of 1400- 1600 gr a 2 chalcus
+				<lb/><del rend='strikethrough'>piece</del> or 20 copper drachmae piece,
+				<lb/>and the smaller ones 1/320 of an
+				<lb/>obol or 1/4 of a copper drachma
+				<lb/>I think this really solves the
+				<lb/>main problem of the ratio
+				<lb/>after 120 B.C. As to what it
+				<lb/>was before that, I am not going to
+				<lb/>theorize more than I can help.
+				<lb/>The remainder of App. I.<ptr/> is being
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/>printed. I should like your
+				<lb/>remarks on <hi rend='underline'>124</hi><ptr/> by the end of
+				<lb/>this week, and on App. i as
+				<lb/>so<add place='overwrite'>on</add> as you conveniently can.
+				<lb/>The revising of the proofs <del rend='strikethrough'>[on app l]</del> <add place='above'>will occupy</add>
+				<lb/>us from July 20- Aug. 7, I
+				<lb/>expect. There is a fearful <del rend='overwritten'>lot</del> <add place='overwrite'>amount</add>
+				<lb/>to alter ; as you will gather from
+				<lb/>App. i we have changed our minds
+				<lb/>about a lot of things in <hi rend='underline'>60</hi>-<hi rend='underline'>72</hi><ptr/>.
+				<lb/>If you could come some time between
+				<lb/>the 20th and Aug. 7 for a day or two,
+				<lb/>it would be best.
+				<lb/>Can you give me one or two prices from <rs n='The Flinders Petrie Papyri' key='Petrie Papyri'>P.P.</rs>
+				<lb/>for grain which suit the <rs ref='Q60204796' n='The Tebtunis Papyri, Part I' key='Tebtunis'>Tebtunis</rs> prices?
+			</ab>
+		</body>
+	</text>
+</TEI>

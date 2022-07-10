@@ -1,0 +1,4 @@
+# Ignore Hugo public dir
+public/
+# oXygen project files
+*.xpr

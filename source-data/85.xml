@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>85</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>POST CARD
+				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J. Gilbart Smyly Esq</persName>
+				<lb/>Merrion Square
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>.
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>. Friday.
+				<lb/>I received a communication from the L.N.W.R. today
+				<lb/>to the effect that the 3 cases couldnt be delivered
+				<lb/>because &apos;house closed, no one at home to accept.&apos;
+				<lb/>I pointed out that Trinity was neither a &apos;house&apos; nor
+				<lb/>&apos;closed&apos; and requested them to deliver at once. But
+				<lb/>would you mind seeing your parter about it and if
+				<lb/>the cases arent there, communicating with the L.N.W.R.
+				<lb/>Yours <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>

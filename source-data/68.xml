@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>68</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-05-16">May 16, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on two rectangular sheet of thin paper. First sheet folded in half. Second sheet is half size.</p>
+							<p>Catalog number '68' written in pencil left of dateline.</p>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Queen's College</placeName>			
+					<placeName>Oxford</placeName>
+					<date when="1901-03-18">March 18 1901</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1'/>
+			<ab>
+				<lb/>addres P.O. <placeName ref='Q85 ' n='Cairo' key='Cairo'>Cairo</placeName>
+				<lb/><placeName n='Kefr Meir' key='Meir'>Kefr Meir</placeName>
+				<lb/><placeName ref='Q3647322' n='El-Idwa' key='Edwa'>Edwa</placeName><ptr/>
+				<lb/>March 18 1901
+			</ab>
+			<ab>
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>You will probably have been expecting
+				<lb/>for some time to hear from me, but I have waited
+				<lb/>to write until there was something good to report and
+				<lb/>if has taken till now . We are just entering on
+				<lb/>the 14th week of our excavations,<ptr/> the greater part
+				<lb/>of the time having been devoted to Ptolemaic cemeteries,
+				<lb/>but until the last week with extraordinarily
+				<lb/>bad luck. Not taht we have failed to find
+				<lb/>papyrus mummies; they have turned by the
+				<lb/>hundred. At <placeName ref='Q1558783' n='Soknopaiu Nesos' key='Nesos'>Dimeh</placeName> there t<del rend='strikethrough'>h</del>wo splendid
+				<lb/>cemeteries of them, one 3d cent B.C., the other other
+				<lb/>second, sometimes 10 or 15 in a tomb, but
+				<lb/>practically all had completely decayed__
+				<lb/>as seems inevitable save when the tombs are
+				<lb/>very shallow, the mummification very good and
+				<lb/>the desert of a particular kind.<ptr/> Down to a
+				<lb/>a week ago the cemeteries of 3 different
+				<lb/>sites (<placeName n='Kom Ushim' key='Kom Ushim'>Kom Ushim</placeName>, <placeName ref='Q1558783' n='Soknopaiu Nesos' key='Nesos'>Dimeh</placeName> and <placeName n='Rubaiyat' key='Rubaiyat'>Rubayyat</placeName>)
+				<lb/>had proved almost a blank. The last week
+			</ab>
+			<pb n='2'/>
+			<ab>
+				<lb/>however we have been digging a fourth
+				<lb/>Ptolemaic cemetery which has got papyrus
+				<lb/>mummies, and though here too much has
+				<lb/>decayed we have raised about 20 out of it
+				<lb/>in good or very fair condition.<ptr/> So at least there
+				<lb/>is something solid, and, as we have still two
+				<lb/>more cemeteries near here (<placeName n='Rubaiyat' key='Rubaiyat'>Rubayyat</placeName> where we are
+				<lb/>camped) to dig, we are, I hope, far from the end yet.<ptr/>
+				<lb/>But it will take a good deal to compensate us for
+				<lb/>the reallly herculean efforts we have made. It
+				<lb/>has been an exhausting season. While on the
+				<lb/>north side of <placeName ref='Q1330952' n='Lake Moeris' key='Birket Qarun'>Birket el Ḳurûn</placeName> for two months
+				<lb/>we had to  have everything, even fresh water, brought
+				<lb/>over by boat from the south side (1 1/2 hours)
+				<lb/>and owing to gales were occasionally left
+				<lb/>in the lurch, though we never actually had a
+				<lb/>water famine.<ptr/> The scene of the work varied
+				<lb/>from 2 to 7 miles [sic] distance from the camp
+				<lb/>which had to be pitched on the edge of the
+				<lb/>lake in a swamp.<ptr/> <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> got a touch of
+				<lb/>malaria in January, but a week in <placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName>
+				<lb/>set him all right again.<ptr/> The last month since
+				<lb/>we have been at <placeName n='Rubaiyat' key='Rubaiyat'>Rubayyat</placeName> has been much
+			</ab>
+			<pb n='3'/>
+			<ab>
+				<lb/>more comfortable; we are on the edge of the
+				<lb/>cultivation and civilisation instead of 16
+				<lb/><del rend='strikethrough'>or</del> miles or more from it by land.<ptr/> The cemetery
+				<lb/>we are digging at present is however 4 miles
+				<lb/>off<ptr/> which makes a fatiguing day of it. I start
+				<lb/>off at 6.30 a.m. and dont return till 6.30. p.m.
+				<lb/>In order to get on fast, I have 130 workmen now
+				<lb/>partly Arabs, partly fellahîn, who tend to
+				<lb/>quarrel a good bit.<ptr/> One of the periodical fights occurred
+				<lb/>the other day, and I descended into the arena to part
+				<lb/><add place='left' rend='inline'>them</add> with the result that my should is still stiff
+				<lb/>from the vigour with which I belaboured the
+				<lb/>heads of both parties!<ptr/>
+				<lb/>Despite the heat which will soon be rather
+				<lb/>excessive, we expect to go on digging till
+				<lb/>April 20,<ptr/> so it will be May by the time
+				<lb/>I am back probably.<ptr/> I hope the Press sent
+				<lb/>you ^<add place='above'>or <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName></add> proofs of the <rs ref='Q21118630' n='The Amherst Papyri' key='Amherst Papyri'>Amherst vol.</rs> (the Ptolemaic
+				<lb/>portion).<ptr/> Could you kindly return them
+				<lb/>to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> by the end of April. We have to
+				<lb/>finish the vol. was soon as we get back, so
+				<lb/>it will be June before we can start
+			</ab>
+			<pb n='4'/>
+			<ab>
+				<lb/>the crocodiles.<ptr/> Has anything good turned up
+				<lb/>in the papayri you have?<ptr/>
+				<lb/>The bad luck which has attended us this year
+				<lb/>will partly be made up by other discoveries.
+				<lb/><persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName> has been digging at <placeName ref='Q1318945' n='Medinet Maadi' key='Maadi'>Medinet Madi</placeName>
+				<lb/>and though he didnt find anything there, the
+				<lb/>natives got hold of a good ^<add place='above'>Ptolemaic</add> cemetery about
+				<lb/>6 miles away, so he was able to cut in
+				<lb/>and find some papyrus mummies.<ptr/> He came
+				<lb/>to pay us a visit in Dec. and we became great
+				<lb/>friends.<ptr/> But nature did not design a Frenchman
+				<lb/> of the <placeName ref='Q1237299' n='Southern France' key='Midi'>Midi</placeName> for either a scholar or an excavator<ptr/>
+				<lb/>At <placeName ref='Q56924' n='El-Lahun' key='El-Lahun'>Illahun</placeName> also last autumn one of the Museum inspectors
+				<lb/>(a native) dug up a few papyrus mummies,
+				<lb/>mostly in rather bad condition and late (I noticed
+				<lb/>one dated in the 50th year of <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Euerg. II</persName>).<ptr/> <persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName>
+				<lb/>had when we were in <placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName> got hold of these, but
+				<lb/>now that he has found some of his own, he may be
+				<lb/>less keen, and I will try and arrange with the
+				<lb/>Museum people that they should be sent over for
+				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> and you.<ptr/> But of course I can promise
+				<lb/>nothing He <add place='intralinear'><persName>(M.)</persName></add> will have to restrain his
+				<lb/>impatience again about our finds of this year
+			</ab>
+			<pb n='5'/>
+			<ab>
+				<lb/>for they wont get published till 1903— if then.<ptr/>
+				<lb/>Returning to <placeName ref='Q21' n='England' key='England'>England</placeName> so late this year, we
+				<lb/>shall be more pressed for time than ever
+				<lb/>this summer, and there is I fear little chance of
+				<lb/>our visit to <placeName ref='Q57695350' n='Dublin' key='Dublin'>Dublin</placeName> coming off. But you
+				<lb/>will I hope come to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.<ptr/> It is a great pity
+				<lb/>you cant visit us out here. To get up at 5.30
+				<lb/>ad be out 12 hours every day would do you
+				<lb/>a lot of good.
+			</ab>
+			<ab type='signed'>
+				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>
+				<lb/>Yours
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+		</body>
+	</text>
+</TEI>
