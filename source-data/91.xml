@@ -4,21 +4,112 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>91</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-08">March 08, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 4 pages on one sheet of paper folded in half.</p>
+							<p>Catalog number "91" written in pencil. Previous number "[8?]9" erased and overwritten with "91".</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-91_01.dzi"/>Pages 2-3<graphic url="MS4323-91_02.dzi"/>Page 4<graphic url="MS4323-91_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained and represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1906-04-13">April 13</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-08" who="GSidro">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
+			<ab type="dateline" rend="right">
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
-				<lb/>April 13
+				<lb/><date>April 13<ptr/></date>
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
@@ -26,57 +117,59 @@
 				<lb/>promptly sending your remarks, which
 				<lb/>we will consider carefully. The
 				<lb/>most serious are those about the &apos;regnal&apos;
-				<lb/>years. The <placeName ref='Q4880851' n='Magdala' key='Magdala'>Magdala</placeName> papyrus, which
-				<lb/>belongs to <persName ref='Q39595' n='Ptolemy IV Philopator' key='Ptolemy IV'>Phillopater</persName>, not <persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Eurgetes</persName>,
-				<lb/>might be square with the your theory
-				<lb/>about the accension, but the P.P. on
-				<lb/>Part III Intro 8 seems to be, as you say,
-				<lb/>fetel. I had overlooked the month
-				<lb/>being Phemontis owing to the text
-				<lb/>being hidden away in the intro., but it
+				<lb/>years. The <placeName n='Magdola' key='Magdola'>Magdola<ptr/></placeName> papyrus,<ptr/> which
+				<lb/>belongs to <persName ref='Q39595' n='Ptolemy IV Philopator' key='Ptolemy IV'>Philopator<ptr/></persName>, not <persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Euergetes<ptr/></persName>,
+				<lb/>might be square with <del rend='strikethrough'>the</del> your theory
+				<lb/>about the accession, but the <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>P.P. on</rs>
+				<lb/><rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>Part III</rs> Introd 8<ptr/> seems to be, as you say,
+				<lb/>fatal. I had overlooked the month
+				<lb/>being Phamenoth owing to the text
+				<lb/>being hidden away in the introd., but it
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>surprises me rather that in the sp?te
-				<lb/>of it you should have [????] to the
-				<lb/>accension [view?] in P.P. III p. 331.
+				<lb/>surprises me rather that in the spite
+				<lb/>of it <del rend='overwritten'>s</del>you should have adhered to the
+				<lb/>accession view in <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>P.P. III</rs> p. 331.
 				<lb/>At present I am disposed to abandon the
-				<lb/>&apos;accension&apos; theory altogether at the
-				<lb/>price of [???ing] about the appendix
+				<lb/>&apos;accession&apos; theory altogether at the
+				<lb/>price of hashing about the appendix
 				<lb/>fearfully and to give up the
-				<lb/>question of [rubl??] [is/as?] hopeless. The γέον ἔτος
-				<lb/>on Pauni I of the Cenop Inscr. seems to
+				<lb/>question <add place='above'>of regnal yrs</add> hopeless. The <foreign xml:lang='grc'>νέον ἔτος</foreign>
+				<lb/>on Pauni I of the <rs ref='Q1240912' n='Decree of Canopus ' key='Decree of Canopus '>Canop. Inscr.</rs> seems to
 				<lb/>me no use, for the regnal &amp; revenue
 				<lb/>years differ in months on both
-				<lb/>sides of the Sirius rising, cf. P.P. &amp;
-				<lb/>P. Mag which have Phemenoth with
-				<lb/><del rend='strikethrough'>A.</del> P. Hibeh 80 which has Epiph
+				<lb/>sides of the Sirius rising, cf. <rs n='The Flinders Petrie Papyri' key='Petrie Papyri'>P.P.</rs> &amp;
+				<lb/><rs ref='Q961936' n='Magdalen papyrus' key='P.Magd'>P. Magd</rs> which have Phamenoth with
+				<lb/><del rend='overwritten'>th</del> <rs ref='The Hibeh Papyri, Part I' n='Q59738566' key='Hibeh I'>P. Hibeh</rs> 80 which has Epeiph.
 			</ab>
 			<ab>
-				<lb/>The Hibeh text suggest that the
+				<lb/>The Hibeh text suggest that <del rend='overwritten'>that</del>the
 				<lb/>difference between the two years was
 				<lb/>maintained until nearly or quite the
 				<lb/>end of the financial year, and I would
-				<lb/>prefer [m??ing] Tholh, the beginning
-				<lb/>of Coth year, as <persName ref='Q202790' n='Reinach, Théodore' key='Reinach'>T. Reinach</persName> proposes,
+				<lb/>prefer making Thoth, the beginning
+				<lb/>of both years, as <persName ref='Q202790' n='Reinach, Théodore' key='Reinach'>T. Reinach<ptr/></persName> proposes,
 				<lb/>if that were possible. But I cant
-				<lb/>see on his system what became of ?α
+				<lb/>see on his system what became of <choice><expan>ἔτους</expan><abbr>L</abbr></choice> <foreign xml:lang='grc'>α</foreign>
 				<lb/>regnal, for to suppose that people
 				<lb/>went on dating by a king after his
 				<lb/>death (as <persName ref='Q202790' n='Reinach, Théodore' key='Reinach'>T.R.</persName> seems to imply) is
 				<lb/>absurd. I have written to him to ask
 				<lb/>for an explanation.
 				<lb/>There seem to be some interesting things
-				<lb/>from mummy 8. I hope the new
+				<lb/>from mummy 8.<ptr/> I hope the new
 			</ab>
 			<pb n='3'/>
 			<ab>
 				<lb/>cartonnage has been satisfactory.
 				<lb/>Do try and come out to <placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName> next
 				<lb/>year if you can.
+			</ab>
+			<ab type="signed">
 				<lb/>With renewed thanks for
 				<lb/>all your help,
-				<lb/>yours ever
+				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
 			</ab>
 		</body>

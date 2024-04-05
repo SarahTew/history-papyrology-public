@@ -4,35 +4,126 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>83</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-02-27">February 27, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 3 pages on one folded sheet with writing on front and back. There is no writing on the back page of the folded sheet. </p>
+							<p>Catalog number '83' written in pencil. The "83" possibly overwrites a former erased catolog number.</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-77_01.dzi"/>Pages 2-3<graphic url="MS4323-77_02.dzi"/>Pages 4-5<graphic url="MS4323-77_03.dzi"/>Page6<graphic url="MS4323-77_04.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1900-07-09">July 9th</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-02-27" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
+			<ab type="dateline">
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
 				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
-				<lb/>July 9th
+				<lb/>July 9th<ptr/>
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>, 
-				<lb/>I hope &apos;Aey Kelly&apos; has reached
-				<lb/>you all night. It lasted me as far as
-				<lb/><placeName ref='Q623765' n='Rugby' key='Rugby'>Rugby</placeName> on a very pleasant journey, the sea
+				<lb/>I hope &apos;<rs n='Cleg Kelly, Arab of the City: His Progress and Adventures' key='Cleg Kelly'>Cleg Kelly<ptr/></rs>&apos; has reached
+				<lb/>you all right. It lasted me as far as
+				<lb/><placeName ref='Q623765' n='Rugby' key='Rugby'>Rugby<ptr/></placeName> on a very pleasant journey, the sea<ptr/>
 				<lb/>bring like a lake.
 				<lb/>The <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> agreed to our proposals without
 				<lb/>discussion. They had been wrangling for
-				<lb/>half an hour about Nautlr and <persName ref='Q1246324' n='Evans, John' key='Evans'>Sir John</persName>
-				<lb/><persName ref='Q1246324' n='Evans, John' key='Evans'>Evans</persName>, not being a substitute to the <orgName n='Graeco-Roman Branch' key='GRB'>G.R.B</orgName>,
+				<lb/>half an hour about <persName ref='Q115746' n='Édouard Naville' key='Naville'>Naville<ptr/></persName> and <persName ref='Q1246324' n='Evans, John' key='Evans'>Sir John<ptr/></persName>
+				<lb/><persName ref='Q1246324' n='Evans, John' key='Evans'>Evans</persName>, not being a subscriber to the <orgName n='Graeco-Roman Branch' key='GRB'>G.R.B<ptr/></orgName>,
 				<lb/>was too bored to discuss it. So I have 
-				<lb/>written to the Americans, though whether I
+				<lb/>written to the Americans<ptr/>, though whether I
 				<lb/>shall get an answer is very doubtful. But
 			</ab>
 			<pb n='2'/>
@@ -43,27 +134,30 @@
 				<lb/><persName ref='Q1769196' n='Gradenwitz, Otto' key='Gradenwitz'>Gradenwitz</persName> now proposes to come here at
 				<lb/>the beginning. of August. I hope he will
 				<lb/>be presentable!
-				<lb/>I had a very pleasant [???] of a week
-				<lb/>in turn, though not such as to effice
+				<lb/>I had a very pleasant inside of a week
+				<lb/>in town<ptr/>, though not such as to efface
 				<lb/>the memory of my <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> visit. <persName ref='Q220130' n='Petrie, Flinders' key='Petrie'>Petrie</persName>&apos;s
-				<lb/>show is well worth visiting, if only for
+				<lb/>show<ptr/> is well worth visiting, if only for
 				<lb/>the Aegean pots warranted (by P.)
-				<lb/>comtemporary with the 1st dynasty. I also
-				<lb/>went to the <orgName ref='Q1327919' n='The Wallace Company' key='Wallace'>Wallace Collection</orgName>. The
+				<lb/>comtemporary with the 1<hi rend='superscript'>st</hi> dynasty. I also
+				<lb/>went to the <orgName ref='Q1327919' n='The Wallace Company' key='Wallace'>Wallace Collection<ptr/></orgName>. The
 				<lb/>French pictures are I suppose valuable
 			</ab>
+			<pb n='3'/>
 			<ab>
 				<lb/>historically, but interested me less
-				<lb/>than the Dutch and English, which
+				<lb/>than the Dutch and English ones, which
 				<lb/>are superb. By the way is your
-				<lb/>(engaged) aware of the likeness
+				<lb/>(engaged) sister<ptr/> aware of the likeness
 				<lb/>between herself and the famous<persName ref='Q20756536' n='O&apos;Brien, Nelly' key='O&apos;Brien'> &apos;Nelly</persName>
-				<lb/><persName ref='Q20756536' n='O&apos;Brien, Nelly' key='O&apos;Brien'>O&apos;Brien</persName>&apos;. If not, let her go and study it.
+				<lb/><persName ref='Q20756536' n='O&apos;Brien, Nelly' key='O&apos;Brien'>O&apos;Brien<ptr/></persName>&apos;. If not, let her go and study it.
 				<lb/>Remember me to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> when you see
 				<lb/>him and thank him for forwarding the
-				<lb/>letter. He is, I understand, to pay
-				<lb/><persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord Amherst</persName> a visit this week; I am
+				<lb/>letters. He is, I understand, to pay
+				<lb/><persName ref='Q333839' n='William Tyssen-Amherst, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord Amherst</persName> a visit this week; I am
 				<lb/>sorry I have not time to go down there too.
+			</ab>
+			<ab type="signed">
 				<lb/>Thanking you even more for all your
 				<lb/>hospitality,
 				<lb/>Yours ever

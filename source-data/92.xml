@@ -4,32 +4,126 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>92</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-15">March 15, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 4 pages on one folded sheet with writing on front and back. The sheet of paper appears to have been folded both ways because of a crease that divides the handwritten text and because the printed letterhead transfered onto the bottom half of the first page. </p>
+							<p>Catalog number '92' written in pencil. Previous number "100" erased and overwritten with "92".</p>
+							<p>Printed letterhead in red ink at top reads:</p>
+							<ab type="letterhead" rend="smallcaps red">
+								<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queens College</orgName>
+								<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-92_01.dzi"/>Pages 2-3<graphic url="MS4323-92_02.dzi"/>Page 4<graphic url="MS4323-92_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1905-05-05">May 5</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-15" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
-				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
-				<lb/>May 5
+			<ab type="dateline">
+				<lb/>May 5<ptr/>
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>By all means use
 				<lb/>the double dates in the <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName>
-				<lb/>cartonnage. Call them Tebt. unpublished.
-				<lb/>I have written to Bernard to ask
+				<lb/>cartonnáge. Call them Tebt. unpublished.
+				<lb/>I have written to <persName ref='Q6221660' n='Bernard, John Henry' key='Bernard'>Bernard<ptr/></persName> to ask
 				<lb/>him to change the date <del rend='strikethrough'>to the</del> of my
 				<lb/>lectures to the week following
-				<lb/>the Fellowship exam, if possible. I
+				<lb/>the Fellowship exam<ptr/>, if possible. I
 				<lb/>am in his hands. I should be
 				<lb/>delighted to stay for 6 days at
 			</ab>
@@ -37,47 +131,50 @@
 			<ab>
 				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> if I could spare the time,
 				<lb/>but doubt if I can remain more than 3.
-				<lb/>The Hibeh vol. has to
+				<lb/>The <rs ref='Q59738566' n='The Hibeh Papyri, Part I' key='Hibeh I'>Hibeh vol.</rs> has to
 				<lb/>be out by December and it will
-				<lb/>be a harried rush to get it
+				<lb/>be a horrid rush to get it
 				<lb/>finished — especially as the
 				<lb/>papyri are very hard to read and
 				<lb/>for various reasons we have not
-				<lb/>yet made much progress. B??ds
-				<lb/>3 Homers all differeing largely
+				<lb/>yet made much progress. Besides
+				<lb/>3 Homers<ptr/> all differing largely
 				<lb/>from the received text there is a long
 			</ab>
+			<pb n='3'/>
 			<ab>
 				<lb/>piece of <persName ref='Q868' n='Aristotle' key='Aristotle'>Aristotle</persName>&apos;s treatise on
-				<lb/><rs ref='Q1896045' n='Rhetoric' key='Rhetoric'>Rhetoric</rs> addressed to <persName ref='Q8409' n='Alexander the Great' key='Alexander'>Alexander</persName>
+				<lb/><rs ref='Q1896045' n='Rhetoric' key='Rhetoric'>Rhetoric<ptr/></rs> addressed to <persName ref='Q8409' n='Alexander the Great' key='Alexander'>Alexander</persName>,
 				<lb/>which seems to have a good many
 				<lb/>variants but requires a lot of
 				<lb/>cleaning before it can be deciphered
 				<lb/>There will be after all some
 				<lb/>double dates in the documents,
 				<lb/>which we have hardly tackled yet
-				<lb/>The calendar fits together tolerably
-				<lb/>well and outght to be interesteing.
-				<lb/>I can say the <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName> cartonnage
+				<lb/>The calendar<ptr/> fits together tolerably
+				<lb/>well and outght to be interesting.
+				<lb/>I am sorry the <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName> cartonnage
 				<lb/>is turning out so badly. It is
 				<lb/>curious what bad luck we have had
 			</ab>
-			<pb n='3'/>
+			<pb n='4'/>
 			<ab>
 				<lb/>in that line.
 				<lb/>I have been entering some of the corrections
 				<lb/>in my copy of <rs n='The Flinders Petrie Papyri, Part I' key='Petrie I'>PP.I</rs> &amp; <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>II</rs> and note
 				<lb/>the following misprints in <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>Part III</rs>
-				<lb/>p. 53 no xxv = m.II.<hi rend='underline'> xxx</hi><hi rend='underline2'>v</hi><hi rend='underline'>ii</hi>(c)
-				<lb/>p. 52. no. xxiv. Isn&apos;t συγγλαφή
+				<lb/>p. 53 no xxv = m.II.<hi rend='underline'> xxx</hi><hi rend='underline2'>v</hi><hi rend='underline'>ii</hi> (c)
+				<lb/>p. 52. no. xxiv. Isnt <foreign xml:lang='grc'>συγγραφή</foreign>
 				<lb/>in (c) l. <hi rend='underline'>11</hi> not 10?
-				<lb/>In xiv.21 supply τῆς Ήρακλείδω
-				<lb/>μερίδος with Ἀλαρανσίδος
+				<lb/>In xiv.21. supply <foreign xml:lang='grc'>τῆς <hi rend='underline'>Ἡρακλείδου</hi></foreign>
+				<lb/><foreign xml:lang='grc'>μερίδος</foreign> with <foreign>Ἀλαβανθίδος</foreign>.
+			</ab>
+			<ab type="signed">
 				<lb/>With renewed thanks for the proofs,
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
 			</ab>
-			<ab>
+			<ab type="postscript">
 				<lb/>P.S. You might send the rest of the index
 				<lb/>when printed.
 			</ab>

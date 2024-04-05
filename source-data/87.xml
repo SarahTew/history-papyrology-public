@@ -4,41 +4,140 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>87</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-02-06">February 06, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet. The sheet is folded in half, creating four pages. Writing is on first and second pages only.</p>
+							<p>Catalog number "87" written in pencil. Previous number "95" (?) erased and overwritten with "87".</p>
+							<p>Printed letterhead in red ink at top reads:</p>
+							<ab type="letterhead" rend="lowercase red">
+								<lb/><orgName ref="Q73094" n="The Queen&apos;s College"
+									key="Queen&apos;s College">Queen&apos;s College</orgName>
+								<lb/><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-87_01.dzi"/> Page 2<graphic url="MS4323-87_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1905-10-01">1 October</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-02-13" who="GSidro">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
+				<ab type="dateline">
+					<lb/><date>Oct 6<ptr/></date></ab>
+				
 			<ab>
-				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queens College</orgName>
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
-				<lb/>Oct 6
-				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyl</persName>y,
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>Ever so many thanks for
-				<lb/>the Eudoxus notes which are just
-				<lb/>what we wanted. I am so sorry
+				<lb/>the <persName ref='Q185150' n='Eudoxus of Cnidus' key='Eudoxus'>Eudoxus<ptr/></persName> notes which are just
+				<lb/>what we wanted I am so sorry
 				<lb/>that you have been laid up with
 				<lb/>rheumatism. October <foreign xml:lang='fr'>chez vous</foreign>
 				<lb/>is I know rather trying. It is
-				<lb/>a shame to to the you any more
+				<lb/>a shame to bother you any more
 				<lb/>when I expect you are particularly
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>busy, but [unsure] since Hemethene
+				<lb/>busy, but <del rend='strikethrough'>could</del> since <rs ref='Q15762068' n='Hermathena' key='Hermathena'>Hermathena<ptr/></rs>
 				<lb/>still lingers, could you send me
 				<lb/>on a card just the double dates
-				<lb/>of Epipheus and <persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor</persName> which you
+				<lb/>of <persName ref='Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V Epiphanes'>Epiphanes<ptr/></persName> and <persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor<ptr/></persName> which you
 				<lb/>are discussing? I want to include
-				<lb/>them in my table, but not to
-				<lb/>talk about
+				<lb/>them in my table<ptr/>, but not to
+				<lb/>talk about them
+			</ab>
+			<ab type="signed">
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell.</persName>
 			</ab>

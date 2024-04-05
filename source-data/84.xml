@@ -4,40 +4,138 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>84</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-01">March 01, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 2 pages on one folded sheet with writing on front and back of one half. The second half of the folded paper is blank on the front and back except for some ink transfer. </p>
+							<p>Catalog number '84' written in pencil. Possible previous number "92" erased and overwritten with "84".</p>
+							<p>Centered printed letterhead in red ink reads:</p>
+							<ab type="letterhead">
+								<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+								<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-84_01.dzi"/>Page 2<graphic url="MS4323-84_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="--05-02">May 2</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-01" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
-				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
-				<lb/>May 2
+			<ab type="dateline">
+				<lb/>May 2<ptr/>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
-				<lb/>The enclosed was sent
+				<lb/>The enclosed<ptr/> was sent
 				<lb/>me by a German who did not know
 				<lb/>who you were. I sincerely trust
-				<lb/>his suggestions came too late!
+				<lb/>his suggestions come too late!
 				<lb/>We are struggling with the
-				<lb/><placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName> literary pieces which are
+				<lb/><placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh<ptr/></placeName> literary pieces which are
 				<lb/>in many cases very difficult to
-				<lb/>decipher especially in this lad
+				<lb/>decipher especially in this bad
 			</ab>
 			<pb n='2'/>
 			<ab>
 				<lb/>light. The Homeric pieces differ
 				<lb/>from the ordinary text enormously;
-				<lb/>they seem to be of the πολύστυχες
+				<lb/>they seem to be of the <foreign xml:lang='grc'>πολύστιχος<ptr/></foreign>
 				<lb/>order.
+			</ab>
+			<ab type="signed">
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+			</ab>
+			<ab type="postscript">
 				<lb/>P.S. The proofs have just
 				<lb/>come. <hi rend='double underline'>Ever so many thanks</hi>
 			</ab>

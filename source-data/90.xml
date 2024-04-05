@@ -4,99 +4,196 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>90</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-22">March 22, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one large rectangular sheet folded in half. All four pages created have handwritten texts on them.</p>
+							<p>Catalog number "90" written in pencil. Previous number corrected to "90".</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-90_01.dzi"/>Pages 2-3<graphic url="MS4323-90_02.dzi"/>Page 4<graphic url="MS4323-90_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1900-06-01">June 1</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-22" who="MYou">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
 			<ab>
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
-				<lb/>June 1
+				</ab>
+			<ab type="dateline">
+					<lb/>June 1<ptr/>
+
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
-				<lb/>I was away in town yesterday, but
-				<lb/>went to the <orgName ref='Q82133' n='Bodleian Library' key='Bodleian'>Bodleian</orgName> today, the light being some
-				<lb/>of the best. Here are the answers to your questions
-				<lb/>(1) <rs n='The Flinders Petri Papyri, Part II' key='Petrie II'>P.P.II</rs> vii line 7. I read εις τουτο for
-				<lb/>εκ τουγ <hi rend='underline'>εις is quite certain</hi>. Παυνι in
-				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s copy isnt right.
-				<lb/>line 11. the first symbol ῐ seems to represent
-				<lb/>αρουρα, the second 5 artabae
-				<lb/>13. I dont understand the symbol [symbol]. [cancellation?] 
-				<lb/>[symbol] is of course ιπ(παεχια) or some other
-				<lb/>derivative of ἵππος. But here the symbol seems
-				<lb/>to be Μ not Π with an l through the middle.
-				<lb/>(2) <del rend='overwritten'>R</del><rs n='The Flinders Petri Papyri, Part II' key='Petrie II'><add place='overwrite'>P</add> II.</rs>viii col II verso the word before
-				<lb/>τιραχθηουσνται might be read as επει. In the
-				<lb/>next line <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> is, I think, right: it is γαρ.
+				<lb/>I was away in town<ptr/> yesterday, but
+				<lb/>went to the <orgName ref='Q82133' n='Bodleian Library' key='Bodleian'>Bodleian</orgName> today, the light being none
+				<lb/>of the best. Here are the answers to your queries
+				<lb/>(1) <rs n='The Flinders Petri Papyri, Part II' key='Petrie II'>P.P.II</rs><ptr/> vii line 7. I read <foreign xml:lang='grc'>εις τουτο</foreign> for
+				<lb/>	<foreign xml:lang='grc'>εκ του γ̅</foreign> <hi rend='underline'><foreign xml:lang='grc'>εις</foreign> is quite certain</hi>. <foreign xml:lang='grc'>Παυνι</foreign> in
+				<lb/><persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName><ptr/>&apos;s copy isnt right.
+				<lb/>	line 11. the first symbol ῐ<note>what is this symbol?</note> seems to represent
+				<lb/><foreign xml:lang='grc'>αρουρα</foreign>, the second 5<note>unsure</note> artabae
+				<lb/>	13. I dont understand the symbol . <del rend='strikethrough'>  </del> 
+				<lb/> is of course <foreign xml:lang='grc'>ιπ(παρχια)</foreign> or some other
+				<lb/>derivative of <foreign xml:lang='grc'>ἵππος.</foreign> But here the symbol seems
+				<lb/>to be <foreign xml:lang='grc'>Μ</foreign> not <foreign xml:lang='grc'>Π</foreign> with an <foreign xml:lang='grc'>Ι</foreign> through the middle.
+				<lb/>(2)<ptr/> <rs n='The Flinders Petri Papyri, Part II' key='Petrie II'><del rend='strikethrough'>P</del> II.</rs> viii col II verso the word before
+				<lb/><foreign xml:lang='grc'>τιραχθησονται</foreign> might be read as <foreign xml:lang='grc'>ε̣π̣ε̣ι</foreign>̣. In the
+				<lb/>next line <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>Wilcken</persName> is, I think, right: It is <foreign xml:lang='grc'>γαρ</foreign>.
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>not Παρα and ιλικ<hi rend='underline'>οι</hi> What you took
-				<lb/>for the second half of Ν is probably only
+				<lb/>not <foreign xml:lang='grc'>παρα</foreign> and <foreign xml:lang='grc'>ιλικ<hi rend='underline'>οι</hi></foreign> What you took
+				<lb/>for the second half of <foreign xml:lang='grc'>Ν</foreign> is probably only
 				<lb/>paint.
-				<lb/>As for επιδανε]ζεσθαι I agree with you
-				<lb/>ζ is unsatisfactory. ν]ιι̣σ̣α̣σθαι could be read
-				<lb/>but it is more like λεσθαι
-				<lb/>(3) II xiv (1a) 9.10 ως δ αν is right
-				<lb/>he made a muddle of it first. ανενενεγ
-				<lb/>καμενον will do. In this scrawl ον, ων
-				<lb/>and αν are indistinguishable, but συνταγον
-				<lb/>wont do. I am prepared to accept <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s
-				<lb/>συντασσηι
-				<lb/>(1b) He seems to have written ουση
-				<lb/>first (perhaps he was going to unite ουσαν)
-				<lb/>and then scratched out ου &amp; put in ο at
-				<lb/>the top ἡ υγιης  is right. In the
-				<lb/>next line τιπο̣ς̣ τ̣α̣ θ̣εμελε της can be
+				<lb/>As for <foreign xml:lang='grc'>επιδανει]ζεσθαι</foreign> I agree with you
+				<lb/><foreign xml:lang='grc'>ζ</foreign> is unsatisfactory. <foreign xml:lang='grc'>ν]ι̣σ̣α̣σθαι</foreign> could be read
+				<lb/>but it is more like <foreign xml:lang='grc'>]λεσθαι</foreign>
+				<lb/>(3)<ptr/> II xiv (1a) 9.10 <foreign xml:lang='grc'>ως δ αν</foreign> is right
+				<lb/>he made a muddle of it first. <foreign xml:lang='grc'>ανενενεγ</foreign><ptr/>
+				<lb/><foreign xml:lang='grc'>καμενον</foreign> will do. In this scrawl <foreign xml:lang='grc'>ον</foreign>, <foreign xml:lang='grc'>ων</foreign>
+				<lb/>and <foreign xml:lang='grc'>αν</foreign> are indistinguishable, but <foreign xml:lang='grc'>συνταγθηι</foreign>
+				<lb/>wont do. I am prepared to accept <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName><ptr/>&apos;s
+				<lb/><foreign xml:lang='grc'>συντασσηι</foreign>
+				<lb/>	(1b) He seems to have written <foreign xml:lang='grc'>ουση</foreign>
+				<lb/>first (perhaps he was going to write <foreign xml:lang='grc'>ουσαν</foreign>)
+				<lb/>and then scratched out <foreign xml:lang='grc'>ου</foreign> &amp; put in <foreign xml:lang='grc'>ο</foreign> at
+				<lb/>the top 	<foreign xml:lang='grc'>ἡ υγιης</foreign> is right. In the
+				<lb/>next line <foreign xml:lang='grc'>προ̣ς̣ τ̣α̣ θ̣εμελε της</foreign> can be
 			</ab>
 			<ab>
-				<lb/>read. He certainly didnt write θεμελι<hi rend='underline'>α</hi>
-				<lb/>but it is possible he inserted [greek] over the
+				<lb/>read. He certainly didnt write <foreign xml:lang='grc'>θεμελι<hi rend='underline'>α</hi></foreign>
+				<lb/>but it is possibl<del rend='overwritten'>y</del>e he inserted <foreign xml:lang='grc'>α</foreign> over the
 				<lb/>line aftewrads, for the papyrus is rubbed
 				<lb/>just at that point
-				<lb/>(4) II xx col I 15 ο]θε̣ν is right.
-				<lb/>(5) xxii 14. about 10 lettesr are lost
-				<lb/>between χυραση̣ι̣ and απο. I cant see
-				<lb/>any ει.
-				<lb/>(6) XXVI (4) 2. the traces before ος will
-				<lb/>do for ημ. Διμναιου of course is
-				<lb/>right as in (3) 2,3 λι/μναιου του παρα
-				<lb/>in (7) I should read τα χαλκου
-				<lb/>[δε]αχμα[ς εξ[VERTICAL BAR] ηκοντα. But I dont
-				<lb/>understand lines 5 and 6 where <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName>&apos;s readings
+				<lb/>(4) II xx col I 15 	<foreign xml:lang='grc'>ο]θ̣ε̣ν</foreign> is right.
+				<lb/>(5)<ptr/> II xxii 14. about 10 letters are lost
+				<lb/>between <foreign xml:lang='grc'>χυραση̣ι̣</foreign> and <foreign xml:lang='grc'>απο</foreign>. I cant see
+				<lb/>any <foreign xml:lang='grc'>ει</foreign>.
+				<lb/>(6)<ptr/> XXVI (4) 2. the traces before <foreign xml:lang='grc'>ος</foreign> will
+				<lb/>do for <foreign xml:lang='grc'>ημ</foreign>. 	<foreign xml:lang='grc'>Λιμναιου</foreign> of course is
+				<lb/>right as in (3) 2,3 <foreign xml:lang='grc'>λι/μναιου του παρα</foreign>
+				<lb/>	In (7)<ptr/> I should read <foreign xml:lang='grc'>𐅂 α χαλκου</foreign>
+				<lb/><foreign xml:lang='grc'>[δρ]αχμα[ς ε<add place='above'>?</add>ξ|ηκοντα</foreign>. But I dont
+				<lb/>understand lines 5 and 6 where <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>M</persName><ptr/>&apos;s readings
 				<lb/>must be wrong. I suspect a mention
-				<lb/>of αργυριον in line 6. n.6. in (8)
-				<lb/>too there was probably a [pegmet] in both
+				<lb/>of <foreign xml:lang='grc'>αργυριον</foreign> in line 6. 	L.6. in (8)<ptr/>
+				<lb/>too there was probably a payment in both
 			</ab>
 			<pb n='3'/>
 			<ab>
-				<lb/>silver &amp; copper. [???] are because of
-				<lb/>a line below αεγ + εκα[τον.
-				<lb/>Ptolemais ὅρμου is by the way
-				<lb/>almost certainly at Illahun. Probably
-				<lb/>the gurob papyri came from its very
+				<lb/>silver &amp; copper. There are traces of
+				<lb/>a line below <foreign xml:lang='grc'>αργ 𐅂 εκα[τον</foreign>.
+				<lb/><placeName ref='Q1302772' n='Ptolemais Hormou' key='Ptolemais Hormou'>Ptolemais <foreign xml:lang='grc'>ὅρμου</foreign></placeName> is by the way
+				<lb/>almost certainly at <placeName ref='Q56924' n='El-Lahun' key='El-Lahun'><hi rend='underlined'>Illahun</hi></placeName><ptr/>. Probably
+				<lb/>the <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName> papyri<ptr/> came from its very
 				<lb/>cemetery.
-				<lb/>Our boxes have come. <persName ref='Q220130' n='Petrie, Flinders' key='Petrie'>Petrie</persName> tells me
+				<lb/>Our boxes<ptr/> have come. <persName ref='Q220130' n='Petrie, Flinders' key='Petrie'>Petrie</persName> tells me
 				<lb/>he only found about 25 papyrus mummies.
 				<lb/>We have parts of 120 (about 60 well
 				<lb/>preserved), so our collection ought to be
-				<lb/>very large, though the pectarels etc are in
+				<lb/>very large, though the pectorals etc are in
 				<lb/>most cases somewhat smaller than the <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName>
 				<lb/>ones.
 				<lb/>Tell <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> I am very sorry he wouldnt
 				<lb/>come here.
-				<lb/>Yours
-				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>.
 			</ab>
+				<ab type="signed">
+				<lb/>					Yours
+				<lb/>						<persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>.
+				</ab>
+			
 		</body>
 	</text>
 </TEI>

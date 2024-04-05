@@ -4,53 +4,150 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>78</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-02-01">February 1, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 4 pages on one sheet folded in half with writing on front and back. </p>
+							<p>Catalog number '78' written in pencil. Previous number "6" at right of '78' erased.</p>
+							<ab type="letterhead" rend="smallcaps red">
+								<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,
+								<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-78_01.dzi"/>Pages 2-3<graphic url="MS4323-78_02.dzi"/>Page 4<graphic url="MS4323-78_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1902-05-05">May 5</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-02-01" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
+
+			<ab type="dateline">
+				<lb/><date when="1902-05-05">May 5</date><ptr/>
+			</ab>
 			<ab>
-				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
-				<lb/>May 5
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>Very many thanks
-				<lb/>for the proof. You have done
+				<lb/>for the proofs. You have done
 				<lb/>a tremendous lot and it is very
-				<lb/>kind of Barz to interest himself
-				<lb/>in them. Plase give him our best
-				<lb/>thanks. As to the ὦ φανεἱς χάρμα
+				<lb/>kind of <persName ref='Q502912' n='Bury, John Bagnell' key='Bury'>Bury</persName> to interest himself
+				<lb/>in them. Please give him our best
+				<lb/>thanks. As to the <foreign xml:lang='grc'>ὦ φανείς χάρμα</foreign>
 				<lb/>piece, our first thought was that it was
-				<lb/>cretis, but we abandoned it in deference
-				<lb/>to <persName ref='Q77619' n='Blass, Friedrich' key='Blass'>Blass</persName> ; and it is too late to alter now
+				<lb/>cretics, but we abandoned it in deference
+				<lb/>to <persName ref='Q77619' n='Blass, Friedrich' key='Blass'>Blass</persName> ; and it is too late to alter now.
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>But your Phacthan idea in the
-				<lb/>epigram seems a great improvement,
+				<lb/>But your Phaethon idea in the
+				<lb/>epigrams seems a great improvement,
 				<lb/>and we shall put that in all right. I
 				<lb/>am most pleased however with your
-				<lb/>remarks on 61 and 72 , in which you
+				<lb/>remarks on <rs ref='Q60204796' n='The Tebtunis Papyri, Part I' key='Tebtunis I'>61 and 72</rs> , in which you
 				<lb/>have gone a long way to clear up
 				<lb/>things . It is all the more welcome
-				<lb/>for because after 4 months abr???
+				<lb/><del rend='strikethrough'>for</del> because after 4 months absence
 				<lb/>it is frightfully difficult to pick
 				<lb/>up all the details again which are
-				<lb/>necessary for a general thing, and I
+				<lb/>necessary for a general theory, and I
 				<lb/>still contemplate Appendix I with
 				<lb/>horror. Appendix II (on <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Eureg. II</persName>)
 				<lb/>is likely to be relegated into a
 			</ab>
+			<pb n='3'/>
 			<ab>
 				<lb/>footnote and App. iii will
-				<lb/>have to be short . It is no good [got?]
+				<lb/>have to be short . It is no good <del rend='strikethrough'>gett-</del>
 				<lb/>trying to get to the bottom yet
 				<lb/>with the very scanty evidence and we
 				<lb/>are under an obligation to get the
@@ -64,13 +161,15 @@
 				<lb/>June for a few days. Otherwise
 				<lb/>we shall sit very tight here till
 			</ab>
-			<pb n='3'/>
+			<pb n='4'/>
 			<ab>
-				<lb/>December. The <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> is clammoring
+				<lb/>December. The <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> is clammouring
 				<lb/>for another Oxyrhynchus vol. and we
 				<lb/>have got to produce it before we go
 				<lb/>out again. I hope you will be
-				<lb/>able to pays us a visit
+				<lb/>able to pays us a visit.
+			</ab>
+			<ab type="signature">
 				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName>,
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>

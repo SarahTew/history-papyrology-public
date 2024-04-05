@@ -4,50 +4,143 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>86</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-08">March 08, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on rector, message written on verso. Printed text and stamp in red ink across top: 'Carte Postale.' Printed ten rappen stamp on the left. One circular postmark on stamp reads: 'AIROLO/24.VI.06–12'. Additionally, 'PIORA' is stamped slightly overlapping the last described postmark.</p>
+							<p>Catalog number '86' written in pencil. Previous number "94" erased and overwritten with "86".</p>
+							<ab type="pchead">
+								<lb/>– <foreign xml:lang='fr'>Carte postale</foreign>. –
+								<lb/><foreign xml:lang='fr'>Union postale universelle</foreign>. – <foreign xml:lang='de'>Weltpostverein</foreign>. – <foreign xml:lang='it'>Unione postale universale</foreign>.
+								<lb/><foreign xml:lang='fr'>SUISSE</foreign>. <foreign xml:lang='de'>SCHWEIZ</foreign>. <foreign xml:lang='it'>SVIZZERA</foreign>.
+								<lb/><foreign xml:lang='de'>Nur für die Adresse</foreign>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-86_01.dzi"/>Page 2<graphic url="MS4323-86_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName ref='Q69265' n='Airolo' key='Airolo'>Airolo</placeName>
+					<date when="1906-06-24">June 24</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-08" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
 			<ab>
-				<lb/>
+				<lb/><foreign xml:lang='fr'>Côté réservé à l&apos;adresse</foreign>.
+			</ab>
+			<ab type="address">
+				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbert' key='Smyly'>J.G. Smyly</persName> Esq
+				<lb/><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity College'>Trinity College</orgName>
+				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
+				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>.
+				<lb/>VIII 05 – 1.584.000 
 			</ab>
 			<ab>
-				<lb/>
-				<lb/>
-			</ab>
-			<ab>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
-				<lb/>
+				<lb/><foreign xml:lang='it'>Lato riservato all&apos; indirizzo</foreign>.
 			</ab>
 			<pb n='2'/>
-			<ab>
-				<lb/>Hotel Piora, <placeName ref='Q69265' n='Airolo' key='Airolo'>Airolo</placeName>, <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName>. June 24.
-				<lb/>I have not been progressing so fast as I hoped and my docter
-				<lb/>recommends me to stay in <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName> thorugh most of
-				<lb/>July. So I shall not be at St. Andrews at their function. Is
-				<lb/>there any chance of persuading you to come out and make a t???,
+			<ab type="dateline">
+				<lb/>Hotel Piora, <placeName ref='Q69265' n='Airolo' key='Airolo'>Airolo<ptr/></placeName>, <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName>. June 24<ptr/>.
+				<lb/>I have not been progressing so fast as I hoped<ptr/> and my docter
+				<lb/>recommends me to stay in <placeName ref='Q39' n='Switzerland' key='Switzerland'>Switzerland</placeName> through most of
+				<lb/>July. So I shall not be at <orgName ref='Q216273' n='University of St Andrews' key='St Andrews'>St Andrews</orgName> at their function. Is
+				<lb/>there any chance of persuading you to come out and make a tour,
 				<lb/>like that delightful one of last year? I am at present at <placeName ref='Q56033774' n='Val Piora' key='Piora'>Piora</placeName>
 				<lb/>with two colleagues, who will be staying on for 10 days or a
 				<lb/>fortnight: but I am not very much enamoured of this place and would
 				<lb/>infinitely rather join you. I would suggest that, if you could
-				<lb/>come out, the <placeName ref='Q204247' n='Zinal' key='Zinal'>Zinal valley</placeName> which is next to^ <add place='above'>the</add> <placeName ref='Q69551' n='Evolène' key='Evolène'>Evolene</placeName> ??, would
-				<lb/>be an excellent one to explore. The station is <placeName ref='Q68297' n='Sierre' key='Sierre'>Sierre</placeName>,
-				<lb/>next to <placeName ref='Q68136' n='Sion' key='Sion'>Sion</placeName>. I shall certainly leave this^place by July 34rd.
+				<lb/>come out, the <placeName ref='Q204247' n='Zinal' key='Zinal'>Zinal valley<ptr/></placeName> which is next to^ <add place='above'>the</add> <placeName ref='Q69551' n='Evolène' key='Evolène'>Evolena<ptr/></placeName> one, would
+				<lb/>be an excellent one to explore. The station is <placeName ref='Q68297' n='Sierre' key='Sierre'>Sierre<ptr/></placeName>,
+				<lb/>next to <placeName ref='Q68136' n='Sion' key='Sion'>Sion<ptr/></placeName>. I shall certainly leave this^place by July 3rd.
+			</ab>
+			<ab type="signed">
 				<lb/>Yours ever <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
 			</ab>
 		</body>

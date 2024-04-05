@@ -4,14 +4,109 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>99</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-02-06">February 6, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on recto, message written on verso. Printed text and stamp in red ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below that is printed in red ink 'The address to be written on this side." in small caps. Printed half-penny stamp in upper right. Circular postmark in black ink reads: OXFORD/8.30.PM/MY 18/00</p>
+							<p>Printed postcard heading at top reads:</p>
+							<ab type="pchead">
+								<lb/>POST CARD
+								<lb/><hi rend='smallcaps red'>The address to be written on this side.</hi>
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-99_01.dzi"/>Page 2<graphic url="MS4323-99_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1900-05-18">May 18</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-02-06" who="MYou">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -27,21 +122,23 @@
 				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>.
 			</ab>
 			<pb n='2'/>
-			<ab>
-				<lb/>May 18
+			<ab type="dateline">
+				<lb/>May 18<ptr/>
 			</ab>
 			<ab>
 				<lb/>Very many thanks for your long letter. The information will be
-				<lb/>of much relue to us. No doubt you are right in supposing that
-				<lb/>in <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.II</rs> xxviii the addition of the <foreign xml:lang='gr'>μερις</foreign> indicates the existence
+				<lb/>of much value to us. No doubt you are right in supposing that
+				<lb/>in <rs ref='https://papyri.info/ddbdp/p.petr;2;28' n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.II xxviii</rs><ptr/> the addition of the <foreign xml:lang='grc'>μερις</foreign> indicates the existence
 				<lb/>the existence of another village of the same name in a different
-				<lb/><foreign xml:lang='gr'>μερις</foreign>. But in formal documents the <foreign xml:lang='gr'>μερις</foreign> is generally added
-				<lb/>even wehn we have no reason to ?<add place='overwrite'>s</add>uspect the existence of a
+				<lb/><foreign xml:lang='grc'>μερις</foreign>. But in formal documents the <foreign xml:lang='grc'>μερις</foreign> is generally added
+				<lb/>even when we have no reason to <del rend='overwritten'>e</del><add place='overwrite'>s</add>uspect the existence of a
 				<lb/>synonymous village. I dont think however that your
 				<lb/>supposition that villages with a special addition necessarily
-				<lb/>had a synonymous village in the <hi rend='underline'>same</hi> μερις is right. <foreign xml:lang='gr'>Πτολ.</foreign>
-				<lb/><foreign xml:lang='gr'>δρυμος</foreign> is in the <foreign xml:lang='gr'>μερις <hi rend='underline'>Θεμιστου</hi></foreign> (B.G.U. 78.1). <foreign xml:lang='gr'>Πτολ</foreign>
-				<lb/><foreign xml:lang='gr'>νεα</foreign> and <foreign xml:lang='gr'>Πτολ. Ευεργετις</foreign> were certainly in Heraclides
+				<lb/>had a synonymous village in the <hi rend='underline'>same</hi> <foreign xml:lang='grc'>μερις</foreign> is right.<placeName ref='https://www.trismegistos.org/place/2022 ' n='Ptolemais Drymou' key='Ptolemais Drymou'> <foreign xml:lang='grc'>Πτολ.</foreign></placeName>
+				<lb/><foreign xml:lang='grc'><placeName ref='https://www.trismegistos.org/place/2022 ' n='Ptolemais Drymou' key='Ptolemais Drymou'>δρυμος</placeName></foreign><ptr/> is in the <foreign xml:lang='grc'><placeName ref='Q42889924 ' n='Themistou Meris' key='Themistou Meris'>μερις <hi rend='underline'>Θεμιστου</hi></placeName></foreign><ptr/>. (<rs n='Aegyptische Urkunden aus den Königlichen (later Staatlichen) Museen zu Berlin, Griechische Urkunden, II Band. Berlin.' key='B.G.U. II'>B.G.U.</rs> 78.1<ptr/>). <foreign xml:lang='grc'><placeName ref='https://www.trismegistos.org/place/2027' n='Ptolemais Nea' key='Ptolemais Nea'>Πτολ</placeName></foreign>
+				<lb/><foreign xml:lang='grc'><placeName ref='https://www.trismegistos.org/place/2027' n='Ptolemais Nea' key='Ptolemais Nea'>νεα</placeName></foreign><ptr/> and <foreign xml:lang='grc'><placeName ref='Q1996721 ' n='Krokodilopolis' key='Krokodilopolis'>Πτολ. Ευεργετις</placeName></foreign><ptr/> were certainly in <placeName ref='https://www.trismegistos.org/place/788' n='Herakleidou Meris' key='Herakleidou Meris'>Heraclides</placeName><ptr/> 
+			</ab>
+			<ab type="signed">
 				<lb/>yours
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
 			</ab>

@@ -4,117 +4,210 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>93</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-15">March 15, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 4 pages on one folded sheet with writing on front and back. An additional sheet, is written front and back and added to the the letter proper.</p>
+							<p>Catalog number "93" written in pencil. Previous number "101" erased and overwritten with "93".</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-93_01.dzi"/>Pages 2-3<graphic url="MS4323-93_02.dzi"/>Page 4<graphic url="MS4323-93_03.dzi"/>Page5<graphic url="MS4323-93_04.dzi"/>Page6<graphic url="MS4323-93_05.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained and represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1898-10-12">Oct 12</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-15" who="GSidro">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
+			<ab type="dateline" rend="right">
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
-				<lb/>Oct 12
+				<lb/><date>Oct 12</date><ptr/>
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>I have looked at the
-				<lb/>Damanthûs stele which is a
+				<lb/><rs ref='Q17012834' n='Damanhûr stele' key='Damanhûr stele'>Damanhûr stele</rs><ptr/> which is a
 				<lb/>shortened copy of the hieroglyphics
 				<lb/>of the <rs ref='Q48584' n='Rosetta Stone' key='Rosetta'>Rosetta</rs>, with many
-				<lb/>blunders acc. to <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriant</persName> (whose
-				<lb/>edition contains several misprints)
-				<lb/>It is dated in the 23rd year of
-				<lb/><persName ref='wiki/Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V'>Epiphanes</persName>, Sorpiaeu 24 = Phar-
-				<lb/>monthi 24 of Itet there is no
+				<lb/>blunders acc. to <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriant</persName><ptr/><del rend='overwritten'>,</del> (whose
+			<lb/>edition<ptr/> contains several misprint <del rend='overwritten'>.</del>)
+				<lb/>It is dated in the 23d year of
+				<lb/><del rend='overwritten'>P</del><persName ref='wiki/Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V'>Epiphanes</persName>, Gorpiaeus 24 = Phar-
+				<lb/>mouthi 24. Of that there is no
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>doubt. My mother who knows
+				<lb/>doubt. My <persName ref='Q18572202' n='Alice Pyne Grenfell' key='Alice Grenfell'>mother</persName><ptr/> who knows
 				<lb/>a fair amount of hieroglyphics has
-				<lb/>looked at <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriant</persName>s text &amp; the
+				<lb/>looked at <persName ref='Q508907' n='Bouriant, Urbain' key='Bouriant'>Bouriants</persName> text &amp; the
 				<lb/>photograph. If there is a mistake
-				<lb/>in the name of the months it [???] is
+				<lb/>in the name of the months it <del rend='strikethrough'>wou</del> is
 				<lb/>more likely to be in the Egyptian than
 				<lb/>in the Macedonian, which is written
-				<lb/>out in letters Qrpiais, while the Egyptian
+				<lb/>out <add place='above'>in letters</add> Qrpiais, while the Egyptian
 				<lb/>is written in the ordinary way
 				<lb/>&quot;going out month 4&quot; i.e.
-				<lb/>Pharmuthi.
+				<lb/>Pharmouthi.
 				<lb/>I am sorry that we dont think
-				<lb/>either Αχισιου or ενατ̣η possible
+				<lb/>either <foreign xml:lang='grc'>Δαισιου</foreign> or <foreign xml:lang='grc'>ενατη</foreign> possible
 			</ab>
 			<ab>
 				<lb/>readings in the papyrus you saw,
 				<lb/><del rend='strikethrough'>while</del> and I do not understand your
 				<lb/>reference of the other papyrus to
-				<lb/><persName ref='Q39976' n='Ptolemy VII Neos Philopator' key='Ptolemy VII'>Philopater Neos</persName>. It is clearly
+				<lb/><persName ref='Q39976' n='Ptolemy VII Neos Philopator' key='Ptolemy VII'>Philopatοr Neos</persName>.<ptr/> It is clearly
 				<lb/><persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>Philometor</persName>, and the name of
-				<lb/>the ιερεια Αρσινοης Φιλοπατρος 
-				<lb/>in both agress with the <rs ref='Q48584' n='Rosetta Stone' key='Rosetta'>Rosetta</rs>
-				<lb/>&amp; Damenthûs inscriptions, showing
+				<lb/>the <foreign xml:lang='grc'>ιερεια Αρσινοης Φιλοπατορος</foreign> 
+				<lb/>in both agrees with the <rs ref='Q48584' n='Rosetta Stone' key='Rosetta'>Rosetta</rs>
+				<lb/>&amp; <rs ref='Q17012834' n='Damanhûr stele' key='Damanhûr stele'>Damenhûr</rs> inscriptions, showing
 				<lb/>she was priestess fr. the 9th of <persName ref='Q39957' n='Ptolemy V Epiphanes' key='Ptolemy V'>Ptol V</persName>
 				<lb/>to the 8th of <persName ref='Q39976' n='Ptolemy VII Neos Philopator' key='Ptolemy VII'>Ptol VII</persName> (or <persName ref='Q39952' n='Ptolemy VI' key='Ptolemy VI'>VI</persName> if
-				<lb/>we are to believe Stack).
+				<lb/>we are to believe <persName ref='Q1912916' n='Max L. Strack' key='Strack'>Strack</persName><ptr/>).
 				<lb/>By the way I am reviewing his
-				<lb/>book on the Ptolemis for the Clan.
+				<lb/><rs n='M. L. Strack, Die Dynastie der Ptolemäer ' key='Die Dynastie der Ptolemäer '>book</rs> on the Ptolemies for the Class.
 			</ab>
 			<pb n='3'/>
 			<ab>
-				<lb/>Review. May I refer to the fact
-				<lb/>that youa re re-editing the P.P.? I
-				<lb/>I am going to take him for treating
+				<lb/><rs n='B. P. Grenfell, Review: Strack&apos;s &quot;Dynasty of the Ptolemies&quot; ' key='Review of Strack&apos;s Die Dynastie '>Review</rs>.<ptr/> May I refer to the fact
+				<lb/>that you are re-editing the <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.</rs>? <del rend='strikethrough'>II</del><ptr/>
+				<lb/>I am going to slate him for treating
 				<lb/><persName ref='Q39976' n='Revillout, Eugène' key='Revillout'>Revillout</persName> so seriously. For the latter
-				<lb/>gentlmen we are preparing a
-				<lb/>further excursus in our next volume
-				<lb/>on the subject of dowry. I think
-				<lb/>we can leave him, <persName ref='Q28147430' n='Wessely, Karl' key='Wessely'>Wessely</persName> &amp; <persName ref='Q830421' n='Mitteis, Ludwig' key='Mitteis'>Mitteis</persName>
+				<lb/>gentleman we are preparing a
+				<lb/>further excursus in our <rs n='The Oxyrhyncus Papyri, Part II' key='Oxyrhyncus II'>next volume</rs>
+				<lb/>on the subject of dowry.<ptr/> I think
+				<lb/>we can have him, <persName ref='Q28147430' n='Wessely, Karl' key='Wessely'>Wessely</persName> &amp; <persName ref='Q830421' n='Mitteis, Ludwig' key='Mitteis'>Mitteis</persName>
 				<lb/>on toast.
 				<lb/>I enclose copies of the protocols
-				<lb/>of the two Amherst papyri. If you
+				<lb/>of the two <rs ref='Q21118630' n='The Amherst Papyri' key='Amherst Papyri'>Amherst papyri</rs>. If you
 				<lb/>refer to them in print, please call them
-				<lb/><persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A</persName>&apos;s. We hope to publish his ppayri
+				<lb/><persName ref='Q333839' n='William Tyssen-Amherst, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A</persName>&apos;s.<ptr/> We hope to publish his papyri
 				<lb/>in 1900.
+			</ab>
+			<ab type="signed">
 				<lb/>Yours ever
-				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName>
+				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
 			</ab>
 			<pb n='4'/>
-			<ab>
-				<lb/><foreign xml:lang='gr'>ε̣̣̣π̣ι̣ . . . . . [ ] . . . . καηρθρω Αρσινοης Φιλα</foreign>
-				<lb/><foreign xml:lang='gr'>δελφοθ [???]. . . . . . . . . . ἷερειας Αρσινοης</foreign>
-				<lb/><foreign xml:lang='gr'>φιλοπατορος Ειρηης τησ πτολεμαιον μηνος Διον ενατη[ι?</foreign>
-				<lb/><foreign xml:lang='gr'>και εικαδι παχων [9-11] ε̣ι̣κ̣α̣δ̣ι <sup>(4)</sup> εν κροκοδιλων πυλει</foreign>
-				<lb/><foreign xml:lang='gr'>10 Του Αρσινοιτο[υ νομου</foreign>
-				<lb/>(1) I feel no doubt about <foreign xml:lang='gr'>ογδοσυ</foreign>. It isnt a bit like <foreign xml:lang='gr'>ενατυν</foreign> or any
-				<lb/>of the other numbers to to 10.
-				<lb/>(2) The plural <del rend='overwritten'>s</del><add place='overwrite'>h</add>ere &amp; in the other papyrus must be a mistake due to the other
-				<lb/>plurals, as he wasnt^ <add place='above'>(according to the and. theory)</add> named, to Cleop. then, or could Cleop. have been
+			<ab type="postscript">
+				<lb/><foreign xml:lang='grc'>ε̣̣̣π̣ι̣ . . . . . [ ] . . . . . κανηφορου Αρσινοης Φιλα</foreign>-
+				<lb/><foreign xml:lang='grc'>δελφου Σι<del rend='strikethrough'>[</del>. . . . . . . . . . ἱερειας Αρσινοης</foreign>
+				<lb/><foreign xml:lang='grc'>Φιλοπατορος Ειρηνης της Πτολεμαιου μηνος Διου ενατη[ι?</foreign>
+				<lb/><foreign xml:lang='grc'>και εικαδι Παχων [9<add place='below'>letters</add>–11] ε̣ι̣κ̣α̣δ̣ι <add place="above">(4)</add> εν Κροκοδιλων πολει</foreign>
+				<lb/><foreign xml:lang='grc'>10 Του Αρσινοιτο[υ νομου</foreign>
+				<lb/>(1) I feel no doubt about <foreign xml:lang='grc'>ογδοου</foreign>. It isnt a bit like <foreign xml:lang='grc'>ενατου</foreign> or any
+				<lb/>of the other numbers up to 10.
+				<lb/>(2) The plural <del rend='overwritten'>s</del>here &amp; in the other pap. must be a mistake due to the other
+				<lb/>plurals, as he wasnt^ <add place='above'>(according to the ord. theory)</add> married to <persName ref='Q40247' n='Cleopatra II Philometor Soteira' key='Cleopatra II'>Cleop.</persName><ptr/> then, or could <persName ref='Q40247' n='Cleopatra II Philometor Soteira' key='Cleopatra II'>Cleop.</persName> have been
 				<lb/>deified with him at an early age? Possibly she was married to him very early
-				<lb/>&amp; only put on the protocols as <foreign xml:lang='gr'>βασιλισσα</foreign> afterwards?
-				<lb/>(3) I cant make anything fit except <foreign xml:lang='gr'>δωτιρον</foreign> (4) more like εικαδι than κατηι
+				<lb/>&amp; only put on the protocols as <foreign xml:lang='grc'>βασιλισσα</foreign> afterwards?
+				<lb/>(3) I cant make anything fit except <foreign xml:lang='grc'>δευτερου</foreign>. (4) more like <foreign xml:lang='grc'>εικαδι</foreign> than <foreign xml:lang='grc'>κατηι</foreign>
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
 			</ab>
 			<pb n='5'/>
-			<ab>
+			<ab type="postscript">
 				<lb/><rs ref='Q21118630' n='The Amherst Papyri' key='Amherst'>Amherst Papyri</rs>
-				<lb/>1. Βασιλευοντος Πτολεμαιου του Πτολεμαιου και κλεοπατρας θεω̣ν̣ επιφανω̣ν̣ ετοθσ ογδο̣α̣θ̣ (1)
-				<lb/>εφ ιερεωσ Ηρακλείου του . . . . φ̣ου Αλεχανδρον και θεωνσωτηρων και θ[εω]ν αδελ. και θ. εθρ.
-				<lb/>και Θ. φιλοπατ. και θεοων επιρανων και θεων πηιλομη τθρων αθλ. Βερεν. Εθεργ. . . . . . .
-				<lb/>κανηρορ. Αρσιν. Πηιλαδελπφοθ Α̣ρι̣στ̣ο̣κ			ου ιερειασ Αρσινοησ Πηιλοπ.
-				<lb/><hi rend='underline'>5</hi> Ειρηνησ τησ πτθλεμαιοθ μενοσ Λωιοθ τρεισκαιδεκατηι Μεχειρ τρεισκαιδεκατηιεντηι
-				<lb/>?οκνοπαιου Νησωι τοθ Αρισινοιτου νομου.
-				<lb/>2. a very cursive &amp; illegible dol. of 19 lines.
+				<lb/><foreign xml:lang='grc'>1.<ptr/> Βασιλευοντος Πτολεμαιου του Πτολεμαιου και Κλεοπατρας θεω̣ν̣ επιφανω̣ν̣ ετους ογδο̣ο̣υ̣ <add place="above">(1)</add></foreign>
+				<lb/><foreign xml:lang='grc'>εφ ιερεως Ηρακλειῖου του . . . . φ̣ου Αλεξανδρου και θεωνσωτηρων και θ[εω]ν α<del rend='overwritten'>λ</del>δελ. και θ. ευερ.</foreign>
+				<lb/><foreign xml:lang='grc'>και Θ. Φιλοπατ. και θεων επιφανων και θεων φιλομητορων <add place="above">(2)</add> αθλ. Βερεν. Ευεργ. . . . . . .</foreign>
+				<lb/><foreign xml:lang='grc'>Κανηφορ. Αρσιν. Φιλαδελφου Α̣ρι̣στ̣ο̣κ			ου ιερειας Αρσινοης Φιλοπ.</foreign>
+				<lb/><foreign xml:lang='grc'><hi rend='underline'>5</hi> Ειρηνης της Πτολεμαιου μενος Λωιου τρεισκαιδεκατηι Μεχειρ τρεισκαιδεκατηι εν τηι</foreign>
+				<lb/><foreign xml:lang='grc'>Σοκνοπαιου Νησωι του Αρισινοιτου νομου.</foreign>
+				<lb/>2.<ptr/> a very cursive &amp; illegible doc. of 19 lines
 				<lb/>then
-				<lb/>Βασιλεθοντ[ο]ς Πτολεμαιον [τ]ου Πτολεμαιου και
-				<lb/>Κλεοπατρ[α] Θεω[ν] ετοθσ δ̣ε̣[θ]τερο̣[θ <sup>(3)</sup>
-				<lb/>εφ[ιε]ρεω[σ π<sup>?</sup>ο]σε[ι<sup>?</sup>δ]ω̣νιου του Ποσειδωνιοθ Αλεζανδρο[υ
-				<lb/>και θεων ωτ[ηρων και θε]ων αδελφων και θεον επιρανων και θεων
-				<lb/><hi rend='underline'>5</hi> φιλομητορων αθ[λοφυρου] Β[ερ]ενικης Ευεργετιδος
-				<lb/>P.T.O.
+				<lb/><foreign xml:lang='grc'>Βασιλευοντ[ο]ς Πτολεμαιον [τ]ου Πτολεμαιου και</foreign>
+				<lb/><foreign xml:lang='grc'>Κλεοπατρ[ας] Θεω[ν] επιφανων ετους δ̣ε̣[υ]τερο̣[υ <add place="above">(3)</add></foreign>
+				<lb/><foreign xml:lang='grc'>εφ [ιε]ρεω[ς Π<add place="above">?</add>ο]σε[ι<add place="above">?</add>δ]ω̣νιου του Ποσειδωνιου Αλεξανδρο[υ</foreign>
+				<lb/><foreign xml:lang='grc'>και θεων σωτ[ηρων και θε]ων αδελφων και θεων επιφανων και θεων</foreign>
+				<lb/><foreign xml:lang='grc'><hi rend='underline'>5</hi><ptr/> φιλομητορων αθ[λοφορου] Β[ερ]ενικης Ευεργετιδος</foreign>
+				<lb/><choice><expan>please turn over</expan><abbr>P.T.O.</abbr></choice>
 			</ab>
 		</body>
 	</text>

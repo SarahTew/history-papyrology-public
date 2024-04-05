@@ -39,6 +39,13 @@
 							<p>Handwritten letter on one rectangular sheet folded in half, written in four sections, then folded in half again. '53' written in pencil below date. Erased pencil markings '61'rubbed out and overwitten by '53'.</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-53_01.jpg"/>Pages 2-3<graphic url="MS4323-53_02.jpg"/>Page 4<graphic url="MS4323-53_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>

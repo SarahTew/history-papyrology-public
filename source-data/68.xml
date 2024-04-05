@@ -40,6 +40,13 @@
 							<p>Catalog number '68' written in pencil left of dateline.</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-68_01.jpg"/>Pages 2-3<graphic url="MS4323-68_02.jpg"/>Pages 4-5<graphic url="MS4323-68_03.jpg"/>Page 6 <graphic url="MS4323-68_04.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
@@ -156,7 +163,7 @@
 				<lb/>partly Arabs, partly fellahîn, who tend to
 				<lb/>quarrel a good bit.<ptr/> One of the periodical fights occurred
 				<lb/>the other day, and I descended into the arena to part
-				<lb/><add place='left' rend='inline'>them</add> with the result that my should is still stiff
+				<lb/><add place='left' rend='inline'>them</add> with the result that my shoulder is still stiff
 				<lb/>from the vigour with which I belaboured the
 				<lb/>heads of both parties!<ptr/>
 				<lb/>Despite the heat which will soon be rather

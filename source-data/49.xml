@@ -36,7 +36,7 @@
 					</msIdentifier>
 					<physDesc>
 						<objectDesc>
-							<p>Handwritten postcard. Address written on rector, message written on verso. Printed text and stamp in reddish brown ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below 'POST CARD' is printed 'The address to be written on this side.' in small caps. Printed half-penny stamp in upper right. One circular postmark on stamp reads: OXFORD 9.30AM/NO13/03/2</p>
+							<p>Handwritten postcard. Address written on rector, message written on verso. Printed text and stamp in green ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below 'POST CARD' is printed 'The address to be written on this side.' in small caps. Printed half-penny stamp in upper right. One circular postmark on stamp reads: OXFORD 9.30AM/NO13/03/2</p>
 							<p>Printed postcard heading at top reads:</p>
 							<ab type="pchead">
 								<lb/>POST CARD
@@ -44,6 +44,13 @@
 							</ab>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-49_01.jpg"/>Page 2<graphic url="MS4323-49_02.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>

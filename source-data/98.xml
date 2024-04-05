@@ -4,14 +4,108 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>98</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-08">March 08, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on recto, message written on verso. Printed text and stamp in green ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below 'POST CARD' is printed 'The address to be written on this side.' in small caps. Printed half-penny stamp in upper right. One circular postmark with black ink reads: OXFORD 6.30PM/JU 15/02/1'47' '38' written in pencil directly below printed stamp.</p>
+							<p>Printed postcard heading at top reads:</p>
+							<ab type="pchead">
+								<lb/>POST CARD
+								<lb/><hi rend='smallcaps'>THE ADDRESS TO BE WRITTEN ON THIS SIDE.</hi>
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-98_01.dzi"/>Page 2<graphic url="MS4323-98_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Oxford</placeName>
+					<date when="1902-07-15"></date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-08" who="MYou">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -21,7 +115,7 @@
 				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
 			</ab>
 			<ab>
-				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J.G. Smyly</persName>
+				<lb/><persName ref='Q76338502' n='J. Gilbart Smyly' key='Smyly'>J.G. Smyly</persName>
 				<lb/><del rend='overwritten'>E</del><orgName ref='Q258464' n='Trinity College Dublin' key='Trinity'><add place='overwrite'>T</add>rinity College</orgName>
 				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
 				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>
@@ -30,18 +124,18 @@
 			<ab>
 				<lb/>Delighted to hear you will come in July. We
 				<lb/>shall be both here after the 4th indefinitely. I havent
-				<lb/>nearly finished App. i. The result of going over the
-				<lb/><foreign xml:lang='gr'>καταφύλλον</foreign> reports with the other things in my head is
-				<lb/>to bring out several new points and the commentary on <hi rend='underline'>62</hi>b
+				<lb/>nearly finished <rs ref='Q60204796' n='The Tebtunis Papyri, Part I' key='Tebtunis I'>App. i.</rs><ptr/> The result of going over the
+				<lb/><foreign xml:lang='grc'>καταφύλλον</foreign> reports with the other things in my head is
+				<lb/>to bring out several new points and the commentary on <hi rend='underline'>62</hi>b<ptr/>
 				<lb/>will be frightfully hashed up again. We have also
-				<lb/>fished up on a verso some more decrees of <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Euerg II</persName>
-				<lb/>rather like 5, but that d-l to read. These too have
-				<lb/>to be printed. As to lend <foreign xml:lang='gr'>ἐν επιστάσει</foreign> I think I have
+				<lb/>fished up on a verso some more <rs ref='https://papyri.info/ddbdp/sb;8;9899b' n='Decrees of King Ptolemy VIII Euergetes II' key='Decrees'>decrees<ptr/> of <persName ref='Q3350' n='Ptolemy VIII Physcon' key='Ptolemy VIII'>Euerg II</persName></rs><ptr/>
+				<lb/>rather like <hi rend='underline'>5</hi><ptr/>, but that <choice><expan>devil</expan><abbr>d-l</abbr></choice><ptr/> to read. These too have
+				<lb/>to be printed. As to land <foreign xml:lang='grc'>ἐν επιστάσει</foreign> I think I have
 				<lb/>got a theory which will work. It is a misidentification of yours.
-				<lb/>App. ii on the coins wont get started for another 2 or 3
-			</ab>
-			<ab>
+				<lb/><rs ref='Q60204796' n='The Tebtunis Papyri, Part I' key='Tebtunis I'>App. ii</rs> on the coins<ptr/> wont get started for another 2 or 3
 				<lb/>weeks.
+			</ab>
+				<ab type="signed">
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
 			</ab>

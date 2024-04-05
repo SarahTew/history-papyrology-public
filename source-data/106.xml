@@ -4,83 +4,133 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>106</title>
+				<author>A.S. Hunt</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-08">March 08, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one sheet with writing on front only. </p>
+							<p>Catalog number '107' written in pencil.</p>
+							<p>Printed letterhead in black ink at top right reads:</p>
+							<ab type="letterhead" rend="smallcaps black">
+								<lb/><orgName ref="Q73094" n="The Queen&apos;s College"
+									key="Queen&apos;s College">Queen&apos;s College</orgName>
+								<lb/><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-107_01.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by A.S. Hunt.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>A.S. Hunt</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1926-05-20"></date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-08" who="MYou">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
 			<ab>
-				<lb/>6 Chadlington Road
-				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'><hi rend='smallcaps'><del rend='strikethrough'>Queen&apos;s College</del></hi></orgName>,
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'><hi>Oxford</hi></placeName>.
-				<lb/>20 May 1926
-			</ab>
-			<ab>
-				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>
-				<lb/>You will ahve seen the news
-				<lb/>of Grenfell&apos;s departure. It came as
-				<lb/>a bit of a shock, as the latest
-				<lb/>report had been better, and he
-				<lb/>had lately written some postcards
-				<lb/>(perhaps you had one), and said
-				<lb/>he might/should? be expected in <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
-				<lb/>Well, he is coming, though not
-				<lb/>as he intended, poor chap. I
-				<lb/>dont think there was any longer
-				<lb/>a real hope of recovery, and so
-				<lb/>one can hardly regret t??e the?
-				<lb/>end has not been long delayed.
-				<lb/>The funeral is to take place
-				<lb/>here on Saturday.
-				<lb/>By his will, made in 1907, he
-				<lb/>bequethed to you the papyri ob-
-			</ab>
-			<pb n='2'/>
-			<ab>
-				<lb/>tained by him from <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName> in 1894-5.
-				<lb/>I see that in your preference to
-				<lb/>&quot;???le papyri from <placeName ref='Q1555240' n='Gurob' key='Gurob'>Gurob</placeName>&quot; you say 
-				<lb/>that this customary had been
-				<lb/>&quot;given&quot; to you: did you use &quot;give&quot;
-				<lb/>in the full sense of the word, I
-				<lb/>wonder, and if so, was this gift
-				<lb/>subsequent to the will? You see,
-				<lb/>there is the question of proobate; if
-				<lb/>a valuation and duty can be
-				<lb/>escaped, so much the better of
-				<lb/>course.
-				<lb/>While there was still a possi-
-				<lb/>bility that <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Grenfell</persName> might one
-				<lb/>day return work, I deliberately
-				<lb/>????? aside the publication of
-				<lb/><rs n='The Tebtunis Papyri, Part 3' key='Tebtunis III'>Tebtunis III</rs>, but now I shall
-				<lb/>have to face it though being
-				<lb/>in the mind ??? of other things I
-				<lb/>can do nothing for as present at
-				<lb/>any rate. I think that he
-			</ab>
-			<pb n='1'/>
-			<ab>
-				<lb/><del rend='strikethrough'>I the</del> received from you the
+				<lb/><hi rend='smallcaps'><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,</hi>
+				<lb/><hi rend='smallcaps'><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.</hi>
+				<lb/><del rend='strikethrough'>I th</del>i received from you the
 				<lb/>bulk of the collection, didn&apos;t he ?
-				<lb/>Have you still at <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> any
+				<lb/>Have you still at <placeName ref='Q1761' type='city' n='Dublin' key='Dublin'>Dublin</placeName> any
 				<lb/>part of it, or <del rend='strikethrough'>of</del> other carton-
 				<lb/>nage from our diggings ? (I don&apos;t
 				<lb/>want them : merely for information )
-				<lb/>I hope that you flourish.
+				<lb/>	I hope that you flourish.
 				<lb/>The summer term here has
-				<lb/>been much upset by the strike,
+				<lb/>been much upset by the strike<ptr/>,
 				<lb/>of course, but the men are
 				<lb/>all back at work again now.
+				<ab type="signed">
 				<lb/>Yoursever
-				<lb/><persName ref='Q573778' key='Hunt' n='Hunt, Arthur Surridge'>A.S. Hunt</persName>
+				<lb/><persName ref='Q573778' key='Hunt'>A.S. Hunt</persName>
+				</ab>
 			</ab>
 		</body>
 	</text>

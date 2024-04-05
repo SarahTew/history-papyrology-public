@@ -1,33 +1,114 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>76</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name></respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2022-07-14">July 14, 2022</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet folded in half. '84' erased and overwritten by '76' in pencil at top right.</p>
+							<p>Printed letterhead in red ink at top right reads:</p>
+							<ab>
+							<lb/><placeName ref='Q3402621' n='Penrhyn Castle' key='Penrhyn'>Penrhyn Castle</placeName>,
+							<lb/><placeName ref='Q234178' n='Bangor' key='Bangor'>Bangor</placeName>,
+							<lb/><placeName ref='Q1892770' n='North Wales' key='N.Wales'>N.Wales</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-76_01.jpg"/>Pages 2-3<graphic url="MS4323-76_02.jpg"/>Page 4<graphic url="MS4323-76_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of a final project [insert further info/link on edition] by Sarah Tew in fulfillment of a Laurea Magistrale in Digital Humanities and Digital Knowledge at the University of Bologna under the supervision of Dr. Giulio Iovine (sponsor) and Dr. Paola Italia (co-sponsor) and in affiliation with Dr. Todd Hickey, Director of the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes><handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName>Penrhyn Castle</placeName>
+					<date when="1900-09-23"></date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-06" who="STew"> Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
 			<ab>
-				<lb/><placeName ref='Q3402621' n='Penrhyn Castle' key='Penrhyn'>Penrhyn Castle</placeName>.
-				<lb/><placeName ref='Q234178' n='Bangor' key='Bangor'>Bangor</placeName>,
-				<lb/><placeName ref='Q1892770' n='North Wales' key='N.Wales'>N.Wales</placeName>.
-				<lb/>Sept. 23
+				<lb/>Sept 23
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>Come any day
 				<lb/>you like after the 1st Oct.
 				<lb/>Probably <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> has told you
 				<lb/>we opened a few boxes for him
-				<lb/>and some nice? things emerged
-				<lb/>when you come we will go through
+				<lb/>and some nice<del rend='strikethrough'>r</del> things emerged
+				<lb/>When you come we will go through
 				<lb/>some more. I am here for a brief
 				<lb/>holiday but return to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> on
 			</ab>
@@ -37,14 +118,14 @@
 				<lb/>to take the concluding part of
 				<lb/>the index to the Press on Monday <add place='above'>Oct 1st</add>;
 				<lb/>we are well on with correcting
-				<lb/>the proofs. I hope the P.P.
+				<lb/>the proofs.<ptr/> I hope the <rs n='The Flinders Petrie Papyri, Part I' key='Petrie I'>P.P.</rs>
 				<lb/>are progressing.
-				<lb/>The Amherst papyri are I am
+				<lb/>The <rs ref='The Amherst Papyri' n='Q21118630' key='Amherst Papyri'>Amherst papyri</rs> are I am
 				<lb/>aware not much in your line.
 				<lb/>Still the set up &amp; the plates are
 				<lb/>pretty and you may as well
 				<lb/>have both parts. Whether
-				<lb/><persName ref='Q333839' n='Tyssen-Amherst, William, 1st Baron Amherst of Hackney' key='Lord Amherst'>Lord A.</persName> will stand having the
+				<lb/><persName ref='William Tyssen-Amherst, 1st Baron Amherst of Hackney' n='Q333839' key='Lord Amherst'>Lord A.</persName><ptr/> will stand having the
 			</ab>
 			<pb n='3'/>
 			<ab>
@@ -57,7 +138,7 @@
 				<lb/>most of it before we leave &amp;
 				<lb/>are postponing our departure
 				<lb/>till about Nov. 20th
-				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
+				<lb/><foreign xml:lang='fr'>au revoir</foreign>
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>Bernard P. Grenfell</persName>
 			</ab>

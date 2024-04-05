@@ -4,14 +4,111 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>97</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-01">March 1, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter on one rectangular sheet folded in half. All four pages that are created have handwritten texts on them. </p>
+							<p>Catalog number '97' written in pencil. Previous number that starts with "1" erased and overwritten with "97".</p>
+							<p>Printed letterhead in red ink at top right reads:</p>
+							<ab type="letterhead" rend="smallcaps red">
+								<lb/><orgName ref="Q73094" n="The Queen&apos;s College"
+									key="Queen&apos;s College">Queen&apos;s College</orgName>
+								<lb/><placeName ref="Q34217" n="Oxford" key="Oxford">Oxford</placeName>.
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-97_01.dzi"/>Pages 2-3<graphic url="MS4323-97_02.dzi"/>Page 4<graphic url="MS4323-97_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1902-11-30">Nov. 30</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-01" who="MYou">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -20,63 +117,63 @@
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,
 				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.
 			</ab>
-			<ab>
-				<lb/>Nov. 30
+			<ab type="dateline">
+				<lb/>Nov. 30<ptr/>
 			</ab>
 			<ab>
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
-				<lb/>I enclose <persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName>&apos;s
+				<lb/>I enclose <persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName>&apos;s<ptr/>
 				<lb/>article, which you can keep
-				<lb/>for the winter. Presumably the ^<add place='above'>new</add> ???ber
+				<lb/>for the winter. Presumably the ^<add place='above'>new</add> number
 				<lb/>hasnt reached <placeName ref='Q21' n='England' key='England'>England</placeName> yet.
-				<lb/>The new ???ber of the [??hand] en
-				<lb/>(III. II) is devoted to Ptolemaic
-				<lb/>pieces, cheifly contracts from <placeName ref='Q1496830' n='Gebelein' key='Gebelein'>Gebelin</placeName>
+				<lb/>The new number of the <rs n='Aegyptische Urkunden aus den Königlichen (later Staatlichen) Museen zu Berlin, Griechische Urkunden, III Band. Berlin.' key='B.G.U. III'>Urkunden</rs><ptr/>
+				<lb/><rs n='Aegyptische Urkunden aus den Königlichen (later Staatlichen) Museen zu Berlin, Griechische Urkunden, III Band. Berlin.' key='B.G.U. III'>(III. 11)</rs> is devoted to Ptolemaic
+				<lb/>pieces, cheifly contracts from <placeName ref='Q1496830' n='Gebelein' key='Gebelein'>Gebelen</placeName>
 			</ab>
 			<pb n='2'/>
 			<ab>
 				<lb/>but there are some very broken 3rd
-				<lb/>cent B.C. documents which look
+				<lb/>cent B.C. documents<ptr/> which look
 				<lb/>as if they came from <placeName ref='Q1399125' type='geographic_area' n='Faiyum' key='Faiyum'>Fayum</placeName> mummy
-				<lb/>cartonnage a doublt date [ocean?], but
+				<lb/>cartonnage. A double date occurs, but
 				<lb/>the Macedonian month is lost.
 				<lb/><persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName>&apos;s papyri by the way make me
-				<lb/>more than ever sure that Diophantus
-				<lb/>in <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.II</rs> p. 3 was [sl??ty?g?s]
-				<lb/>In <persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Euergetes</persName>&apos; reign, not <persName ref='Q39602' n='Ptolemy II Philadelphus' key='Ptolemy II'>Philadelphus</persName>&apos;
+				<lb/>more than ever sure that <persName n='Diophantus' key='Diophantus'>Diophantus</persName>
+				<lb/>in <rs n='The Flinders Petrie Papyri, Part II' key='Petrie II'>P.P.II</rs><ptr/> p. 3 was strategus
+				<lb/>In <persName ref='Q39602' n='Ptolemy III Euergetes' key='Ptolemy III'>Euergetes</persName>&apos;<ptr/> reign, not <persName ref='Q39602' n='Ptolemy II Philadelphus' key='Ptolemy II'>Philadelphus</persName>&apos;<ptr/>.
 				<lb/>I also enclose corrected proof of
-				<lb/>those clarrial fragments in <rs n='The Oxyrhyncus Papyri, Part III' key='Oxyrhyncus III'>O.P. III</rs>
+				<lb/>those classical fragments in <rs n='The Oxyrhyncus Papyri, Part III' key='Oxyrhyncus III'>O.P. III</rs><ptr/>
 				<lb/>which are in type. The rest of the book
 			</ab>
 			<ab>
-				<lb/>is unwritten and will be printed
+				<lb/>is written and will be printed
 				<lb/>during our absence, and the proofs
 				<lb/>will be sent to you in relays. I
 				<lb/>dont want them back till April.
 				<lb/>We hope to return before the middle
 				<lb/>of that month. We leave on the
 				<lb/>7th and shall make a short
-				<lb/>trip to <placeName n='Wadi Halfa' key='Halfa'>Wadi Halfa</placeName> before beginning
-				<lb/>excavations at <placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName> early in 
+				<lb/>trip to <placeName n='Wadi Halfa' key='Halfa'>Wadi Halfa</placeName><ptr/> before beginning
+				<lb/>excavations at <placeName ref='Q548805' n='El Hiba' key='Hibeh'>Hibeh</placeName><ptr/> early in 
 				<lb/>January. Address <placeName ref='Q85' n='Cairo' key='Cairo'>Cairo</placeName>, as usual.
 				<lb/>Various letters have come from foreign
 				<lb/>scholars who profess admiration for
-				<lb/><placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebtunis</placeName>. <persName ref='Q63413' n='Wilcken, Ulrich' key='WIlcken'>Wilcken</persName> letter of it as an
-				<lb/>&apos;Egregious fine ????? ??????&apos; and
+				<lb/><rs n='The Tebtunis Papyri, Part I' key='Tebtunis I'>Tebtunis</rs><ptr/>. <persName ref='Q63413' n='Wilcken, Ulrich' key='WIlcken'>Wilcken</persName><ptr/> talks of it as an
+				<lb/>&apos;<foreign xml:lang='ge'>Ereigniss für unsere Wissenschaft</foreign>&apos; and
 			</ab>
 			<pb n='3'/>
 			<ab>
 				<lb/>says he will come to <placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName> next
-				<lb/>August or September to see the papyrus
-				<lb/>I hope you will be here too. <persName ref='Q15996348' n='Ricci, Seymour de' key='Ricci'>De Ricci</persName>,
-				<lb/>who is now στρατευόμενος for a year,
-				<lb/>is publishing revised texts of <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillout</persName>&apos;s
-				<lb/>Ptolemaic papyri in the next Archiv.
-				<lb/>Brun will be a great len to you. I am
+				<lb/>August or September to see the papyri
+				<lb/>I hope you will be here too. <persName ref='Q15996348' n='Ricci, Seymour de' key='Ricci'>De Ricci</persName><ptr/>,
+				<lb/>who is now <foreign xml:lang='grc'>στρατευόμενος</foreign><ptr/> for a year,
+				<lb/>is publishing revised texts of <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillout</persName>&apos;s<ptr/>
+				<lb/>Ptolemaic papyri in the next <rs ref='Q635636' n='Archiv für Papyrusforschung' key='Archiv'>Archiv</rs><ptr/>.
+				<lb/><persName ref='Q502912' n='Bury, John Bagnell' key='Bury'>Bury</persName> will be a great loss to you. I am
 				<lb/>rather surprised he should care to go. But
-				<lb/>I suppose Mrs. B. was keen on <placeName ref='Q21' n='England' key='England'>England</placeName>.
+				<lb/>I suppose <persName n='Bury, Jane' key='Mrs. B.'>Mrs B.</persName><ptr/> was keen on <placeName ref='Q21' n='England' key='England'>England</placeName>.
 			</ab>
-			<ab>
+			<ab type="signed">
 				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName>
 				<lb/>Good-bye
 				<lb/>Yours ever

@@ -40,6 +40,13 @@
 							<p>Catalog number '42' written in pencil bellow date at top right.</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-42_01.jpg"/>Pages 2-3<graphic url="MS4323-42_02.jpg"/>Pages 4-5<graphic url="MS4323-42_03.jpg"/>Page6<graphic url="MS4323-42_04.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>

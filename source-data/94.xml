@@ -4,19 +4,109 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>94</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2023-11-30">November 30, 2023</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 4 pages on one folded sheet with writing on front and back. </p>
+							<p>Catalog number '94' written in pencil. Previous number "102" erased and overwritten with "94".</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-94_01.dzi"/>Pages 2-3<graphic url="MS4323-94_02.dzi"/>Page 4<graphic url="MS4323-94_03.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
+					<date when="--06-20">June 20</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-22" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
+			<ab type="dateline">
 				<lb/><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s Coll.</orgName>
 				<lb/>June 20
 			</ab>
@@ -24,69 +114,70 @@
 				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
 				<lb/>I propose to arrive on
 				<lb/>Tuesday^<add place='above'>aft</add>. next by the rail (<placeName ref='Q7989013' n='Westland Row' key='Westland'>Westland</placeName>
-				<lb/><placeName ref='Q7989013' n='Westland Row' key='Westland'>row</placeName>) It gets in about 5.30 p.m. I
+				<lb/><placeName ref='Q7989013' n='Westland Row' key='Westland'>row<ptr/></placeName>) It gets in about 5.30 p.m. I
 				<lb/>think. On Wedn. I am dining with
-				<lb/>the Provost.
-				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> &amp; I went through the Papyrus
+				<lb/>the Provost<ptr/>.
+				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> &amp; I went through the Papyrus<ptr/>
 				<lb/>with the results following.
-				<lb/>Recto II 8 υπηρετου certain, but I do
-				<lb/>not believe in κατ<hi rend='underline2'>ε</hi>πλεθσεν &amp; κατ<hi rend='underline'>α</hi>πλεθσε
+				<lb/>Recto II 8<ptr/> <foreign xml:lang='grc'>υπηρετου</foreign> certain, but I do
+				<lb/>not believe in <foreign xml:lang='grc'>κατ<hi rend='double underline'>ε</hi>πλευσιν<add place='above'>δ</add></foreign> &amp; <foreign xml:lang='grc'>κατ<hi rend='underline'>α</hi>πλεθσε</foreign>
 				<lb/>is clear, the termination is so blurred that it
 				<lb/>might be almost any thing.
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>III 2 Δημητριον is not possible
-				<lb/>III 7 It is more like εισ than εκ, but
-				<lb/>εκ could be read.
-				<lb/>9. Πετενουριος is quite certain
-				<lb/>12. There is a lacuna after επιγ[ and
-				<lb/>it is <hi rend='underline'>not</hi> &apos;verhlebt&apos; now.
-				<lb/>IV 8 <hi rend='underline'>σαν</hi> can be read, but so could <hi rend='underline'>σιν</hi>
-				<lb/>(dots under the letters are reccuring anyhow)
+				<lb/>III 2 <foreign xml:lang='grc'>Δημητριον</foreign> is not possible
+				<lb/>III 7<ptr/> It is more like <foreign xml:lang='grc'>εισ</foreign>- than <foreign xml:lang='grc'>εκ</foreign>, but
+				<lb/><foreign xml:lang='grc'>εκ</foreign> could be read.
+				<lb/>9. <foreign xml:lang='grc'>Πετενουριος</foreign> is quite certain
+				<lb/>12. There is a lacuna after <foreign xml:lang='grc'>επιγ</foreign>[ and
+				<lb/>it is <hi rend='underline'>not</hi> &apos;<foreign xml:lang='de'>verklebt<ptr/></foreign>&apos; now.
+				<lb/>IV 8 <hi rend='underline'><foreign xml:lang='grc'>σαν</foreign></hi> can be read, but so could <hi rend='underline'><foreign xml:lang='grc'>σιν</foreign></hi>
+				<lb/>(dots under the letters are necessary anyhow)
 				<lb/>The question depends on whether a vertical
-				<lb/>stroke is ink o<del rend='overwritten'>f</del><add place='overwrite'>f</add> the original or with that
-				<lb/>hes come off from the document gumred on
-				<lb/>to it. W&apos;s reading makes better
-				<lb/>greek than yours and we should prefer it.
-				<lb/>Verso oII 2. W saw traces of ink where
+				<lb/>stroke is ink o<del rend='overwritten'>r</del><add place='overwrite'>f</add> the original or ink that
+				<lb/>has come off from the document gummed on
+				<lb/>to it. <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'><add rend='overwrite'>W</add></persName>&apos;s reading makes better
+				<lb/>Greek than yours and we should prefer it.
+				<lb/>Verso<ptr/>. II 2. <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>W</persName> saw traces of ink where
 				<lb/>his supposed ται would come, but they
 				<lb/>are too slight to suggest any particular
 			</ab>
+			<pb n='3'/>
 			<ab>
-				<lb/>letters and would do for σ̣ι̣ν̣ just as
+				<lb/>letters and would do for <foreign xml:lang='grc'>σ̣ι̣ν̣</foreign> just as
 				<lb/>well.
-				<lb/>5. Τας επιπμ- is quote clear -α̣ς̣
-				<lb/>doubtful but inevitable. Τασσεσθω
-				<lb/>δε is very wide of the mark.
-				<lb/>6 our reading is all right
-				<lb/>I read, as you say, τ<hi rend='underline'>ο</hi> αργυριον
-				<lb/>II των τ is clear, and in spite of
-				<lb/>the speeing τ[οθς] σ[ταθμοθς is
-				<lb/>necessary though your σ is very doubtful
-				<lb/>πρυστιοεναι is right. <hi rend='underline'>υποτιθ</hi> cannot be read
+				<lb/>5. <foreign xml:lang='grc'>Τας</foreign>- is quite clear -<foreign xml:lang='grc'>α̣ς̣</foreign>
+				<lb/>doubtful but inevitable. <foreign xml:lang='grc'>τασσεσθω</foreign>
+				<lb/><foreign xml:lang='grc'>δε</foreign> is very wide of the mark.
+				<lb/>6 your reading is all right
+				<lb/>7 Read, as you say, <foreign xml:lang='grc'>τ<hi rend='underline'>ο</hi> αργυριον</foreign>
+				<lb/>II <foreign xml:lang='grc'>των τ</foreign> is clear, and in spite of
+				<lb/>the spacing <foreign xml:lang='grc'>τ[ους] σ[ταθμους</foreign> is
+				<lb/>necessary though your <foreign xml:lang='grc'>σ</foreign> is very doubtful
+				<lb/><add place='between lines'><foreign xml:lang='grc'>προστιθεναι</foreign> is right. <hi rend='underline'><foreign xml:lang='grc'>υποτιθ</foreign></hi> cannot be read</add>
 				<lb/>15 your reading is certain
-				<lb/>16. Here we much prefer W&apos;s
-				<lb/>reading. it is as I said before,
-				<lb/>Γ not Π and ΚΟΙ not ΚΟΝ
+				<lb/>16. Here we much prefer <persName ref='Q63413' n='Wilcken, Ulrich' key='Wilcken'>W</persName>&apos;s
+				<lb/>reading. It is, as I said before,
+				<lb/><foreign xml:lang='grc'>Γ</foreign> not <foreign xml:lang='grc'>Π</foreign> and <foreign xml:lang='grc'>ΚΟΙ</foreign> not <foreign xml:lang='grc'>ΚΟΝ</foreign>
 				<lb/>III 7. the drachme sign before ξ is
 				<lb/>rubbed out, as you say.
 			</ab>
-			<pb n='3'/>
+			<pb n='4'/>
 			<ab>
-				<lb/>By the way isnt your first setnece,
+				<lb/>By the way isnt your first sentence,
 				<lb/>as you have corrected the proof, rather an
-				<lb/>&apos;Irishism&apos;? Of course I understand your
+				<lb/>&apos;I<add rend='overwrite'>r</add>ishism&apos;? Of course I understand your
 				<lb/>meaning, but the oxymoron is a litte
-				<lb/>violent for the unistructed.
-				<lb/>In Recto II 10 we should prefer αυτον
-				<lb/>to αυτων, the word in 12 is pretty
-				<lb/>certainly an infinitive, μ̣η κατ̣α̣[βην]α̣ι̣
+				<lb/>violent for the uninstructed.
+				<lb/>In Recto II 10 we should prefer <foreign xml:lang='grc'>αυτον</foreign>
+				<lb/>to <foreign xml:lang='grc'>αυτων</foreign>, the word in 12 is pretty
+				<lb/>certainly an infinitive, <foreign xml:lang='grc'>μ̣η κατ̣α̣[βην]α̣ι̣</foreign>
 			</ab>
-			<ab>
+			<ab type="signed">
 				<lb/><foreign xml:lang='fr'>Au revoir</foreign>
 				<lb/>Yours
-				<lb/><hi rend='underline'><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.Grenfell</persName></hi>
+				<lb/><hi rend='underline'><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName></hi>
 			</ab>
 		</body>
 	</text>

@@ -4,100 +4,197 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>77</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2023-11-30">February 13, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten letter of 6 pages on two sheets with writing on front and back.</p>
+							<p>Printed letterhead in red ink at top right reads:</p>
+							<ab type="letterhead">
+								<lb/><hi rend='smallcaps'><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,</hi>
+								<lb/><hi rend='smallcaps'><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.</hi>
+							</ab>
+							<p>Catalog number '77' written in pencil.</p>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-77_01.dzi"/>Pages 2-3<graphic url="MS4323-77_02.dzi"/>Page 4<graphic url="MS4323-77_03.dzi"/>Page6<graphic url="MS4323-77_04.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punctuation marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="--06-01">June 1st</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-24" who="STew">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<pb n='1'/>
+			<pb n='1'/>	
+				<ab type='dateline'>
+					<lb/>June 1st
+			</ab>
 			<ab>
-				<lb/><hi rend='smallcaps'><orgName ref='Q73094' n='The Queen&apos;s College' key='Queen&apos;s College'>Queen&apos;s College</orgName>,</hi>
-				<lb/><hi rend='smallcaps'><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>.</hi>
-				<lb/>June 1st
-				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>My dear <persName ref='Q76338502' n='J. Gilbart Smyly' key='Smyly'>Smyly</persName>,
 				<lb/>Many thanks for your
 				<lb/>letter. I agree with a great deal of
-				<lb/>what you say . χα + β no doubt means
+				<lb/>what you say . χα 𐅂 β no doubt means
 				<lb/>the equivalent of 2 silver dr. paid in
 				<lb/>copper, though I think this implies
 				<lb/>a more or less definite ratio between
-				<lb/>silver and copper, like the rates of 5 : 3
-				<lb/>in πυρός &amp; κριθή The obol need not
-				<lb/>be[en?] a coin, but I think it must
-				<lb/>have connected at any one moment a certain
+				<lb/>silver and copper, like the ratio of 5 : 3
+				<lb/>in <foreign xml:lang='grc'>πυρός</foreign> &amp; <foreign xml:lang='grc'>κριθή</foreign> The obol need not
+				<lb/>be<del rend='strikethrough'>en</del> a coin, but I think it must
+				<lb/>have connoted at any one moment a certain
 			</ab>
 			<pb n='2'/>
 			<ab>
 				<lb/>definite amount of copper (fixed
-				<lb/>perphas in each year I by the government)
+				<lb/>perphas in each year <del rend='overwritten'>[I]</del>(by the government)
 				<lb/>and not <hi rend='underline'>merely</hi> a 1/6 of a silver dr,
-				<lb/>for otherwise I don&apos;t see how any
+				<lb/>for otherwise I dont see how any
 				<lb/>sense is to be got out of saying that
-				<lb/>eg. 26 1/4 obols would be ac required
-				<lb/>for a [s later?]
-				<lb/>As the demotic 24 = 2/10 I have
+				<lb/>e.g. 26 1/4 obols would be <del rend='overwritten'>ac</del> required
+				<lb/>for a stater
+				<lb/>As to the demotic 24 = 2/10 I have
 				<lb/>had considereable correspondence with
-				<lb/><persName ref='Q952574' n='Griffith, Francis Llewellyn' key='Griffith'>Griffith</persName> &amp; <persName ref='Q100547' n='Spiegelberg, Wilhelm' key='Spiegelberg'>Spiegelleng</persName> &amp; they quite
+				<lb/><persName ref='Q952574' n='Griffith, Francis Llewellyn' key='Griffith'>Griffith</persName> &amp; <persName ref='Q100547' n='Spiegelberg, Wilhelm' key='Spiegelberg'>Spiegelberg</persName> &amp; they quite
 				<lb/>agree that it is a more translation of
-				<lb/>the Fr[ech] and hasnt anything to do with
+				<lb/>the Greek and hasnt anything to do with
 				<lb/>a ratio. According to <persName ref='Q952574' n='Griffith, Francis Llewellyn' key='Griffith'>Griffith</persName> it
 				<lb/>should be translated &apos;copper 24 =2/10
 			</ab>
-			<ab>
-				<lb/>(of a silver dehen) i.e. a slater, of
-				<lb/>which there were 5 to a dehen.
-				<lb/>Promially it is papyri lest, as
-				<lb/>you say last, to simply substitute
-				<lb/>2 chelci for an obol in ^ <add place='above'><rs n='Revenue Laws of Ptolemy Philadelphus' key='Revenue'>Rev Laws</rs></add> App. iii &amp;
-				<lb/>keep the clarification of Puole. But
-				<lb/>the numismatists now say that his
-				<lb/>weights arent to be trusted anymore
-				<lb/>than <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillouts</persName> . So that as far as
-				<lb/>the 3rd cent B.C. goes, there isnt
-				<lb/>really any direct evidence b??ing on
-				<lb/>the ratio at all , and we are still
-				<lb/>quite in the air. And then what becomes
-				<lb/><del rend='strikethrough'>I do not quite understand</del> of the 480:1
-				<lb/>ratio ?  The <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebt.</placeName> papyri give you
-			</ab>
 			<pb n='3'/>
 			<ab>
-				<lb/>every sort of ratio between 400 and 500
-				<lb/>(<foreign xml:lang='la'>vide</foreign> especially the appendix Description)
-				<lb/>I do not quite understand what you say
-				<lb/>abou the dr. of 7 obols being &apos;due to
-				<lb/>the depreciation of gelen&apos;. Do you mean
-				<lb/>there were 2 kinds of silver tetradrachme
-				<lb/>one worth 24 obols, the other 28? I have
-				<lb/>never met the dr. of 7 obols before
-				<lb/>the Roman period. Have you?
-				<lb/>As for the ἐπαλλαρή I cant help thinking
-				<lb/>that it must have something to do with
-				<lb/>the relative value of the metals ,because
-				<lb/>the charge for transport, baskets etc
-				<lb/>are in P.Par 62. , all reckoned
-				<lb/><hi rend='underline'>separately</hi> from the αλλαρή . But it is
-				<lb/>curious that it is always about 10%. 
-				<lb/>I am at present wrestling with app. i.
+				<lb/>(of a silver deben) i.e. a stater, of
+				<lb/>which there were 5 to a deben.
+				<lb/>Provisionally it is perhaps best, as
+				<lb/>you suggest, to simply substitute
+				<lb/>2 chalci for an obol in ^ <add place='above'><rs n='Revenue Laws of Ptolemy Philadelphus' key='Revenue'>Rev Laws</rs></add> App. iii &amp;
+				<lb/>keep the classification of <persName ref='Q3931858' n='Poole, Reginald Stuart' key='Poole'>Poole</persName>. But
+				<lb/>the numismatists now say that his
+				<lb/>weights arent to be trusted any more
+				<lb/>than <persName ref='Q1347441' n='Revillout, Eugène' key='Revillout'>Revillouts</persName> . So that as far as
+				<lb/>the 3rd cent B.C. goes, there isnt
+				<lb/>really any direct evidence bearing on
+				<lb/>the ratio at all , and we are still
+				<lb/>quite in the air. And then what becomes
+				<lb/>I <del rend='strikethrough'>do not quite understand</del> of the 480:1
+				<lb/>ratio ?  The <placeName ref='Q1500580' n='Tebtunis' key='Tebtunis'>Tebt.</placeName> papyri give you
 			</ab>
 			<pb n='4'/>
 			<ab>
+				<lb/>every sort of ratio between 400 and 500
+				<lb/>(<foreign xml:lang='la'>vide</foreign> especially the <del rend='strikethrough'>appendi</del> Descriptions)
+				<lb/>I do not quite understand what you say
+				<lb/>about the dr. of 7 obols being &apos;due to
+				<lb/>the depreciation of silver&apos;. Do you mean
+				<lb/>there were 2 kinds of silver tetradrachms
+				<lb/>one worth 24 obols, the other 28? I have
+				<lb/>never met the dr. of 7 obols before
+				<lb/>the Roman period. Have you?
+				<lb/>As for the ἐπαλλαγή I cant help thinking
+				<lb/>that it must have something to do with
+				<lb/>the relative value of the metals ,because
+				<lb/>the charges for transport, baskets etc
+				<lb/>are in <rs n='Notices et textes des papyrus du Musée du Louvre et de la Bibliothèque Impériale' key='P.Par'>P.Par</rs> 62. , all reckoned
+				<lb/><hi rend='underline'>separately</hi> from the ἀλλαγή . But it is
+				<lb/>curious that it is always about 10%. 
+				<lb/>I am at present wrestling with App. i.
+			</ab>
+			<pb n='5'/>
+			<ab>
 				<lb/>Can you find any difference between our
-				<lb/>me κάτοικοι and the κλυεῶχοι of
+				<lb/><del rend='strikethrough'>the</del> κάτοικοι and the κληροῦχοι of
 				<lb/>P.P. except (1) the name (2)
 				<lb/>the fact that the κάτοικοι were largely
 				<lb/>recruited from the ἔφοδοι etc and therefore
-				<lb/>might be originally Egyptian, though as
+				<lb/>might be originally Egyptians, though as
 				<lb/><hi rend='underline'>32</hi> shows they became Greeks on becoming
-				<lb/>ce κάτοικοι, and that there is no
+				<lb/><del rend='strikethrough'>ca</del> κάτοικοι, and that there is no
 				<lb/>evidence yet that the 3rd cent B.C.
-				<lb/>κλυεῶχοι were recruited in this sort
+				<lb/>κληροῦχοι were recruited in this sort
 				<lb/>of way ?
 				<lb/>Shall you be coming here this
 				<lb/>summer ? <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>Mahaffy</persName> talks of doing
@@ -105,18 +202,22 @@
 				<lb/>will be no 3rd cent B.C. papyri on
 				<lb/>view till next year.
 			</ab>
-			<pb n='5'/>
+			<pb n='6'/>
 			<ab>
 				<lb/>It would be nice if you could come
 				<lb/>in July, for we shall be putting the
 				<lb/>finishing touches then. Can you
-				<lb/>send back the <del rend='overwritten'>a</del><add place='overwrite'>A</add>ccounts by June 10th.
+				<lb/>send back the <del rend='overwritten'>a</del><add place='overwrite'>A</add>ccounts by June 10th?
 				<lb/><persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is going away on the 13th
-				<lb/>for 10 days, and with the
+				<lb/>for 10 days , and with the
 				<lb/>exhibition etc coming on things will
-				<lb/>be rather distrubed until July 4th.
+				<lb/>be rather disturbed until July 4th.
+			</ab>
+			<ab type='signed'>	
 				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P. Grenfell</persName>
+				</ab>
+			<ab type='postscript'>
 				<lb/>P.S. I hope by the way you wont mind my
 				<lb/>having written the preface, and that you will
 				<lb/>find the references to yourself satisfactory.

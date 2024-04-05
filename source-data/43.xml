@@ -40,6 +40,13 @@
 							<p>Catalog number '43' written in pencil below date at top right. Appears to have originally been '41' and the '1' overwritten by the '3'.</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-43_01.jpg"/>Pages 2-3<graphic url="MS4323-43_02.jpg"/>Page 4<graphic url="MS4323-43_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>

@@ -1,57 +1,148 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns='http://www.tei-c.org/ns/1.0'>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type='main'>89</title>
-			</titleStmt>
-			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title type='main'>89</title>
+					<author>B.P. Grenfell</author>
+					<respStmt>
+						<resp>Transcribed from images of original letters</resp>
+						<name>Sarah Tew</name>
+						<name>Giuliano Sidro</name>
+						<name>Millie You</name>
+						<name>Maddie Qualls</name> 
+					</respStmt>
+					<respStmt>
+						<resp>Entity tagging</resp>
+						<name>Sarah Tew</name>
+						<name>Giuliano Sidro</name>
+						<name>Millie You</name>
+						<name>Maddie Qualls</name> 
+					</respStmt>
+					<respStmt>
+						<resp>XML encoding</resp>
+						<name>Transkribus</name>
+						<name>Sarah Tew</name>
+						<name>Giuliano Sidro</name>
+						<name>Millie You</name>
+						<name>Maddie Qualls</name>
+					</respStmt>
+				</titleStmt>
+				<publicationStmt>
+					<publisher>tranScriptorium</publisher>
+					<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+					<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+					<date when="2024-03-01">March 01, 2024</date>
+					<availability status="restricted">
+						<p>Available for academic research purposes only.</p>
+					</availability>
+				</publicationStmt>
+				<sourceDesc>
+					<msDesc>
+						<msIdentifier>
+							<settlement>Dublin</settlement>
+							<repository>Trinity College</repository>
+							<idno type="TC">IE TCD MS 4323</idno>
+						</msIdentifier>
+						<physDesc>
+							<objectDesc>
+								<p>Handwritten letter of 4 pages on one rectangular sheet folded in half. </p>
+								<p>Catalog number "89" written in pencil. Previous number "[8?]7" erased and replaced with "89".</p>
+							</objectDesc>
+						</physDesc>
+						<additional>
+							<adminInfo>
+								<recordHist>
+									<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-89_01.dzi"/>Pages 2-3<graphic url="MS4323-89_02.dzi"/>Page 4<graphic url="MS4323-89_03.dzi"/></p>
+								</recordHist>
+							</adminInfo>
+						</additional>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<encodingDesc>
+				<projectDesc>
+					<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+				</projectDesc>
+				<editorialDecl>
+					<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+					<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+					<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+				</editorialDecl>
+				<tagsDecl partial="true">
+					<namespace name="http://www.tei-c.org/ns/1.0">
+						<tagUsage gi="persName"/>
+						<tagUsage gi="placeName"/>
+						<tagUsage gi="orgName"/>
+						<tagUsage gi="rs"/>
+						<tagUsage gi="hi"/>
+						<tagUsage gi="add"/>
+						<tagUsage gi="del"/>
+					</namespace>
+				</tagsDecl>
+			</encodingDesc>
+			<profileDesc>
+				<langUsage>
+					<language ident="en-GB">English</language>
+				</langUsage>
+				<handNotes>
+					<handNote>Written in black ink by B.P. Grenfell.</handNote>
+				</handNotes>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName>B.P. Grenfell</persName>
+						<placeName ref='Q22933049' n='Beni Mazar' key='Beni Mazar'>Benimazar</placeName>
+						<placeName ref='Q203751' n='Upper Egypt' key='Upper Egypt'>Upper Egypt</placeName>
+						<date when="1905-01-09">January 9 1905</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName>J.G. Smyly</persName>
+					</correspAction>
+				</correspDesc>
+			</profileDesc>
+			<revisionDesc>
+				<change when="2024-03-07" who="GSidro">Manually added TEI header to Transkribus tei.xml exported file.</change>
+			</revisionDesc>
+		</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
-				<lb/><placeName ref='Q22933049' n='Beni Mazar' key='Beni Mazar'>Benimazar</placeName>
+			<ab type="dateline" rend="right">
+				<lb/><placeName ref='Q22933049' n='Beni Mazar' key='Beni Mazar'>Benimazar<ptr/></placeName>
 				<lb/><placeName ref='Q203751' n='Upper Egypt' key='Upper Egypt'>Upper Egypt</placeName>
 				<lb/>Jan. 9. 1905
 			</ab>
 			<ab>
-				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>
-				<lb/>How is <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>P.P.III</rs> getting on? I
+				<lb/>My dear <persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>Smyly</persName>,
+				<lb/>How is <rs ref='Q60205087' n='The Flinders Petrie Papyri, Part III' key='Petrie III'>P.P.III<ptr/></rs> getting on? I
 				<lb/>do hope it is on the point of coming out at last. We
 				<lb/>shall not lightly forgive you, if we have to do the
-				<lb/><placeName n='El Hiba' key='Hibeh'>Hibeh</placeName> volume without its assistance. Kengin quite
-				<lb/>refused to believe when I arrived him that this
+				<lb/><rs ref='Q59738566' n='The Hibeh Papyri, Part I' key='Hibeh I'>Hibeh</rs> volume<ptr/> without its assistance. <persName ref='Q683055' n='Kenyon, Frederic G.' key='Kenyon'>Kenyon<ptr/></persName> quite
+				<lb/>refused to believe when I assured him that this
 				<lb/>winter would see its appearance.
 				<lb/>We managed to scramble through the texts of
-				<lb/><rs n='The Tebtunis Papyri, Part 2' key='Tebtunis II'>Tebtunis II</rs> except the Dictys fragment) before we
+				<lb/><rs n='The Tebtunis Papyri, Part 2' key='Tebtunis II'>Tebtunis II<ptr/></rs> (except the <rs ref='Q3589112' n='Dictys Cretensis, Bellum Troianum' key='Dictys Cretensis'>Dictys</rs> fragment<ptr/>) before we
 				<lb/>left. Some day you might look through the proofs,
 				<lb/>if you have time; but as the appendices have
 				<lb/>still to be written and the volume isnt to appear
-				<lb/>till far on in 1906, you had better see the reviewed
+				<lb/>till far on in 1906,<ptr/> you had better see the revised
 				<lb/>proofs. We returned to <placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName> to find everyone
-				<lb/>[???] scheming to get hold of some of the surplus set
-				<lb/>free by the <rs ref='Q464399' n='Entente Cordiale' key='Entente'>Anglo-French Agreement</rs>. Those
+				<lb/><del rend='strikethrough'>trying</del> <add place='above'>scheming</add> to get hold of some of the surplus set
+				<lb/>free by the <rs ref='Q464399' n='Entente Cordiale' key='Entente'>Anglo-French Agreement</rs>.<ptr/> Those
 				<lb/>who have got posts are trying to get their salaries
 				<lb/>raised, those who havent are intriguing to
-				<lb/>obtain them. All the government &amp; Cmerts are
-				<lb/>being reenganiered, the museum among the rest.
+				<lb/>obtain them. All the government departments are
+				<lb/>being reorganised, the Museum among the rest.
 				<lb/>Whether any good will come out of it may be
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/>doubted. That sucking papyrologist, <persName ref='Q937528' n='Lefebvre, Gustave' key='Lefebvre'>Lefebvre</persName>,
+				<lb/>doubted. That sucking<ptr/> papyrologist, <persName ref='Q937528' n='Lefebvre, Gustave' key='Lefebvre'>Lefebvre</persName>,<ptr/>
 				<lb/>has been made an inspector of antiquities, so
 				<lb/>will be practically lost which is a pity
 				<lb/>for he was at any rate capable of learning.
 				<lb/>Another English inspector or two is to be
-				<lb/>appointed, and a fly was thrown in our
+				<lb/>appointed, and a fly<ptr/> was thrown in our
 				<lb/>direction, but needless to say was rejected with
 				<lb/>scorn. It would take a very large bribe to
 				<lb/>make us desert papyri now, and certainly
@@ -59,15 +150,15 @@
 				<lb/>in this country, which is charming enough in winter
 				<lb/>when one is far away by oneself, but is
 				<lb/>intolerable in the haunts of the tourist
-				<lb/>&amp; official. So we speed as swiftly as 
+				<lb/>&amp; official. So we sped as swiftly as 
 				<lb/>possible back here, and proceeded with
-				<lb/>some qualms to knock down the [??lt]
+				<lb/>some qualms to knock down the <del rend='strikethrough'>wall</del>
 				<lb/>door &amp; window of our house which had been
-				<lb/>tricked up during our absence. To our
+				<lb/>bricked up during our absence. To our
 				<lb/>relief not tenants more serious than
 				<lb/>spiders &amp; lizards (and 1 snake) appeared,
 				<lb/>and we were ^<add place='above'>able</add> to settle down at once
-				<lb/>without going through the usual ??ium
+				<lb/>without going through the usual odious
 			</ab>
 			<ab>
 				<lb/>preliminaries of making an encampment.
@@ -75,52 +166,54 @@
 				<lb/>practically the same set of men, who are pretty
 				<lb/>expert by this time, though they require a
 				<lb/>good deal of looking after (especially with
-				<lb/>regard to the interecine disputes which
+				<lb/>regard to the internecine disputes which
 				<lb/>inevitably arise about the ownership of a
-				<lb/>papyrus on [land??] the between two sets
+				<lb/>papyrus on boundary line between two sets
 				<lb/>of diggers) ; and this I have to do almost
 				<lb/>unaided now, for my headman of former
-				<lb/>years has been taken for a s?olding, and
+				<lb/>years has been taken for a soldier, and
 				<lb/>his successor has not lung power enough
 				<lb/>to cope with the rather turbulent inhabitants
 				<lb/>of this village. We have now had nearly
-				<lb/>a month&apos;s work and filled some 32 tons.
-				<lb/>The first three weeks were not very exacting.
+				<lb/>a month&apos;s work and filled some 32 tins.
+				<lb/>The first three weeks were not very exacting,
 				<lb/>but the last week has produced some
 				<lb/>quite fine 3rd century documents. Literary
 				<lb/>fragments have been numerous in quantity
 				<lb/>&amp; rather poor in quality — the best being
-				<lb/>with unusual perverity <persName ref='Q6691' n='Homer' key='Homer'>Homer</persName>. Nothing
+				<lb/>with unusual perversity <persName ref='Q6691' n='Homer' key='Homer'>Homer</persName>. Nothing
 				<lb/>earlier than the 2nd century yet, but I hope
 				<lb/>the mound we are going to begin tomorrow
 			</ab>
 			<pb n='3'/>
 			<ab>
 				<lb/>may yield something earlier — though <del rend='strikethrough'>for</del>
-				<lb/>Ptolemaic papyri one does not expect hire,
+				<lb/>Ptolemaic papyri one dare not expect here,
 				<lb/>and even the Roman part is getting rather
 				<lb/>exhausted now except where the ^<add place='above'>Roman</add> layers are
-				<lb/>buried deep, ??d Byzantine and not much
+				<lb/>buried deep under Byzantine and not much
 				<lb/>use as far as papyri are concerned.
-				<lb/><persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet</persName> has not come out this winter. <persName ref='Q1309598' n='Rubensohn, Otto' key='Rubensohn'>Rubensohn</persName>
-				<lb/>and the Italians are quarelling violently over
-				<lb/><placeName ref='Q732908' n='Hermopolis' key='Hermopolis'>Ephunên</placeName> (<placeName ref='Q732908' n='Hermopolis' key='Hermopolis'>Hermopolis</placeName>) which was divided between
+				<lb/><persName ref='Q18206796' n='Jouguet, Pierre' key='Jouguet'>Jouguet<ptr/></persName> has not come out this winter. <persName ref='Q1309598' n='Rubensohn, Otto' key='Rubensohn'>Rubensohn<ptr/></persName>
+				<lb/>and the Italians<ptr/> are quarelling violently over
+				<lb/><placeName ref='Q732908' n='Hermopolis' key='Hermopolis'>Eshmunên</placeName> (<placeName ref='Q732908' n='Hermopolis' key='Hermopolis'>Hermopolis</placeName>)<ptr/> which was divided between
 				<lb/>them. The Italians seem to have the richer
 				<lb/>ground, but <persName ref='Q1309598' n='Rubensohn, Otto' key='Rubensohn'>Rubensohn</persName> appears to buy their
-				<lb/>chief finds from teh dealer when they
-				<lb/>employ as reis!
-				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.</persName> As you probably know, I am
+				<lb/>chief finds from the dealer whom they
+				<lb/>employ as reis!<ptr/>
+				<lb/>Love to <persName ref='Q2568204' n='Mahaffy, John Pentland' key='Mahaffy'>J.P.M.<ptr/></persName> As you probably know, I am
 				<lb/>to deliver two discourses under the auspices
-				<lb/>of Bernard at <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> in June, so hope to see
-				<lb/>you all then. <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is long developing
-				<lb/>a prospective ???? slides. P??? <add place='above'>In spite of</add> the
-				<lb/>&apos;obscenity&apos; of my style, the Scotch seemed
+				<lb/>of <persName ref='Q6221660' n='Bernard, John Henry' key='Bernard'>Bernard<ptr/></persName> at <placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName> in June, so hope to see
+				<lb/>you all then. <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName> is busy developing
+				<lb/>prospective lantern slides. <del rend='strikethrough'>Pace</del> <add place='above'>In spite of</add> the
+				<lb/>&apos;obscurity&apos; of my style, the Scotch<ptr/> seemed
 				<lb/>rather to approve of my so-called
 				<lb/>popular lecture.
 				<lb/>We shall be here till about March 20th or even
 				<lb/>a little later, if funds hold out.
-				<lb/>Sal??? from <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName>
-				<lb/>yours ever
+				<lb/>Salves from <persName ref='Q573778' n='Hunt, Arthur Surridge' key='Hunt'>Hunt</persName>
+			</ab>
+			<ab type="signed">
+				<lb/>Yours ever
 				<lb/><persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
 			</ab>
 		</body>

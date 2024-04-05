@@ -39,6 +39,13 @@
 							<p>Handwritten letter on one rectangular sheet folded into fourths. Catalog number '46' written in pencil below date. '5' written in pencil but rubbed out immediately before '46'.</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-46_01.jpg"/>Pages 2-3<graphic url="MS4323-46_02.jpg"/>Pages 4<graphic url="MS4323-46_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
@@ -135,8 +142,8 @@
 				<lb/>We went and saw the American man<ptr/> in
 				<lb/><placeName ref='Q79' n='Egypt' key='Egypt'>Egypt</placeName> &amp; fixed matters up so far as
 				<lb/>we could, but it is necessary for the
-				<lb/>proposals to be ratifed by the
-				<lb/>millionairess, from whom we expect a
+				<lb/>proposals to be ratified by the
+				<lb/>millionairess,<ptr/> from whom we expect a
 				<lb/>cable shortly. If she is favourable
 				<lb/>we hope to force the <orgName ref='Q1299166' n='Egypt Exploration Fund' key='EEF'>Fund</orgName> to accept
 				<lb/>the crocodiles as this year&apos;s volume,

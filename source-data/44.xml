@@ -39,6 +39,13 @@
 							<p>Handwritten letter on one rectangular sheet folded into fourths. Catalog number '44' written in pencil directly below date. Appears to have been overwritten, may be corrected from  '45' or '55'</p>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-44_01.jpg"/>Pages 2-3<graphic url="MS4323-44_02.jpg"/>Pages 4-5<graphic url="MS4323-44_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>

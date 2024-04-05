@@ -4,36 +4,131 @@
 		<fileDesc>
 			<titleStmt>
 				<title type='main'>85</title>
+				<author>B.P. Grenfell</author>
+				<respStmt>
+					<resp>Transcribed from images of original letters</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>Entity tagging</resp>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name> 
+				</respStmt>
+				<respStmt>
+					<resp>XML encoding</resp>
+					<name>Transkribus</name>
+					<name>Sarah Tew</name>
+					<name>Giuliano Sidro</name>
+					<name>Millie You</name>
+					<name>Maddie Qualls</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
+				<distributor>The Center for the Tebtunis Papyri, The University of California, Berkeley</distributor>
+				<authority>The Board of Trinity College Dublin, The University of Dublin</authority>
+				<date when="2024-03-07">March 07, 2024</date>
+				<availability status="restricted">
+					<p>Available for academic research purposes only.</p>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: sarah.tew@outlook.com</publisher></bibl>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository>Trinity College</repository>
+						<idno type="TC">IE TCD MS 4323</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<p>Handwritten postcard. Address written on rector, message written on verso. Printed text and stamp in green ink across top: 'POST CARD' with the British royal coat of arms between 'POST' and 'CARD'. Below 'POST CARD' is printed 'The address to be written on this side.' in small caps. Printed half-penny stamp in upper right. One circular postmark on stamp reads: "OXFORD/8.__AM/SP 8/05/2". On the rector, there are also later calculations done in pencil. </p>
+							<p>Catalog number '85' written in pencil. The previous number was erased and overwritten with '85'.</p>
+							<p>Printed postcard heading at top reads:</p>
+							<ab type="pchead">
+								<lb/>POST CARD
+								<lb/><hi rend='smallcaps green'>The address to be written on this side.</hi>
+							</ab>
+						</objectDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-85_01.dzi"/>Page 2<graphic url="MS4323-85_02.dzi"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This document was created as part of the History of Papyrology project [https://histpap.info/] by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You. The project is in affiliation the Center for Tebtunis Papyri at the University of California, Berkeley.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Text has been transcribed diplomatically without corrections, normalization, or standardization.</p>
+				<punctuation marks="all"><p>All punction marks have been retained nd represented using the appropriate Unicode code character except for apostrophes and ampersands which have been escaped using &apos; and &amp;, respectively.</p></punctuation>
+				<segmentation><p>The text has been segmented into lines according to line breaks in the original text automatically by Transkribus and line groupings based on groups identified automatically or manually declared by Sarah Tew in Transkribus. Page breaks have been manually edited by Sarah Tew, Giuliano Sidro, Maddie Qualls, and Millie You after export from Transkribus.</p></segmentation>
+			</editorialDecl>
+			<tagsDecl partial="true">
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="persName"/>
+					<tagUsage gi="placeName"/>
+					<tagUsage gi="orgName"/>
+					<tagUsage gi="rs"/>
+					<tagUsage gi="hi"/>
+					<tagUsage gi="add"/>
+					<tagUsage gi="del"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en-GB">English</language>
+			</langUsage>
+			<handNotes>
+				<handNote>Written in black ink by B.P. Grenfell.</handNote>
+			</handNotes>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>B.P. Grenfell</persName>
+					<placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>
+					<date when="1905-09-08">Friday</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>J.G. Smyly</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-03-07" who="MQualls">Manually added TEI header to Transkribus tei.xml exported file.</change>
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<pb n='1'/>
-			<ab>
-				<lb/>POST CARD
-				<lb/><hi rend='smallcaps'>The address to be written on this side.</hi>
+			<ab type="address">
 				<lb/><persName ref='Q76338502' n='Smyly, J. Gilbart' key='Smyly'>J. Gilbart Smyly Esq</persName>
-				<lb/>Merrion Square
+				<lb/><placeName ref='Q630780' n='Merrion Square' key='Merrion Square'>Merrion Square</placeName>
 				<lb/><placeName ref='Q1761' n='Dublin' key='Dublin'>Dublin</placeName>
 				<lb/><placeName ref='Q57695350' n='Ireland' key='Ireland'>Ireland</placeName>.
 			</ab>
 			<pb n='2'/>
 			<ab>
-				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>. Friday.
-				<lb/>I received a communication from the L.N.W.R. today
-				<lb/>to the effect that the 3 cases couldnt be delivered
+				<lb/><placeName ref='Q34217' n='Oxford' key='Oxford'>Oxford</placeName>. Friday<ptr/>.
+				<lb/>I received a communication from the <orgName ref='Q1130022' n='London and North Western Railway' key='LNWR'>L.N.W.R.<ptr/></orgName> today
+				<lb/>to the effect that the 3 cases<ptr/> couldnt be delivered
 				<lb/>because &apos;house closed, no one at home to accept.&apos;
-				<lb/>I pointed out that Trinity was neither a &apos;house&apos; nor
+				<lb/>I pointed out that <orgName ref='Q258464' n='Trinity College Dublin' key='Trinity College'>Trinity</orgName> was neither a &apos;house&apos; nor
 				<lb/>&apos;closed&apos; and requested them to deliver at once. But
-				<lb/>would you mind seeing your parter about it and if
-				<lb/>the cases arent there, communicating with the L.N.W.R.
+				<lb/>would you mind seeing your porter about it and if
+				<lb/>the cases arent there, communicating with the <orgName ref='Q1130022' n='London and North Western Railway' key='LNWR'>L.N.W.R.</orgName>
+			</ab>
+			<ab type="signed">
 				<lb/>Yours <persName ref='Q822668' n='Grenfell, Bernard Pyne' key='Grenfell'>B.P.G.</persName>
 			</ab>
 		</body>

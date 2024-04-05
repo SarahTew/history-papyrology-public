@@ -45,6 +45,13 @@
 							</ab>
 						</objectDesc>
 					</physDesc>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Images taken from Trinity College, Dublin: Page 1<graphic url="MS4323-41_01.jpg"/>Page 2-3<graphic url="MS4323-41_02.jpg"/>Page 4<graphic url="MS4323-41_03.jpg"/></p>
+							</recordHist>
+						</adminInfo>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
